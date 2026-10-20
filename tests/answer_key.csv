@@ -1,0 +1,74 @@
+phase,test,table,record_id,note
+1,ORPHAN_PAYMENT,payments,PAY90001,invoice INV99901 not in invoices extract
+1,ORPHAN_PAYMENT,payments,PAY90002,invoice INV99902 not in invoices extract
+1,ORPHAN_INVOICE,invoices,INV01201,vendor V099 not in vendor master
+1,UNKNOWN_APPROVER,purchase_orders,PO00041,approver U999 not in users
+2,DUPLICATE_PAYMENT_EXACT,payments,PAY01182,second payment of invoice INV00057 (first PAY00056)
+2,DUPLICATE_PAYMENT_EXACT,payments,PAY01183,second payment of invoice INV00217 (first PAY00211)
+2,DUPLICATE_PAYMENT_EXACT,payments,PAY01184,second payment of invoice INV00490 (first PAY00481)
+2,DUPLICATE_PAYMENT_EXACT,payments,PAY01185,second payment of invoice INV00778 (first PAY00761)
+2,DUPLICATE_PAYMENT_NEAR,payments,PAY01186,invoice 046-00124 re-entered as 04600124
+2,DUPLICATE_PAYMENT_NEAR,payments,PAY01187,invoice 022-00339 re-entered as 02200339
+2,DUPLICATE_PAYMENT_NEAR,payments,PAY01188,invoice 029-00653 re-entered as 02900653
+2,SPLIT_PURCHASE,purchase_orders,PO00901,"3 POs to V007 by U012 within 3 days, total over threshold"
+2,SPLIT_PURCHASE,purchase_orders,PO00902,"3 POs to V007 by U012 within 3 days, total over threshold"
+2,SPLIT_PURCHASE,purchase_orders,PO00903,"3 POs to V007 by U012 within 3 days, total over threshold"
+2,SPLIT_PURCHASE,purchase_orders,PO00904,"2 POs to V031 by U015 within 3 days, total over threshold"
+2,SPLIT_PURCHASE,purchase_orders,PO00905,"2 POs to V031 by U015 within 3 days, total over threshold"
+2,SPLIT_PURCHASE,purchase_orders,PO00906,"3 POs to V052 by U011 within 3 days, total over threshold"
+2,SPLIT_PURCHASE,purchase_orders,PO00907,"3 POs to V052 by U011 within 3 days, total over threshold"
+2,SPLIT_PURCHASE,purchase_orders,PO00908,"3 POs to V052 by U011 within 3 days, total over threshold"
+2,PAYMENT_INACTIVE_VENDOR,payments,PAY01189,vendor V073
+2,PAYMENT_INACTIVE_VENDOR,payments,PAY01190,vendor V073
+2,PAYMENT_UNAPPROVED_VENDOR,payments,PAY01191,vendor V081
+2,PAYMENT_UNAPPROVED_VENDOR,payments,PAY01192,vendor V081
+2,ROUND_SUM_PAYMENT,payments,PAY01193,"25,000 to V003"
+2,ROUND_SUM_PAYMENT,payments,PAY01194,"15,000 to V018"
+2,ROUND_SUM_PAYMENT,payments,PAY01195,"50,000 to V027"
+2,ROUND_SUM_PAYMENT,payments,PAY01196,"8,000 to V060"
+2,ROUND_SUM_PAYMENT,payments,PAY01197,"40,000 to V066"
+3,VENDOR_EMPLOYEE_BANK,vendors,V023,bank account matches E090
+3,VENDOR_EMPLOYEE_BANK,vendors,V059,bank account matches E047
+3,VENDOR_EMPLOYEE_ADDRESS,vendors,V010,address matches E101
+3,VENDOR_EMPLOYEE_ADDRESS,vendors,V037,address matches E015
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01214,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01215,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01216,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01217,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01218,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01219,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01220,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01221,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01222,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01223,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01224,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01225,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01226,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01227,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01228,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01229,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01230,V041 first-digit-9 cluster
+3,BENFORD_OUTLIER_VENDOR,invoices,INV01231,V041 first-digit-9 cluster
+3,JOURNAL_OUT_OF_HOURS,journal_entries,JE01201,Sat 22:47
+3,JOURNAL_OUT_OF_HOURS,journal_entries,JE01202,Sun 11:05
+3,JOURNAL_OUT_OF_HOURS,journal_entries,JE01203,Sat 09:30
+3,JOURNAL_OUT_OF_HOURS,journal_entries,JE01204,Tue 23:58
+3,JOURNAL_OUT_OF_HOURS,journal_entries,JE01205,Sat 14:12
+3,JOURNAL_OUT_OF_HOURS,journal_entries,JE01206,Tue 05:40
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY00015,U033 created V014 and approved this payment
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY00057,U033 created V014 and approved this payment
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY00311,U033 created V014 and approved this payment
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY00868,U033 created V014 and approved this payment
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY01084,U033 created V014 and approved this payment
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY01155,U033 created V014 and approved this payment
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY00073,U037 created V063 and approved this payment
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY00156,U037 created V063 and approved this payment
+4,SOD_VENDOR_CREATOR_APPROVES_PAYMENT,payments,PAY00711,U037 created V063 and approved this payment
+4,SOD_JOURNAL_SELF_APPROVED,journal_entries,JE00102,created and approved by U027
+4,SOD_JOURNAL_SELF_APPROVED,journal_entries,JE00506,created and approved by U031
+4,SOD_JOURNAL_SELF_APPROVED,journal_entries,JE00910,created and approved by U031
+4,ACTIVITY_AFTER_LEAVING,journal_entries,JE01207,U030 disabled 2026-03-31
+4,ACTIVITY_AFTER_LEAVING,journal_entries,JE01208,U030 disabled 2026-03-31
+4,ACTIVITY_AFTER_LEAVING,payments,PAY00002,U022 disabled 2026-06-30
+4,PRIVILEGED_ACCOUNT_POSTING,journal_entries,JE01209,posted by U040
+4,PRIVILEGED_ACCOUNT_POSTING,journal_entries,JE01210,posted by U041

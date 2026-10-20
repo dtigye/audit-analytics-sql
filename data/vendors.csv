@@ -1,0 +1,82 @@
+vendor_id,vendor_name,tax_id,bank_account,address,status,approved,created_by,created_date
+V001,Zenith Networks Ltd,TIN65554684,9923829043,"95 Station Street, Eastbrook",Active,1,U014,2025-06-18
+V002,Horizon Training Ltd,TIN51814939,9191871613,"114 Harbour Road, Eastbrook",Active,1,U018,2024-01-21
+V003,Willow IT Supplies Ltd,TIN56687056,2662103084,"111 Mill Close, Northgate",Active,1,U017,2023-03-14
+V004,Juniper Catering Ltd,TIN33064641,0769991443,"13 Garden Row, Eastbrook",Active,1,U017,2025-04-29
+V005,Northstar Consulting Ltd,TIN10021707,1685703658,"189 Kingsway, Southmoor",Active,1,U017,2024-12-23
+V006,Northstar IT Supplies Ltd,TIN40922455,0136326317,"103 Park Way, Highcliff",Active,1,U012,2024-09-16
+V007,Cedar Office Solutions Ltd,TIN81469376,0222366425,"69 Harbour Road, Highcliff",Active,1,U015,2022-04-09
+V008,Pinnacle Facilities Services Ltd,TIN45832842,0261739679,"27 Bridge Street, Southmoor",Active,1,U012,2024-02-06
+V009,Keystone Logistics Ltd,TIN44878095,8805973029,"198 Church Street, Northgate",Active,1,U011,2024-06-10
+V010,Falcon Logistics Ltd,TIN22535199,0535051534,"117 Mill Close, Northgate",Active,1,U012,2023-10-04
+V011,Lighthouse Security Services Ltd,TIN37579788,4042870421,"62 Market Lane, Highcliff",Active,1,U014,2024-02-06
+V012,Ivory Training Ltd,TIN90285086,4274636301,"84 Orchard Drive, Westfield",Active,1,U016,2023-08-12
+V013,Horizon Facilities Services Ltd,TIN59333615,3404115192,"128 Lake Crescent, Southmoor",Active,1,U015,2024-05-12
+V014,Horizon Consulting Ltd,TIN78612207,9585800548,"190 Market Lane, Eastbrook",Active,1,U033,2023-12-03
+V015,Ivory IT Supplies Ltd,TIN18762049,2653748330,"193 Park Way, Southmoor",Active,1,U016,2023-11-23
+V016,Oakfield Consulting Ltd,TIN29374837,6982947483,"64 Church Street, Southmoor",Active,1,U013,2025-06-18
+V017,Cedar Print & Media Ltd,TIN11166989,4501392861,"151 Mill Close, Highcliff",Active,1,U013,2025-03-20
+V018,Granite Logistics Ltd,TIN94051135,8979410737,"124 Bridge Street, Southmoor",Active,1,U011,2022-08-18
+V019,Redwood Office Solutions Ltd,TIN74165565,2678523372,"33 Orchard Drive, Eastbrook",Active,1,U018,2024-01-29
+V020,Oakfield Security Services Ltd,TIN48639206,1594746967,"8 Mill Close, Highcliff",Active,1,U014,2025-01-09
+V021,Granite Facilities Services Ltd,TIN23942317,9166231236,"184 Riverside Avenue, Westfield",Active,1,U014,2024-11-30
+V022,Unity Office Solutions Ltd,TIN13387199,6755180547,"143 Market Lane, Northgate",Active,1,U014,2023-12-31
+V023,Granite Catering Ltd,TIN93022165,3086807049,"22 Mill Close, Northgate",Active,1,U013,2024-07-31
+V024,Summit IT Supplies Ltd,TIN31508511,6836083624,"151 Canal Road, Southmoor",Active,1,U015,2023-12-03
+V025,Apex Catering Ltd,TIN17192351,1990715822,"184 Riverside Avenue, Southmoor",Active,1,U018,2025-02-12
+V026,Zenith Print & Media Ltd,TIN71920234,1377070967,"11 Harbour Road, Southmoor",Active,1,U018,2022-02-02
+V027,Unity Print & Media Ltd,TIN37839686,6255177770,"19 Ridge Road, Northgate",Active,1,U013,2023-08-04
+V028,Pinnacle Catering Ltd,TIN94130974,3153232327,"9 Bridge Street, Westfield",Active,1,U013,2025-03-08
+V029,Vertex Consulting Ltd,TIN97742459,9563700796,"166 Orchard Drive, Eastbrook",Active,1,U016,2024-02-23
+V030,Lighthouse Consulting Ltd,TIN72528736,4635913479,"127 Mill Close, Northgate",Active,1,U012,2022-03-29
+V031,Summit Security Services Ltd,TIN15317160,6818105870,"166 Bridge Street, Westfield",Active,1,U016,2022-09-12
+V032,Juniper Print & Media Ltd,TIN86557986,1487924391,"69 Mill Close, Westfield",Active,1,U012,2024-07-20
+V033,Quartz Security Services Ltd,TIN66585494,5018847371,"97 Station Street, Northgate",Active,1,U014,2025-06-28
+V034,Bluebird Training Ltd,TIN79812500,2248276918,"137 Canal Road, Southmoor",Active,1,U017,2024-07-31
+V035,Granite Training Ltd,TIN84794191,5871240369,"182 Kingsway, Westfield",Active,1,U017,2025-01-03
+V036,Meridian Logistics Ltd,TIN29417848,0387968479,"154 Canal Road, Westfield",Active,1,U013,2024-11-10
+V037,Meridian Office Solutions Ltd,TIN51992107,8356110171,"107 Park Way, Westfield",Active,1,U017,2024-06-11
+V038,Bluebird Networks Ltd,TIN70811693,7858708390,"89 Riverside Avenue, Northgate",Active,1,U016,2024-12-06
+V039,Delta IT Supplies Ltd,TIN40824236,3295417988,"38 Park Way, Highcliff",Active,1,U011,2022-07-02
+V040,Willow Office Solutions Ltd,TIN16691535,9541636502,"105 Ridge Road, Westfield",Active,1,U017,2025-04-17
+V041,Keystone IT Supplies Ltd,TIN72763460,1620956622,"129 Hill View, Highcliff",Active,1,U012,2022-01-13
+V042,Delta Catering Ltd,TIN68511163,0997602137,"15 Mill Close, Southmoor",Active,1,U012,2022-05-23
+V043,Unity IT Supplies Ltd,TIN46924728,7392808143,"75 Market Lane, Northgate",Active,1,U015,2024-08-15
+V044,Apex Security Services Ltd,TIN50337448,5349388253,"100 Station Street, Highcliff",Active,1,U014,2022-05-17
+V045,Trident IT Supplies Ltd,TIN40739239,6818230401,"3 Kingsway, Westfield",Active,1,U015,2024-10-07
+V046,Keystone Networks Ltd,TIN11679217,7404468214,"13 Lake Crescent, Southmoor",Active,1,U016,2024-11-30
+V047,Keystone Training Ltd,TIN61876527,8137137849,"87 Ridge Road, Eastbrook",Active,1,U013,2022-10-08
+V048,Vertex Print & Media Ltd,TIN43815633,1829062191,"3 Church Street, Southmoor",Active,1,U015,2023-06-01
+V049,Lighthouse Catering Ltd,TIN10464824,2147174724,"114 Ridge Road, Highcliff",Active,1,U016,2023-09-02
+V050,Evergreen Consulting Ltd,TIN32437021,3581542348,"159 Station Street, Northgate",Active,1,U011,2025-02-16
+V051,Evergreen Print & Media Ltd,TIN86780424,1018787548,"190 Kingsway, Highcliff",Active,1,U015,2023-03-19
+V052,Unity Facilities Services Ltd,TIN73696882,4687378182,"162 Station Street, Northgate",Active,1,U017,2025-05-03
+V053,Unity Consulting Ltd,TIN99794736,0031112687,"65 Ridge Road, Northgate",Active,1,U014,2022-06-28
+V054,Northstar Networks Ltd,TIN40442542,0699296929,"75 Kingsway, Westfield",Active,1,U012,2025-04-14
+V055,Vertex Facilities Services Ltd,TIN97414956,0221263525,"178 Orchard Drive, Westfield",Active,1,U015,2022-02-14
+V056,Trident Networks Ltd,TIN39356490,2298857041,"123 Hill View, Southmoor",Active,1,U015,2024-12-08
+V057,Apex Print & Media Ltd,TIN35550702,8851014971,"61 Garden Row, Southmoor",Active,1,U014,2024-11-01
+V058,Falcon Print & Media Ltd,TIN36951398,7384446923,"102 Hill View, Southmoor",Active,1,U015,2022-10-31
+V059,Bluebird Office Solutions Ltd,TIN78301580,5800846118,"13 Park Way, Highcliff",Active,1,U018,2024-02-22
+V060,Meridian Facilities Services Ltd,TIN60663005,0338261793,"191 Mill Close, Eastbrook",Active,1,U017,2023-04-06
+V061,Ivory Security Services Ltd,TIN94824593,9916521760,"28 Mill Close, Eastbrook",Active,1,U018,2022-08-04
+V062,Delta Networks Ltd,TIN52749973,3631759566,"50 Canal Road, Eastbrook",Active,1,U015,2024-09-23
+V063,Horizon Catering Ltd,TIN25163964,5742239002,"152 Riverside Avenue, Northgate",Active,1,U037,2023-04-30
+V064,Evergreen Logistics Ltd,TIN87635878,5039759697,"150 Harbour Road, Eastbrook",Active,1,U011,2023-10-16
+V065,Zenith Logistics Ltd,TIN34516949,4867840274,"153 Orchard Drive, Westfield",Active,1,U018,2022-07-15
+V066,Trident Print & Media Ltd,TIN79151576,1626797584,"87 Station Street, Northgate",Active,1,U018,2022-12-10
+V067,Ivory Catering Ltd,TIN88748275,4798915896,"131 Market Lane, Eastbrook",Active,1,U012,2024-02-02
+V068,Bluebird Consulting Ltd,TIN32454646,9400878156,"47 Riverside Avenue, Highcliff",Active,1,U014,2022-04-02
+V069,Quartz IT Supplies Ltd,TIN29327380,8450308713,"189 Orchard Drive, Eastbrook",Active,1,U017,2023-12-02
+V070,Quartz Consulting Ltd,TIN67409902,2409108557,"101 Mill Close, Westfield",Active,1,U017,2022-04-27
+V071,Granite Consulting Ltd,TIN22355283,8103743988,"165 Mill Close, Highcliff",Inactive,1,U011,2022-09-24
+V072,Willow Print & Media Ltd,TIN42205899,0626929631,"21 Orchard Drive, Highcliff",Inactive,1,U017,2022-05-25
+V073,Cedar IT Supplies Ltd,TIN75160723,2363157364,"94 Harbour Road, Westfield",Inactive,1,U013,2025-02-03
+V074,Juniper Consulting Ltd,TIN38993041,2487041702,"15 Riverside Avenue, Highcliff",Inactive,1,U011,2024-03-21
+V075,Quartz Office Solutions Ltd,TIN97564266,9797257365,"35 Lake Crescent, Northgate",Inactive,1,U011,2022-07-29
+V076,Willow Facilities Services Ltd,TIN82246062,9002006788,"45 Harbour Road, Northgate",Inactive,1,U015,2023-06-04
+V077,Summit Training Ltd,TIN43992493,4616135889,"107 Station Street, Southmoor",Inactive,1,U016,2024-12-24
+V078,Horizon Logistics Ltd,TIN67116170,7504854965,"21 Orchard Drive, Westfield",Inactive,1,U014,2022-08-04
+V079,Keystone Print & Media Ltd,TIN73841894,7878096536,"30 Ridge Road, Eastbrook",Inactive,1,U016,2024-03-07
+V080,Vertex Networks Ltd,TIN54183556,6178130625,"8 Riverside Avenue, Westfield",Inactive,1,U018,2022-08-12
+V081,Swiftline Supplies Ltd,TIN58201447,4417730921,"7 Quarry Lane, Eastbrook",Active,0,U013,2026-03-30

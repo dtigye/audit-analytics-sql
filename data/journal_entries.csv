@@ -1,0 +1,1211 @@
+je_id,posted_at,account,description,amount,created_by,approved_by
+JE00001,2026-05-05 11:36:00,Provision for doubtful debts,Bank charges adjustment,31876.86,U031,U033
+JE00002,2026-08-13 12:48:00,Accruals,Bank charges adjustment,939.91,U027,U011
+JE00003,2026-08-07 09:58:00,Prepayments,Provision for doubtful debts adjustment,50069.89,U029,U039
+JE00004,2025-12-10 11:31:00,Suspense,Accruals adjustment,41410.73,U032,U035
+JE00005,2025-12-11 11:04:00,Accruals,Bank charges adjustment,42055.52,U032,U038
+JE00006,2026-03-18 09:21:00,Depreciation,Depreciation adjustment,75604.73,U029,U038
+JE00007,2026-05-29 15:04:00,Bank charges,Provision for doubtful debts adjustment,4752.16,U028,U024
+JE00008,2026-04-30 13:17:00,Bank charges,Suspense adjustment,12045.32,U032,U033
+JE00009,2026-02-27 12:45:00,Depreciation,Depreciation adjustment,39701.39,U031,U035
+JE00010,2026-06-25 09:17:00,Payroll control,Prepayments adjustment,8371.00,U031,U021
+JE00011,2025-10-27 15:18:00,Bank charges,Depreciation adjustment,15699.69,U028,U038
+JE00012,2026-03-03 15:01:00,Suspense,Payroll control adjustment,4035.40,U032,U038
+JE00013,2025-10-03 12:11:00,Suspense,Payroll control adjustment,2761.65,U027,U033
+JE00014,2026-06-15 15:17:00,Bank charges,Provision for doubtful debts adjustment,15211.80,U032,U038
+JE00015,2026-09-29 12:19:00,Depreciation,Suspense adjustment,7831.83,U027,U016
+JE00016,2026-08-07 10:42:00,Payroll control,Bank charges adjustment,5297.63,U032,U034
+JE00017,2025-10-29 16:19:00,Suspense,Suspense adjustment,15962.24,U030,U035
+JE00018,2026-07-23 16:08:00,Suspense,Depreciation adjustment,1826.57,U027,U019
+JE00019,2026-01-20 12:47:00,Depreciation,Inter-unit transfers adjustment,20912.21,U028,U035
+JE00020,2026-04-02 15:20:00,Depreciation,Provision for doubtful debts adjustment,3812.30,U032,U015
+JE00021,2025-12-02 10:02:00,Depreciation,Payroll control adjustment,812.27,U027,U024
+JE00022,2026-03-13 12:13:00,Bank charges,Depreciation adjustment,2182.98,U027,U024
+JE00023,2025-10-29 09:27:00,Depreciation,Inter-unit transfers adjustment,33625.47,U031,U033
+JE00024,2026-02-13 17:42:00,Bank charges,Provision for doubtful debts adjustment,6789.45,U031,U033
+JE00025,2026-05-15 15:12:00,Depreciation,Depreciation adjustment,13654.83,U028,U033
+JE00026,2026-04-23 10:27:00,Provision for doubtful debts,Depreciation adjustment,15969.37,U032,U037
+JE00027,2026-05-06 08:26:00,Suspense,Inter-unit transfers adjustment,21047.29,U029,U039
+JE00028,2026-05-29 13:44:00,Prepayments,Bank charges adjustment,8981.46,U032,U026
+JE00029,2025-11-18 08:31:00,Depreciation,Bank charges adjustment,658.61,U030,U025
+JE00030,2026-06-03 12:04:00,Suspense,Accruals adjustment,3031.06,U029,U025
+JE00031,2026-08-26 15:32:00,Depreciation,Accruals adjustment,40524.40,U027,U039
+JE00032,2026-02-12 17:23:00,Accruals,Provision for doubtful debts adjustment,16512.17,U029,U033
+JE00033,2026-02-17 10:25:00,Depreciation,Provision for doubtful debts adjustment,9633.49,U032,U037
+JE00034,2026-09-02 11:38:00,Prepayments,Payroll control adjustment,6323.90,U029,U037
+JE00035,2026-05-12 17:36:00,Prepayments,Accruals adjustment,11770.40,U032,U035
+JE00036,2026-05-20 14:19:00,Provision for doubtful debts,Prepayments adjustment,8755.02,U032,U013
+JE00037,2026-01-14 14:14:00,Depreciation,Accruals adjustment,16932.79,U027,U033
+JE00038,2026-09-04 09:38:00,Payroll control,Inter-unit transfers adjustment,2386.99,U027,U019
+JE00039,2026-03-13 14:37:00,Payroll control,Bank charges adjustment,11056.07,U032,U036
+JE00040,2026-02-19 10:55:00,Depreciation,Depreciation adjustment,2033.81,U030,U016
+JE00041,2025-10-22 16:49:00,Suspense,Prepayments adjustment,90127.19,U031,U039
+JE00042,2026-06-10 14:43:00,Suspense,Bank charges adjustment,2193.68,U032,U026
+JE00043,2026-03-03 08:39:00,Prepayments,Prepayments adjustment,3718.61,U032,U014
+JE00044,2026-02-06 11:21:00,Provision for doubtful debts,Depreciation adjustment,3024.07,U031,U019
+JE00045,2026-02-17 13:18:00,Payroll control,Provision for doubtful debts adjustment,11762.60,U029,U038
+JE00046,2025-11-25 13:09:00,Provision for doubtful debts,Suspense adjustment,3290.55,U027,U038
+JE00047,2026-09-22 15:39:00,Payroll control,Payroll control adjustment,4982.74,U028,U033
+JE00048,2026-08-18 17:02:00,Suspense,Payroll control adjustment,10640.38,U027,U038
+JE00049,2026-08-27 16:11:00,Provision for doubtful debts,Accruals adjustment,8398.91,U027,U011
+JE00050,2026-03-03 13:07:00,Payroll control,Prepayments adjustment,2157.75,U030,U021
+JE00051,2025-11-06 17:09:00,Inter-unit transfers,Provision for doubtful debts adjustment,67039.44,U028,U039
+JE00052,2026-03-10 11:50:00,Depreciation,Depreciation adjustment,2638.29,U029,U011
+JE00053,2025-10-29 09:58:00,Bank charges,Payroll control adjustment,32616.13,U028,U034
+JE00054,2025-11-07 09:44:00,Depreciation,Inter-unit transfers adjustment,3636.01,U029,U023
+JE00055,2026-07-14 16:07:00,Depreciation,Suspense adjustment,3761.46,U028,U025
+JE00056,2026-09-23 12:14:00,Bank charges,Suspense adjustment,47828.25,U029,U036
+JE00057,2026-05-29 17:03:00,Payroll control,Accruals adjustment,899.18,U032,U016
+JE00058,2026-03-23 12:39:00,Suspense,Accruals adjustment,6454.97,U027,U016
+JE00059,2026-05-08 13:19:00,Prepayments,Payroll control adjustment,4899.12,U029,U034
+JE00060,2026-01-05 08:40:00,Bank charges,Suspense adjustment,2617.39,U032,U019
+JE00061,2025-11-12 09:34:00,Inter-unit transfers,Provision for doubtful debts adjustment,20663.46,U029,U033
+JE00062,2026-02-03 15:11:00,Accruals,Bank charges adjustment,12108.15,U029,U039
+JE00063,2026-09-18 14:28:00,Payroll control,Payroll control adjustment,36078.49,U028,U034
+JE00064,2025-10-28 13:35:00,Depreciation,Payroll control adjustment,14296.44,U027,U037
+JE00065,2025-10-17 09:00:00,Provision for doubtful debts,Suspense adjustment,429.15,U027,U034
+JE00066,2026-08-20 12:45:00,Prepayments,Provision for doubtful debts adjustment,2788.06,U029,U037
+JE00067,2025-11-27 14:41:00,Suspense,Prepayments adjustment,218179.27,U032,U038
+JE00068,2026-08-10 08:15:00,Payroll control,Bank charges adjustment,2426.30,U031,U014
+JE00069,2026-09-14 12:40:00,Payroll control,Provision for doubtful debts adjustment,23646.32,U032,U039
+JE00070,2026-04-16 13:53:00,Depreciation,Prepayments adjustment,7308.23,U031,U026
+JE00071,2025-12-23 17:42:00,Provision for doubtful debts,Accruals adjustment,16641.12,U027,U036
+JE00072,2026-02-20 13:14:00,Bank charges,Provision for doubtful debts adjustment,2773.13,U031,U014
+JE00073,2025-11-25 13:32:00,Depreciation,Payroll control adjustment,2680.27,U032,U034
+JE00074,2026-09-14 17:22:00,Accruals,Provision for doubtful debts adjustment,4976.91,U027,U015
+JE00075,2025-12-10 17:33:00,Depreciation,Accruals adjustment,16987.14,U031,U038
+JE00076,2026-09-21 09:30:00,Prepayments,Accruals adjustment,11593.19,U028,U039
+JE00077,2026-05-25 08:40:00,Payroll control,Payroll control adjustment,18499.99,U032,U035
+JE00078,2026-01-30 12:46:00,Suspense,Accruals adjustment,27462.89,U032,U035
+JE00079,2026-07-16 17:00:00,Prepayments,Provision for doubtful debts adjustment,27636.23,U027,U034
+JE00080,2026-01-01 10:30:00,Provision for doubtful debts,Suspense adjustment,94828.63,U030,U039
+JE00081,2026-03-06 16:19:00,Bank charges,Suspense adjustment,16167.60,U030,U033
+JE00082,2026-05-19 14:08:00,Bank charges,Provision for doubtful debts adjustment,1055.08,U031,U034
+JE00083,2026-01-27 13:02:00,Provision for doubtful debts,Depreciation adjustment,2411.69,U031,U037
+JE00084,2026-06-19 11:10:00,Accruals,Prepayments adjustment,12518.74,U029,U037
+JE00085,2026-08-26 08:54:00,Payroll control,Depreciation adjustment,16731.08,U031,U035
+JE00086,2026-07-14 08:18:00,Payroll control,Provision for doubtful debts adjustment,8928.13,U029,U038
+JE00087,2026-09-01 15:31:00,Provision for doubtful debts,Suspense adjustment,6881.56,U027,U026
+JE00088,2026-08-03 16:04:00,Accruals,Payroll control adjustment,69823.12,U028,U039
+JE00089,2026-05-06 15:31:00,Depreciation,Payroll control adjustment,943.25,U027,U013
+JE00090,2026-02-27 09:35:00,Suspense,Accruals adjustment,6264.95,U032,U034
+JE00091,2026-02-18 15:11:00,Provision for doubtful debts,Payroll control adjustment,7542.03,U028,U021
+JE00092,2026-08-24 12:57:00,Bank charges,Provision for doubtful debts adjustment,133426.83,U029,U038
+JE00093,2025-12-24 08:40:00,Payroll control,Accruals adjustment,5617.84,U028,U038
+JE00094,2026-01-16 09:48:00,Accruals,Accruals adjustment,47548.31,U029,U035
+JE00095,2026-01-15 17:40:00,Provision for doubtful debts,Inter-unit transfers adjustment,12331.90,U027,U039
+JE00096,2025-12-15 09:17:00,Provision for doubtful debts,Depreciation adjustment,7901.49,U031,U020
+JE00097,2025-12-02 14:08:00,Inter-unit transfers,Suspense adjustment,1235.29,U032,U011
+JE00098,2025-10-24 15:25:00,Bank charges,Bank charges adjustment,3992.59,U027,U017
+JE00099,2026-03-02 17:35:00,Inter-unit transfers,Provision for doubtful debts adjustment,4707.04,U031,U015
+JE00100,2026-07-08 13:07:00,Depreciation,Payroll control adjustment,2509.39,U029,U023
+JE00101,2025-11-11 11:30:00,Inter-unit transfers,Inter-unit transfers adjustment,2759.27,U031,U034
+JE00102,2026-03-06 15:10:00,Suspense,Bank charges adjustment,626.98,U027,U027
+JE00103,2026-05-21 09:45:00,Depreciation,Depreciation adjustment,93169.04,U029,U039
+JE00104,2025-10-28 17:07:00,Accruals,Depreciation adjustment,60281.38,U029,U039
+JE00105,2025-10-27 12:12:00,Accruals,Accruals adjustment,32167.05,U029,U034
+JE00106,2025-11-26 11:35:00,Depreciation,Suspense adjustment,33039.82,U032,U037
+JE00107,2026-05-07 09:49:00,Suspense,Accruals adjustment,5919.71,U032,U026
+JE00108,2025-10-27 08:58:00,Bank charges,Prepayments adjustment,5992.32,U031,U016
+JE00109,2026-05-06 15:51:00,Provision for doubtful debts,Prepayments adjustment,1496.15,U032,U016
+JE00110,2026-02-03 17:35:00,Prepayments,Provision for doubtful debts adjustment,14163.55,U032,U036
+JE00111,2026-02-25 13:47:00,Payroll control,Accruals adjustment,8463.75,U032,U037
+JE00112,2026-07-06 16:11:00,Suspense,Suspense adjustment,1061.19,U027,U033
+JE00113,2026-08-10 16:19:00,Payroll control,Bank charges adjustment,3253.38,U031,U015
+JE00114,2026-09-24 14:25:00,Inter-unit transfers,Inter-unit transfers adjustment,67249.35,U027,U039
+JE00115,2026-05-07 17:27:00,Suspense,Prepayments adjustment,1380.14,U028,U023
+JE00116,2026-07-15 16:23:00,Bank charges,Depreciation adjustment,6942.88,U029,U033
+JE00117,2025-11-19 12:14:00,Suspense,Depreciation adjustment,10045.47,U032,U037
+JE00118,2026-09-10 14:22:00,Depreciation,Prepayments adjustment,12481.54,U032,U039
+JE00119,2026-03-18 13:15:00,Prepayments,Bank charges adjustment,5422.59,U032,U033
+JE00120,2026-02-11 09:14:00,Accruals,Bank charges adjustment,4554.28,U029,U021
+JE00121,2026-07-09 17:42:00,Accruals,Suspense adjustment,1615.33,U031,U036
+JE00122,2026-09-10 08:26:00,Suspense,Payroll control adjustment,10293.60,U031,U039
+JE00123,2026-04-14 11:37:00,Bank charges,Suspense adjustment,4097.70,U028,U011
+JE00124,2026-01-23 16:49:00,Suspense,Bank charges adjustment,3529.48,U032,U038
+JE00125,2026-08-20 14:29:00,Accruals,Depreciation adjustment,4368.18,U028,U014
+JE00126,2025-12-03 09:45:00,Bank charges,Bank charges adjustment,9621.89,U029,U019
+JE00127,2026-09-09 14:44:00,Accruals,Inter-unit transfers adjustment,592.88,U031,U019
+JE00128,2026-07-30 13:54:00,Accruals,Suspense adjustment,5058.53,U031,U021
+JE00129,2025-10-09 11:53:00,Provision for doubtful debts,Payroll control adjustment,5379.76,U031,U038
+JE00130,2026-02-12 13:12:00,Prepayments,Payroll control adjustment,6235.20,U030,U013
+JE00131,2026-01-06 10:10:00,Suspense,Prepayments adjustment,22447.96,U028,U038
+JE00132,2025-12-31 09:14:00,Inter-unit transfers,Accruals adjustment,3819.70,U032,U019
+JE00133,2026-05-15 13:45:00,Bank charges,Depreciation adjustment,2890.38,U031,U016
+JE00134,2026-09-08 16:36:00,Bank charges,Prepayments adjustment,887.09,U032,U016
+JE00135,2026-09-23 12:53:00,Bank charges,Prepayments adjustment,5342.16,U027,U013
+JE00136,2026-01-05 17:42:00,Accruals,Payroll control adjustment,11471.85,U028,U035
+JE00137,2025-12-18 09:59:00,Prepayments,Payroll control adjustment,5600.24,U032,U015
+JE00138,2025-11-27 09:16:00,Depreciation,Prepayments adjustment,1644.26,U031,U026
+JE00139,2026-01-12 17:03:00,Inter-unit transfers,Depreciation adjustment,4873.66,U032,U022
+JE00140,2026-07-13 11:51:00,Suspense,Inter-unit transfers adjustment,1556.12,U027,U014
+JE00141,2025-11-05 12:47:00,Suspense,Payroll control adjustment,3450.46,U031,U014
+JE00142,2026-04-17 15:03:00,Payroll control,Payroll control adjustment,2973.75,U032,U037
+JE00143,2026-02-19 09:36:00,Inter-unit transfers,Payroll control adjustment,2088.30,U031,U021
+JE00144,2026-08-26 11:44:00,Payroll control,Accruals adjustment,2370.31,U028,U012
+JE00145,2025-11-04 16:56:00,Payroll control,Depreciation adjustment,1836.04,U032,U019
+JE00146,2026-04-02 09:15:00,Payroll control,Prepayments adjustment,17555.02,U031,U033
+JE00147,2026-09-02 17:36:00,Suspense,Inter-unit transfers adjustment,10995.00,U031,U039
+JE00148,2025-10-10 15:14:00,Provision for doubtful debts,Suspense adjustment,92766.42,U027,U039
+JE00149,2026-01-12 15:02:00,Prepayments,Inter-unit transfers adjustment,2554.25,U029,U038
+JE00150,2026-06-17 14:12:00,Accruals,Provision for doubtful debts adjustment,1561.10,U032,U012
+JE00151,2026-09-24 10:19:00,Bank charges,Depreciation adjustment,2110.94,U028,U018
+JE00152,2025-10-17 11:00:00,Provision for doubtful debts,Provision for doubtful debts adjustment,1681.95,U028,U011
+JE00153,2026-02-10 11:23:00,Suspense,Depreciation adjustment,13137.91,U032,U039
+JE00154,2026-09-08 08:16:00,Accruals,Provision for doubtful debts adjustment,25242.07,U027,U036
+JE00155,2026-04-20 15:59:00,Inter-unit transfers,Prepayments adjustment,1380.30,U027,U013
+JE00156,2026-06-25 12:07:00,Bank charges,Bank charges adjustment,6778.80,U031,U035
+JE00157,2025-11-11 12:47:00,Accruals,Bank charges adjustment,7657.06,U027,U013
+JE00158,2026-04-28 15:53:00,Prepayments,Prepayments adjustment,4923.83,U032,U021
+JE00159,2025-10-10 13:23:00,Prepayments,Provision for doubtful debts adjustment,1734.70,U028,U022
+JE00160,2026-08-27 12:29:00,Bank charges,Prepayments adjustment,18253.85,U028,U039
+JE00161,2026-01-23 08:55:00,Prepayments,Suspense adjustment,3132.59,U032,U012
+JE00162,2025-11-07 12:24:00,Suspense,Provision for doubtful debts adjustment,8303.67,U028,U038
+JE00163,2026-02-04 10:57:00,Bank charges,Depreciation adjustment,45068.88,U031,U035
+JE00164,2026-02-16 08:24:00,Depreciation,Provision for doubtful debts adjustment,21985.79,U030,U033
+JE00165,2026-01-05 10:37:00,Accruals,Inter-unit transfers adjustment,26628.87,U032,U033
+JE00166,2026-04-15 12:25:00,Prepayments,Depreciation adjustment,36287.66,U028,U033
+JE00167,2025-10-01 17:00:00,Depreciation,Inter-unit transfers adjustment,12890.90,U029,U034
+JE00168,2025-10-21 17:13:00,Depreciation,Accruals adjustment,4198.74,U027,U019
+JE00169,2026-05-20 08:35:00,Inter-unit transfers,Accruals adjustment,10313.79,U028,U037
+JE00170,2025-10-13 15:36:00,Inter-unit transfers,Accruals adjustment,31906.59,U029,U037
+JE00171,2026-06-10 08:45:00,Suspense,Inter-unit transfers adjustment,21281.27,U028,U035
+JE00172,2026-07-30 12:28:00,Prepayments,Suspense adjustment,14338.39,U028,U039
+JE00173,2026-08-11 14:11:00,Payroll control,Inter-unit transfers adjustment,26182.49,U032,U034
+JE00174,2026-02-18 14:37:00,Prepayments,Prepayments adjustment,14455.31,U028,U036
+JE00175,2026-09-14 12:31:00,Inter-unit transfers,Inter-unit transfers adjustment,1248.92,U032,U035
+JE00176,2026-02-24 15:58:00,Suspense,Prepayments adjustment,23511.59,U029,U033
+JE00177,2026-03-05 16:06:00,Accruals,Provision for doubtful debts adjustment,19663.61,U032,U039
+JE00178,2026-09-14 17:01:00,Payroll control,Bank charges adjustment,3694.36,U027,U036
+JE00179,2026-02-25 15:30:00,Depreciation,Prepayments adjustment,98208.00,U031,U038
+JE00180,2026-01-28 11:14:00,Provision for doubtful debts,Suspense adjustment,23883.36,U032,U035
+JE00181,2025-11-06 13:55:00,Suspense,Accruals adjustment,9592.35,U032,U020
+JE00182,2025-10-10 13:36:00,Depreciation,Accruals adjustment,48473.74,U030,U034
+JE00183,2025-10-31 10:08:00,Prepayments,Bank charges adjustment,1193.11,U027,U033
+JE00184,2025-11-11 11:53:00,Depreciation,Prepayments adjustment,2271.00,U030,U022
+JE00185,2025-11-05 11:37:00,Provision for doubtful debts,Prepayments adjustment,4826.55,U029,U011
+JE00186,2026-03-27 17:20:00,Bank charges,Prepayments adjustment,1360.70,U027,U024
+JE00187,2025-10-29 13:10:00,Provision for doubtful debts,Depreciation adjustment,114540.80,U029,U039
+JE00188,2026-04-13 12:35:00,Provision for doubtful debts,Inter-unit transfers adjustment,128731.11,U031,U038
+JE00189,2026-02-11 10:13:00,Accruals,Depreciation adjustment,28327.20,U029,U037
+JE00190,2026-01-21 16:26:00,Accruals,Inter-unit transfers adjustment,5268.02,U031,U011
+JE00191,2026-04-03 10:16:00,Prepayments,Inter-unit transfers adjustment,25569.33,U031,U037
+JE00192,2025-11-28 14:23:00,Depreciation,Prepayments adjustment,33596.83,U032,U038
+JE00193,2025-10-22 12:32:00,Bank charges,Inter-unit transfers adjustment,14189.54,U028,U036
+JE00194,2025-11-13 15:50:00,Prepayments,Payroll control adjustment,30255.48,U030,U038
+JE00195,2026-01-08 12:25:00,Suspense,Suspense adjustment,114001.48,U030,U039
+JE00196,2026-04-17 13:09:00,Provision for doubtful debts,Provision for doubtful debts adjustment,1275.46,U028,U035
+JE00197,2026-09-18 17:23:00,Payroll control,Inter-unit transfers adjustment,7041.35,U032,U011
+JE00198,2026-02-20 11:48:00,Prepayments,Accruals adjustment,6655.89,U032,U011
+JE00199,2025-12-25 15:23:00,Payroll control,Accruals adjustment,10733.86,U032,U033
+JE00200,2025-10-07 09:55:00,Payroll control,Depreciation adjustment,4715.67,U030,U011
+JE00201,2025-11-03 11:26:00,Depreciation,Bank charges adjustment,5866.72,U029,U019
+JE00202,2026-05-18 16:43:00,Bank charges,Inter-unit transfers adjustment,29946.11,U027,U037
+JE00203,2025-12-29 12:54:00,Payroll control,Payroll control adjustment,224117.50,U029,U038
+JE00204,2025-11-14 11:23:00,Provision for doubtful debts,Bank charges adjustment,85348.64,U032,U039
+JE00205,2026-07-20 11:44:00,Inter-unit transfers,Prepayments adjustment,2465.81,U028,U023
+JE00206,2026-07-31 10:17:00,Suspense,Prepayments adjustment,25376.79,U031,U037
+JE00207,2026-05-07 15:29:00,Accruals,Depreciation adjustment,4682.18,U028,U037
+JE00208,2026-04-20 13:11:00,Payroll control,Prepayments adjustment,752.74,U029,U017
+JE00209,2026-02-02 08:21:00,Bank charges,Bank charges adjustment,3423.05,U029,U037
+JE00210,2025-11-13 13:51:00,Prepayments,Bank charges adjustment,4080.72,U028,U023
+JE00211,2026-05-18 12:44:00,Inter-unit transfers,Payroll control adjustment,2576.29,U032,U013
+JE00212,2025-11-24 16:13:00,Payroll control,Accruals adjustment,9017.40,U032,U026
+JE00213,2025-11-04 09:59:00,Suspense,Payroll control adjustment,17730.57,U032,U035
+JE00214,2025-11-27 17:24:00,Accruals,Accruals adjustment,2219.86,U030,U017
+JE00215,2026-03-05 17:08:00,Bank charges,Accruals adjustment,29802.05,U032,U039
+JE00216,2026-09-01 08:41:00,Accruals,Depreciation adjustment,64676.04,U031,U039
+JE00217,2025-10-24 13:53:00,Provision for doubtful debts,Prepayments adjustment,1268.95,U029,U035
+JE00218,2025-12-23 09:02:00,Bank charges,Suspense adjustment,3740.85,U032,U016
+JE00219,2026-02-03 12:44:00,Accruals,Depreciation adjustment,5435.62,U031,U016
+JE00220,2026-09-14 14:25:00,Accruals,Depreciation adjustment,6291.93,U031,U014
+JE00221,2026-04-22 17:43:00,Prepayments,Provision for doubtful debts adjustment,32669.13,U031,U037
+JE00222,2026-05-26 13:57:00,Accruals,Provision for doubtful debts adjustment,10651.02,U028,U035
+JE00223,2025-10-09 14:48:00,Provision for doubtful debts,Provision for doubtful debts adjustment,12093.24,U032,U039
+JE00224,2026-02-13 10:26:00,Suspense,Provision for doubtful debts adjustment,2139.74,U028,U022
+JE00225,2026-01-01 15:35:00,Bank charges,Accruals adjustment,6351.14,U032,U013
+JE00226,2026-09-15 13:47:00,Bank charges,Depreciation adjustment,94492.41,U029,U039
+JE00227,2026-07-27 12:11:00,Depreciation,Payroll control adjustment,3647.69,U029,U039
+JE00228,2026-06-22 10:04:00,Suspense,Suspense adjustment,2469.74,U028,U013
+JE00229,2026-02-16 12:14:00,Accruals,Provision for doubtful debts adjustment,15968.41,U029,U034
+JE00230,2026-07-07 10:39:00,Bank charges,Suspense adjustment,122706.35,U029,U039
+JE00231,2025-11-25 13:00:00,Inter-unit transfers,Suspense adjustment,26666.25,U031,U034
+JE00232,2026-08-12 09:16:00,Inter-unit transfers,Bank charges adjustment,9828.62,U031,U016
+JE00233,2026-08-19 17:22:00,Suspense,Depreciation adjustment,5014.69,U028,U036
+JE00234,2026-07-14 15:58:00,Prepayments,Bank charges adjustment,34264.51,U028,U038
+JE00235,2026-04-02 12:01:00,Accruals,Suspense adjustment,184.57,U032,U033
+JE00236,2026-04-13 12:20:00,Depreciation,Bank charges adjustment,30180.95,U029,U038
+JE00237,2025-10-31 16:46:00,Prepayments,Suspense adjustment,7610.73,U031,U033
+JE00238,2026-09-14 09:55:00,Accruals,Inter-unit transfers adjustment,7168.66,U027,U039
+JE00239,2026-08-27 08:30:00,Suspense,Accruals adjustment,35270.32,U029,U039
+JE00240,2026-04-21 14:55:00,Suspense,Provision for doubtful debts adjustment,2021.54,U032,U013
+JE00241,2026-07-07 12:57:00,Suspense,Depreciation adjustment,40556.64,U027,U033
+JE00242,2026-08-26 16:44:00,Depreciation,Provision for doubtful debts adjustment,1662.75,U031,U033
+JE00243,2026-01-08 11:57:00,Depreciation,Accruals adjustment,11217.50,U032,U033
+JE00244,2026-03-09 15:54:00,Bank charges,Payroll control adjustment,21650.15,U030,U038
+JE00245,2026-01-01 15:20:00,Accruals,Accruals adjustment,4949.84,U031,U023
+JE00246,2026-04-23 17:33:00,Payroll control,Inter-unit transfers adjustment,2217.79,U028,U016
+JE00247,2026-02-10 10:28:00,Accruals,Inter-unit transfers adjustment,5871.40,U032,U018
+JE00248,2025-11-26 10:16:00,Prepayments,Prepayments adjustment,1988.97,U028,U024
+JE00249,2026-08-04 14:42:00,Prepayments,Depreciation adjustment,11351.58,U029,U039
+JE00250,2026-09-24 13:14:00,Accruals,Inter-unit transfers adjustment,12856.15,U028,U038
+JE00251,2025-11-20 14:51:00,Inter-unit transfers,Payroll control adjustment,1707.23,U027,U026
+JE00252,2025-12-15 10:48:00,Depreciation,Bank charges adjustment,15798.47,U032,U034
+JE00253,2025-10-15 14:00:00,Payroll control,Accruals adjustment,6723.02,U032,U015
+JE00254,2026-04-07 14:46:00,Depreciation,Suspense adjustment,997.81,U032,U022
+JE00255,2025-11-06 15:23:00,Provision for doubtful debts,Payroll control adjustment,4112.03,U029,U014
+JE00256,2026-08-03 13:38:00,Payroll control,Payroll control adjustment,4104.56,U031,U035
+JE00257,2026-04-23 14:42:00,Inter-unit transfers,Provision for doubtful debts adjustment,7077.21,U031,U014
+JE00258,2026-03-27 12:57:00,Provision for doubtful debts,Payroll control adjustment,18220.41,U031,U038
+JE00259,2026-04-09 13:56:00,Prepayments,Prepayments adjustment,11387.36,U031,U036
+JE00260,2026-08-13 10:58:00,Prepayments,Accruals adjustment,17747.84,U029,U034
+JE00261,2026-06-19 08:30:00,Inter-unit transfers,Bank charges adjustment,5052.81,U028,U011
+JE00262,2026-07-21 14:02:00,Payroll control,Bank charges adjustment,4180.67,U031,U036
+JE00263,2026-04-23 11:31:00,Payroll control,Prepayments adjustment,14254.36,U032,U036
+JE00264,2025-11-12 11:46:00,Inter-unit transfers,Payroll control adjustment,9000.42,U031,U013
+JE00265,2026-07-15 12:14:00,Inter-unit transfers,Bank charges adjustment,2246.40,U031,U012
+JE00266,2025-11-03 11:06:00,Payroll control,Prepayments adjustment,4231.86,U028,U019
+JE00267,2025-10-29 10:28:00,Accruals,Depreciation adjustment,1664.75,U032,U021
+JE00268,2026-03-20 09:06:00,Accruals,Prepayments adjustment,45780.25,U031,U037
+JE00269,2026-02-02 08:49:00,Suspense,Prepayments adjustment,14897.38,U031,U034
+JE00270,2026-03-18 09:20:00,Bank charges,Bank charges adjustment,1052.50,U030,U018
+JE00271,2026-02-13 11:32:00,Bank charges,Depreciation adjustment,6982.04,U028,U038
+JE00272,2026-08-10 12:25:00,Inter-unit transfers,Depreciation adjustment,3331.43,U027,U017
+JE00273,2026-05-07 09:53:00,Suspense,Prepayments adjustment,26331.37,U029,U035
+JE00274,2026-01-28 08:45:00,Inter-unit transfers,Provision for doubtful debts adjustment,15484.87,U029,U037
+JE00275,2025-10-31 08:56:00,Accruals,Provision for doubtful debts adjustment,12757.46,U032,U036
+JE00276,2026-01-21 09:58:00,Suspense,Inter-unit transfers adjustment,2883.35,U029,U012
+JE00277,2025-12-03 14:41:00,Provision for doubtful debts,Depreciation adjustment,2665.10,U030,U016
+JE00278,2026-04-24 09:43:00,Bank charges,Inter-unit transfers adjustment,858.13,U032,U021
+JE00279,2025-11-11 08:53:00,Provision for doubtful debts,Bank charges adjustment,10298.48,U028,U036
+JE00280,2026-08-21 09:56:00,Provision for doubtful debts,Provision for doubtful debts adjustment,1821.89,U027,U039
+JE00281,2025-10-20 09:50:00,Inter-unit transfers,Suspense adjustment,13474.33,U028,U036
+JE00282,2026-06-12 16:44:00,Depreciation,Bank charges adjustment,12204.06,U032,U039
+JE00283,2026-06-22 16:59:00,Depreciation,Depreciation adjustment,3585.40,U031,U011
+JE00284,2026-07-28 14:21:00,Accruals,Bank charges adjustment,39795.32,U031,U038
+JE00285,2026-05-25 09:01:00,Depreciation,Depreciation adjustment,18235.26,U027,U034
+JE00286,2026-05-15 14:43:00,Inter-unit transfers,Provision for doubtful debts adjustment,4620.46,U031,U015
+JE00287,2026-01-20 10:35:00,Provision for doubtful debts,Suspense adjustment,17501.21,U032,U037
+JE00288,2026-03-11 08:58:00,Prepayments,Bank charges adjustment,16955.48,U032,U037
+JE00289,2026-03-30 12:40:00,Inter-unit transfers,Bank charges adjustment,5186.54,U027,U022
+JE00290,2026-08-25 15:25:00,Bank charges,Prepayments adjustment,6854.94,U029,U011
+JE00291,2026-08-17 10:12:00,Bank charges,Depreciation adjustment,3703.33,U027,U026
+JE00292,2026-03-09 10:47:00,Inter-unit transfers,Bank charges adjustment,20533.62,U029,U036
+JE00293,2026-06-10 12:23:00,Payroll control,Inter-unit transfers adjustment,13018.13,U027,U039
+JE00294,2026-09-08 17:38:00,Bank charges,Depreciation adjustment,9346.10,U027,U012
+JE00295,2026-09-07 09:05:00,Payroll control,Payroll control adjustment,2243.70,U028,U020
+JE00296,2026-06-02 09:26:00,Provision for doubtful debts,Inter-unit transfers adjustment,7802.52,U028,U026
+JE00297,2025-12-10 12:24:00,Bank charges,Inter-unit transfers adjustment,5802.36,U028,U033
+JE00298,2026-04-14 11:23:00,Depreciation,Prepayments adjustment,10921.77,U031,U035
+JE00299,2026-02-09 08:56:00,Provision for doubtful debts,Payroll control adjustment,8393.37,U029,U017
+JE00300,2025-10-07 15:11:00,Accruals,Provision for doubtful debts adjustment,22586.11,U031,U039
+JE00301,2026-06-05 08:23:00,Bank charges,Inter-unit transfers adjustment,1119.77,U032,U021
+JE00302,2025-10-16 13:36:00,Provision for doubtful debts,Suspense adjustment,28196.60,U030,U033
+JE00303,2025-12-11 09:07:00,Accruals,Inter-unit transfers adjustment,2722.07,U029,U035
+JE00304,2025-11-19 17:02:00,Accruals,Accruals adjustment,776.39,U031,U014
+JE00305,2025-10-30 08:16:00,Payroll control,Bank charges adjustment,52613.30,U029,U038
+JE00306,2025-12-09 11:36:00,Depreciation,Prepayments adjustment,216.88,U027,U013
+JE00307,2026-04-16 15:47:00,Inter-unit transfers,Inter-unit transfers adjustment,4605.52,U029,U033
+JE00308,2026-03-11 14:11:00,Bank charges,Suspense adjustment,866.98,U028,U016
+JE00309,2026-09-07 14:59:00,Prepayments,Payroll control adjustment,5111.56,U032,U037
+JE00310,2026-08-11 12:55:00,Payroll control,Provision for doubtful debts adjustment,3819.88,U027,U012
+JE00311,2026-06-22 10:45:00,Prepayments,Suspense adjustment,4949.56,U029,U011
+JE00312,2026-06-24 09:43:00,Inter-unit transfers,Provision for doubtful debts adjustment,6347.55,U028,U014
+JE00313,2026-03-04 11:27:00,Inter-unit transfers,Bank charges adjustment,7298.85,U030,U021
+JE00314,2025-10-29 17:06:00,Provision for doubtful debts,Provision for doubtful debts adjustment,15624.67,U032,U037
+JE00315,2025-11-19 11:16:00,Depreciation,Prepayments adjustment,34875.48,U029,U036
+JE00316,2026-01-05 08:49:00,Payroll control,Bank charges adjustment,29855.03,U030,U039
+JE00317,2026-06-24 12:33:00,Suspense,Inter-unit transfers adjustment,15215.77,U027,U037
+JE00318,2025-12-25 09:58:00,Provision for doubtful debts,Bank charges adjustment,72285.13,U031,U038
+JE00319,2026-05-06 11:28:00,Depreciation,Suspense adjustment,4045.45,U027,U024
+JE00320,2026-09-30 17:42:00,Suspense,Prepayments adjustment,1687.92,U028,U012
+JE00321,2026-05-25 13:49:00,Provision for doubtful debts,Provision for doubtful debts adjustment,7684.07,U032,U012
+JE00322,2025-12-02 12:39:00,Inter-unit transfers,Bank charges adjustment,11678.40,U030,U035
+JE00323,2026-09-14 10:41:00,Suspense,Payroll control adjustment,8681.78,U032,U014
+JE00324,2026-06-02 15:44:00,Payroll control,Bank charges adjustment,22756.15,U028,U036
+JE00325,2026-04-07 09:46:00,Prepayments,Bank charges adjustment,7752.32,U029,U013
+JE00326,2026-06-16 14:18:00,Accruals,Bank charges adjustment,15253.50,U029,U034
+JE00327,2026-04-03 13:16:00,Payroll control,Accruals adjustment,1712.90,U028,U038
+JE00328,2026-01-26 13:24:00,Prepayments,Payroll control adjustment,7285.61,U032,U037
+JE00329,2025-12-18 10:10:00,Payroll control,Inter-unit transfers adjustment,5063.38,U028,U019
+JE00330,2026-09-10 08:15:00,Bank charges,Provision for doubtful debts adjustment,5791.93,U031,U021
+JE00331,2026-09-04 10:51:00,Bank charges,Accruals adjustment,24155.07,U032,U038
+JE00332,2026-04-01 08:57:00,Accruals,Prepayments adjustment,15871.18,U029,U039
+JE00333,2026-06-11 09:19:00,Accruals,Suspense adjustment,5481.74,U029,U018
+JE00334,2026-05-22 15:20:00,Payroll control,Prepayments adjustment,1089.85,U032,U021
+JE00335,2026-01-30 11:56:00,Payroll control,Payroll control adjustment,21087.01,U032,U033
+JE00336,2026-04-09 13:06:00,Payroll control,Prepayments adjustment,4601.65,U029,U019
+JE00337,2025-10-17 09:33:00,Provision for doubtful debts,Suspense adjustment,1469.93,U029,U025
+JE00338,2026-03-11 13:11:00,Suspense,Depreciation adjustment,45798.44,U032,U035
+JE00339,2026-05-19 13:11:00,Suspense,Depreciation adjustment,9499.38,U028,U012
+JE00340,2026-02-27 10:56:00,Suspense,Bank charges adjustment,34396.88,U027,U033
+JE00341,2025-10-15 14:06:00,Bank charges,Prepayments adjustment,2353.92,U028,U036
+JE00342,2026-01-07 13:48:00,Inter-unit transfers,Inter-unit transfers adjustment,15336.40,U029,U038
+JE00343,2026-06-29 11:53:00,Payroll control,Suspense adjustment,2759.45,U031,U018
+JE00344,2026-07-02 09:22:00,Provision for doubtful debts,Suspense adjustment,13859.97,U027,U037
+JE00345,2026-04-30 17:18:00,Suspense,Inter-unit transfers adjustment,8353.66,U029,U026
+JE00346,2026-04-02 16:06:00,Provision for doubtful debts,Payroll control adjustment,8145.42,U028,U024
+JE00347,2026-06-08 09:08:00,Suspense,Payroll control adjustment,20462.14,U031,U036
+JE00348,2026-07-02 08:19:00,Suspense,Inter-unit transfers adjustment,5330.55,U032,U038
+JE00349,2026-04-02 14:18:00,Depreciation,Accruals adjustment,6457.49,U029,U035
+JE00350,2026-04-21 13:14:00,Provision for doubtful debts,Provision for doubtful debts adjustment,4312.96,U028,U039
+JE00351,2026-02-06 13:51:00,Bank charges,Payroll control adjustment,181349.85,U030,U039
+JE00352,2025-10-22 13:28:00,Provision for doubtful debts,Suspense adjustment,13479.63,U027,U039
+JE00353,2026-09-04 16:15:00,Bank charges,Suspense adjustment,2920.10,U029,U024
+JE00354,2026-09-17 16:42:00,Depreciation,Provision for doubtful debts adjustment,26796.00,U029,U036
+JE00355,2025-10-22 13:08:00,Prepayments,Accruals adjustment,23013.52,U031,U037
+JE00356,2026-08-24 11:30:00,Inter-unit transfers,Depreciation adjustment,1264.05,U032,U012
+JE00357,2025-10-02 11:40:00,Payroll control,Bank charges adjustment,15126.74,U028,U033
+JE00358,2026-02-25 14:47:00,Accruals,Depreciation adjustment,4083.22,U029,U022
+JE00359,2025-10-06 10:01:00,Payroll control,Depreciation adjustment,4580.97,U031,U036
+JE00360,2025-11-20 10:36:00,Inter-unit transfers,Inter-unit transfers adjustment,2993.96,U030,U038
+JE00361,2026-05-18 14:34:00,Accruals,Inter-unit transfers adjustment,36954.65,U031,U037
+JE00362,2026-01-19 16:24:00,Inter-unit transfers,Bank charges adjustment,10331.01,U028,U038
+JE00363,2026-08-28 16:37:00,Suspense,Depreciation adjustment,7040.58,U031,U039
+JE00364,2026-02-11 10:11:00,Inter-unit transfers,Inter-unit transfers adjustment,4429.17,U028,U023
+JE00365,2026-02-06 14:06:00,Accruals,Inter-unit transfers adjustment,2013.33,U027,U039
+JE00366,2026-06-25 16:03:00,Payroll control,Provision for doubtful debts adjustment,329.12,U029,U034
+JE00367,2026-03-25 14:41:00,Bank charges,Inter-unit transfers adjustment,2432.71,U032,U039
+JE00368,2026-04-10 16:31:00,Accruals,Suspense adjustment,737.62,U029,U015
+JE00369,2025-11-24 12:07:00,Bank charges,Prepayments adjustment,946.09,U029,U021
+JE00370,2025-12-11 10:01:00,Provision for doubtful debts,Bank charges adjustment,9374.15,U027,U015
+JE00371,2026-07-31 10:30:00,Inter-unit transfers,Inter-unit transfers adjustment,44920.75,U032,U037
+JE00372,2026-05-19 12:31:00,Provision for doubtful debts,Prepayments adjustment,5534.57,U032,U023
+JE00373,2026-03-13 11:34:00,Depreciation,Accruals adjustment,6392.55,U029,U036
+JE00374,2026-07-03 15:25:00,Suspense,Inter-unit transfers adjustment,1725.19,U032,U013
+JE00375,2025-12-09 08:38:00,Prepayments,Depreciation adjustment,148323.73,U032,U038
+JE00376,2025-10-22 09:44:00,Payroll control,Payroll control adjustment,1204.88,U027,U034
+JE00377,2026-07-17 15:17:00,Depreciation,Payroll control adjustment,22837.63,U027,U039
+JE00378,2026-07-08 10:11:00,Payroll control,Depreciation adjustment,22932.08,U032,U038
+JE00379,2026-05-11 16:19:00,Prepayments,Provision for doubtful debts adjustment,38744.56,U027,U036
+JE00380,2026-08-14 12:31:00,Bank charges,Accruals adjustment,14972.94,U028,U039
+JE00381,2026-05-07 11:00:00,Suspense,Bank charges adjustment,22608.84,U027,U034
+JE00382,2026-04-20 08:17:00,Prepayments,Suspense adjustment,3289.49,U027,U017
+JE00383,2026-09-09 08:35:00,Depreciation,Payroll control adjustment,11366.73,U032,U036
+JE00384,2025-12-01 08:34:00,Depreciation,Accruals adjustment,40422.38,U031,U037
+JE00385,2025-10-21 14:53:00,Accruals,Payroll control adjustment,12850.38,U032,U039
+JE00386,2026-08-12 14:02:00,Provision for doubtful debts,Depreciation adjustment,3124.21,U031,U018
+JE00387,2026-07-29 15:40:00,Provision for doubtful debts,Provision for doubtful debts adjustment,4852.55,U031,U024
+JE00388,2026-09-16 15:56:00,Prepayments,Inter-unit transfers adjustment,1793.30,U027,U037
+JE00389,2026-05-27 14:19:00,Accruals,Bank charges adjustment,2158.76,U028,U018
+JE00390,2026-04-29 10:29:00,Inter-unit transfers,Prepayments adjustment,3545.28,U029,U013
+JE00391,2026-01-15 16:07:00,Depreciation,Inter-unit transfers adjustment,3550.99,U027,U034
+JE00392,2026-08-05 17:14:00,Suspense,Payroll control adjustment,7253.13,U031,U021
+JE00393,2026-06-23 13:31:00,Accruals,Depreciation adjustment,9336.99,U027,U017
+JE00394,2026-08-18 14:17:00,Suspense,Suspense adjustment,565.34,U029,U014
+JE00395,2025-11-27 11:27:00,Accruals,Accruals adjustment,1072.23,U030,U016
+JE00396,2026-04-03 13:46:00,Accruals,Suspense adjustment,341.81,U029,U025
+JE00397,2026-07-24 14:26:00,Prepayments,Suspense adjustment,2441.19,U031,U039
+JE00398,2026-01-19 12:42:00,Inter-unit transfers,Payroll control adjustment,13365.64,U028,U033
+JE00399,2026-08-25 15:07:00,Provision for doubtful debts,Provision for doubtful debts adjustment,4324.19,U028,U016
+JE00400,2026-06-30 15:09:00,Bank charges,Prepayments adjustment,27912.24,U028,U038
+JE00401,2026-02-26 10:51:00,Prepayments,Provision for doubtful debts adjustment,69678.81,U030,U038
+JE00402,2026-05-13 10:58:00,Prepayments,Bank charges adjustment,15982.08,U032,U039
+JE00403,2025-11-21 14:15:00,Depreciation,Payroll control adjustment,3436.78,U032,U015
+JE00404,2025-12-24 10:20:00,Inter-unit transfers,Suspense adjustment,13251.56,U029,U034
+JE00405,2026-06-29 09:35:00,Bank charges,Bank charges adjustment,12465.24,U027,U033
+JE00406,2026-03-30 13:37:00,Provision for doubtful debts,Payroll control adjustment,6816.12,U032,U019
+JE00407,2026-06-26 13:08:00,Inter-unit transfers,Depreciation adjustment,13964.59,U028,U035
+JE00408,2026-01-22 10:23:00,Prepayments,Provision for doubtful debts adjustment,35458.50,U029,U038
+JE00409,2025-10-08 10:57:00,Bank charges,Inter-unit transfers adjustment,1435.42,U032,U033
+JE00410,2026-03-20 09:12:00,Accruals,Suspense adjustment,1505.75,U027,U011
+JE00411,2026-03-25 11:42:00,Suspense,Bank charges adjustment,23691.44,U031,U039
+JE00412,2026-05-19 09:49:00,Inter-unit transfers,Bank charges adjustment,3646.66,U029,U037
+JE00413,2026-06-10 14:30:00,Prepayments,Provision for doubtful debts adjustment,2483.45,U029,U023
+JE00414,2025-12-22 10:26:00,Suspense,Depreciation adjustment,5568.52,U028,U036
+JE00415,2026-06-22 13:21:00,Payroll control,Suspense adjustment,12842.12,U027,U035
+JE00416,2025-11-14 13:19:00,Bank charges,Bank charges adjustment,2027.58,U031,U021
+JE00417,2026-06-22 13:16:00,Bank charges,Bank charges adjustment,4172.41,U032,U036
+JE00418,2026-09-14 16:09:00,Accruals,Payroll control adjustment,10255.00,U027,U035
+JE00419,2026-07-10 11:15:00,Depreciation,Bank charges adjustment,14454.21,U028,U034
+JE00420,2026-02-13 10:16:00,Payroll control,Prepayments adjustment,1984.65,U030,U013
+JE00421,2026-05-07 16:47:00,Depreciation,Inter-unit transfers adjustment,49777.18,U028,U039
+JE00422,2026-06-08 11:47:00,Depreciation,Provision for doubtful debts adjustment,4951.11,U029,U019
+JE00423,2025-12-05 16:04:00,Suspense,Depreciation adjustment,209231.66,U031,U039
+JE00424,2026-05-06 10:37:00,Prepayments,Provision for doubtful debts adjustment,1720.63,U027,U035
+JE00425,2026-01-30 09:21:00,Provision for doubtful debts,Inter-unit transfers adjustment,8461.84,U029,U012
+JE00426,2025-11-24 13:33:00,Inter-unit transfers,Payroll control adjustment,614.33,U030,U011
+JE00427,2026-01-02 08:40:00,Bank charges,Prepayments adjustment,2994.76,U028,U033
+JE00428,2025-10-27 12:33:00,Suspense,Accruals adjustment,1127.42,U027,U036
+JE00429,2026-01-27 17:19:00,Provision for doubtful debts,Suspense adjustment,2593.71,U029,U026
+JE00430,2026-07-20 15:51:00,Prepayments,Accruals adjustment,3155.27,U031,U016
+JE00431,2025-11-18 14:56:00,Prepayments,Bank charges adjustment,35265.52,U030,U038
+JE00432,2025-12-29 09:44:00,Depreciation,Prepayments adjustment,2671.48,U029,U019
+JE00433,2026-08-28 08:30:00,Prepayments,Prepayments adjustment,49964.72,U029,U034
+JE00434,2025-10-08 14:06:00,Provision for doubtful debts,Depreciation adjustment,3909.47,U030,U017
+JE00435,2025-12-12 12:22:00,Prepayments,Bank charges adjustment,25360.21,U029,U033
+JE00436,2025-12-22 11:41:00,Inter-unit transfers,Inter-unit transfers adjustment,3363.24,U030,U026
+JE00437,2025-12-11 14:12:00,Inter-unit transfers,Provision for doubtful debts adjustment,7373.61,U027,U015
+JE00438,2025-10-01 09:58:00,Bank charges,Depreciation adjustment,10598.36,U027,U038
+JE00439,2026-05-01 14:56:00,Accruals,Provision for doubtful debts adjustment,383.96,U031,U033
+JE00440,2025-12-03 17:10:00,Accruals,Suspense adjustment,3860.94,U027,U016
+JE00441,2026-09-28 15:39:00,Provision for doubtful debts,Accruals adjustment,3172.92,U032,U020
+JE00442,2025-12-22 08:32:00,Accruals,Inter-unit transfers adjustment,18441.90,U030,U037
+JE00443,2026-03-24 08:53:00,Payroll control,Accruals adjustment,3316.34,U030,U011
+JE00444,2026-06-03 14:27:00,Provision for doubtful debts,Payroll control adjustment,12744.62,U032,U035
+JE00445,2025-10-29 12:35:00,Suspense,Depreciation adjustment,26995.38,U032,U036
+JE00446,2026-08-04 15:43:00,Provision for doubtful debts,Bank charges adjustment,1301.23,U031,U033
+JE00447,2026-04-17 12:42:00,Prepayments,Payroll control adjustment,8323.04,U029,U023
+JE00448,2025-12-17 09:16:00,Depreciation,Suspense adjustment,11650.21,U028,U038
+JE00449,2026-02-03 11:44:00,Suspense,Depreciation adjustment,33779.42,U027,U035
+JE00450,2026-05-14 16:48:00,Inter-unit transfers,Accruals adjustment,2913.50,U028,U024
+JE00451,2026-03-26 13:19:00,Bank charges,Prepayments adjustment,8938.33,U029,U039
+JE00452,2026-06-15 11:52:00,Depreciation,Provision for doubtful debts adjustment,3237.99,U027,U019
+JE00453,2025-10-28 11:21:00,Suspense,Payroll control adjustment,1376.03,U028,U038
+JE00454,2026-01-30 15:39:00,Prepayments,Prepayments adjustment,1945.22,U032,U011
+JE00455,2025-10-07 16:00:00,Accruals,Suspense adjustment,1503.18,U030,U025
+JE00456,2026-02-27 10:51:00,Prepayments,Prepayments adjustment,3872.95,U029,U026
+JE00457,2026-08-25 10:44:00,Depreciation,Inter-unit transfers adjustment,63948.23,U029,U038
+JE00458,2026-07-10 16:22:00,Provision for doubtful debts,Inter-unit transfers adjustment,11820.20,U027,U034
+JE00459,2025-10-16 16:30:00,Provision for doubtful debts,Suspense adjustment,6257.47,U030,U011
+JE00460,2026-04-28 10:06:00,Prepayments,Provision for doubtful debts adjustment,5758.61,U028,U020
+JE00461,2026-04-02 11:19:00,Suspense,Depreciation adjustment,4399.45,U031,U024
+JE00462,2026-05-14 13:03:00,Inter-unit transfers,Accruals adjustment,14498.64,U029,U039
+JE00463,2026-03-23 14:09:00,Payroll control,Bank charges adjustment,1226.08,U029,U025
+JE00464,2026-05-25 15:17:00,Accruals,Prepayments adjustment,861.82,U031,U022
+JE00465,2026-05-14 08:27:00,Bank charges,Inter-unit transfers adjustment,10672.59,U029,U034
+JE00466,2026-09-14 10:25:00,Accruals,Suspense adjustment,2202.76,U027,U025
+JE00467,2026-04-07 11:55:00,Suspense,Prepayments adjustment,7319.21,U028,U012
+JE00468,2025-10-30 09:57:00,Inter-unit transfers,Payroll control adjustment,12131.23,U029,U038
+JE00469,2026-01-14 13:04:00,Accruals,Provision for doubtful debts adjustment,21522.63,U032,U039
+JE00470,2026-07-02 09:25:00,Inter-unit transfers,Accruals adjustment,8369.27,U028,U035
+JE00471,2026-06-16 10:24:00,Depreciation,Accruals adjustment,28390.73,U027,U036
+JE00472,2026-03-13 08:57:00,Accruals,Suspense adjustment,2493.35,U029,U013
+JE00473,2026-06-11 17:12:00,Bank charges,Provision for doubtful debts adjustment,2273.77,U029,U011
+JE00474,2026-07-14 12:00:00,Prepayments,Bank charges adjustment,5180.26,U029,U038
+JE00475,2026-09-23 14:13:00,Depreciation,Provision for doubtful debts adjustment,201592.96,U027,U038
+JE00476,2026-03-26 15:56:00,Provision for doubtful debts,Prepayments adjustment,39992.90,U030,U039
+JE00477,2026-02-27 09:03:00,Prepayments,Depreciation adjustment,9476.98,U029,U019
+JE00478,2026-05-06 15:24:00,Payroll control,Prepayments adjustment,4103.65,U031,U036
+JE00479,2026-03-02 08:25:00,Payroll control,Depreciation adjustment,6028.60,U030,U017
+JE00480,2025-10-17 16:47:00,Bank charges,Inter-unit transfers adjustment,6584.93,U029,U022
+JE00481,2026-07-01 13:31:00,Inter-unit transfers,Provision for doubtful debts adjustment,6125.82,U029,U026
+JE00482,2026-07-02 08:53:00,Suspense,Depreciation adjustment,13250.15,U029,U034
+JE00483,2026-01-15 15:53:00,Prepayments,Prepayments adjustment,1631.99,U028,U022
+JE00484,2026-03-02 14:26:00,Provision for doubtful debts,Provision for doubtful debts adjustment,5808.71,U028,U019
+JE00485,2025-11-28 17:12:00,Payroll control,Inter-unit transfers adjustment,1722.55,U027,U035
+JE00486,2026-07-10 17:32:00,Bank charges,Accruals adjustment,168757.33,U029,U038
+JE00487,2026-03-09 10:34:00,Payroll control,Suspense adjustment,2173.12,U027,U033
+JE00488,2025-12-01 09:46:00,Bank charges,Suspense adjustment,1697.38,U031,U038
+JE00489,2026-05-25 12:38:00,Suspense,Bank charges adjustment,11151.30,U031,U038
+JE00490,2025-12-03 11:22:00,Payroll control,Depreciation adjustment,4092.16,U027,U024
+JE00491,2026-01-26 08:35:00,Payroll control,Prepayments adjustment,5471.98,U031,U038
+JE00492,2026-04-22 14:33:00,Inter-unit transfers,Accruals adjustment,44344.96,U028,U036
+JE00493,2025-12-18 12:09:00,Suspense,Prepayments adjustment,8621.07,U028,U035
+JE00494,2026-08-13 09:18:00,Prepayments,Suspense adjustment,7345.96,U032,U024
+JE00495,2026-01-23 16:54:00,Inter-unit transfers,Suspense adjustment,52831.34,U031,U038
+JE00496,2026-04-17 16:55:00,Depreciation,Depreciation adjustment,2203.55,U027,U036
+JE00497,2026-06-11 16:50:00,Prepayments,Depreciation adjustment,1704.09,U032,U013
+JE00498,2026-09-28 12:58:00,Depreciation,Inter-unit transfers adjustment,10884.68,U027,U039
+JE00499,2026-09-22 09:41:00,Suspense,Payroll control adjustment,1100.55,U031,U017
+JE00500,2026-08-04 14:49:00,Depreciation,Depreciation adjustment,872.01,U028,U039
+JE00501,2025-10-06 15:25:00,Provision for doubtful debts,Bank charges adjustment,24712.29,U028,U035
+JE00502,2026-07-21 08:54:00,Provision for doubtful debts,Payroll control adjustment,853.33,U028,U039
+JE00503,2025-11-21 16:50:00,Bank charges,Provision for doubtful debts adjustment,26462.69,U027,U036
+JE00504,2026-07-24 16:24:00,Depreciation,Inter-unit transfers adjustment,17995.20,U029,U035
+JE00505,2026-09-07 08:41:00,Provision for doubtful debts,Bank charges adjustment,185756.75,U031,U039
+JE00506,2026-01-05 14:20:00,Provision for doubtful debts,Accruals adjustment,1699.73,U031,U031
+JE00507,2026-02-09 14:29:00,Suspense,Bank charges adjustment,1850.94,U032,U038
+JE00508,2026-06-01 15:02:00,Payroll control,Payroll control adjustment,13536.74,U032,U036
+JE00509,2026-08-11 15:18:00,Bank charges,Payroll control adjustment,22943.83,U031,U037
+JE00510,2026-06-18 13:27:00,Provision for doubtful debts,Suspense adjustment,10581.57,U031,U033
+JE00511,2026-01-30 09:11:00,Bank charges,Payroll control adjustment,477.24,U031,U023
+JE00512,2025-10-10 17:07:00,Depreciation,Provision for doubtful debts adjustment,629.48,U031,U024
+JE00513,2026-01-23 16:46:00,Depreciation,Payroll control adjustment,619.53,U030,U037
+JE00514,2026-06-01 15:44:00,Inter-unit transfers,Suspense adjustment,728.44,U028,U012
+JE00515,2026-03-04 13:56:00,Inter-unit transfers,Provision for doubtful debts adjustment,19399.32,U028,U036
+JE00516,2026-07-17 13:42:00,Bank charges,Accruals adjustment,13773.90,U032,U034
+JE00517,2026-09-16 09:00:00,Prepayments,Accruals adjustment,7637.14,U028,U026
+JE00518,2025-12-09 17:31:00,Payroll control,Payroll control adjustment,1767.28,U032,U021
+JE00519,2026-05-06 08:34:00,Depreciation,Suspense adjustment,1363.85,U028,U018
+JE00520,2026-09-30 10:33:00,Inter-unit transfers,Suspense adjustment,2818.45,U029,U037
+JE00521,2026-05-21 15:34:00,Accruals,Depreciation adjustment,3436.80,U029,U013
+JE00522,2025-10-24 10:10:00,Prepayments,Prepayments adjustment,7723.13,U031,U025
+JE00523,2026-06-29 08:41:00,Accruals,Bank charges adjustment,19016.83,U029,U036
+JE00524,2025-11-06 15:10:00,Provision for doubtful debts,Provision for doubtful debts adjustment,10008.73,U031,U038
+JE00525,2026-09-18 13:11:00,Bank charges,Inter-unit transfers adjustment,7174.87,U027,U013
+JE00526,2026-08-11 08:58:00,Suspense,Suspense adjustment,3456.73,U029,U017
+JE00527,2026-06-15 16:10:00,Suspense,Depreciation adjustment,19794.13,U031,U034
+JE00528,2026-08-03 14:51:00,Bank charges,Accruals adjustment,1079.01,U028,U020
+JE00529,2026-05-14 14:05:00,Inter-unit transfers,Inter-unit transfers adjustment,53806.47,U032,U039
+JE00530,2026-06-24 16:23:00,Depreciation,Suspense adjustment,11985.95,U027,U034
+JE00531,2026-07-09 12:28:00,Accruals,Depreciation adjustment,1712.95,U029,U017
+JE00532,2026-01-21 14:45:00,Prepayments,Prepayments adjustment,54784.10,U027,U039
+JE00533,2026-07-13 10:47:00,Accruals,Prepayments adjustment,186128.44,U028,U039
+JE00534,2025-12-02 13:27:00,Bank charges,Depreciation adjustment,2706.97,U027,U026
+JE00535,2025-10-27 16:41:00,Inter-unit transfers,Accruals adjustment,2711.83,U027,U034
+JE00536,2025-10-09 14:45:00,Accruals,Suspense adjustment,87568.19,U032,U038
+JE00537,2025-12-08 08:16:00,Prepayments,Payroll control adjustment,40782.91,U027,U037
+JE00538,2025-12-18 12:29:00,Bank charges,Suspense adjustment,5117.98,U032,U011
+JE00539,2026-06-30 12:09:00,Inter-unit transfers,Provision for doubtful debts adjustment,2264.14,U027,U039
+JE00540,2026-09-03 14:57:00,Inter-unit transfers,Suspense adjustment,58768.46,U029,U039
+JE00541,2026-01-12 08:29:00,Inter-unit transfers,Prepayments adjustment,11676.30,U028,U036
+JE00542,2026-05-27 12:24:00,Suspense,Payroll control adjustment,1071.40,U032,U021
+JE00543,2025-12-22 15:22:00,Suspense,Provision for doubtful debts adjustment,13205.38,U028,U039
+JE00544,2026-09-14 10:35:00,Payroll control,Depreciation adjustment,781.95,U031,U017
+JE00545,2026-04-30 09:48:00,Depreciation,Payroll control adjustment,4191.24,U027,U011
+JE00546,2026-01-29 12:25:00,Suspense,Accruals adjustment,871.48,U028,U013
+JE00547,2026-01-06 12:19:00,Depreciation,Payroll control adjustment,19393.86,U032,U039
+JE00548,2025-10-01 16:09:00,Payroll control,Accruals adjustment,31780.31,U027,U034
+JE00549,2026-02-20 12:52:00,Accruals,Inter-unit transfers adjustment,9991.49,U028,U033
+JE00550,2026-04-06 17:24:00,Payroll control,Accruals adjustment,4360.23,U029,U021
+JE00551,2026-01-01 13:03:00,Depreciation,Prepayments adjustment,2658.29,U027,U020
+JE00552,2026-02-19 17:20:00,Prepayments,Provision for doubtful debts adjustment,21166.21,U027,U034
+JE00553,2026-04-13 09:00:00,Prepayments,Depreciation adjustment,20772.44,U031,U035
+JE00554,2026-01-21 10:34:00,Provision for doubtful debts,Prepayments adjustment,21171.23,U031,U038
+JE00555,2025-10-14 09:18:00,Accruals,Prepayments adjustment,11958.53,U030,U034
+JE00556,2026-04-14 10:24:00,Accruals,Depreciation adjustment,2116.10,U029,U021
+JE00557,2026-09-10 14:27:00,Provision for doubtful debts,Bank charges adjustment,13106.25,U029,U035
+JE00558,2025-10-13 10:00:00,Depreciation,Depreciation adjustment,20600.53,U032,U037
+JE00559,2026-03-26 15:37:00,Payroll control,Payroll control adjustment,6997.54,U029,U024
+JE00560,2026-08-20 10:27:00,Inter-unit transfers,Prepayments adjustment,6341.22,U029,U039
+JE00561,2026-07-22 15:45:00,Depreciation,Accruals adjustment,2571.08,U027,U039
+JE00562,2026-07-31 12:20:00,Depreciation,Inter-unit transfers adjustment,26421.48,U029,U036
+JE00563,2026-09-10 13:59:00,Payroll control,Suspense adjustment,18519.78,U027,U039
+JE00564,2025-12-18 14:11:00,Suspense,Provision for doubtful debts adjustment,16188.71,U029,U034
+JE00565,2026-09-14 11:43:00,Accruals,Accruals adjustment,8651.24,U031,U035
+JE00566,2026-05-20 11:23:00,Accruals,Inter-unit transfers adjustment,9328.47,U027,U034
+JE00567,2026-02-02 10:07:00,Suspense,Payroll control adjustment,10416.76,U028,U036
+JE00568,2026-01-16 14:28:00,Prepayments,Bank charges adjustment,35878.90,U027,U039
+JE00569,2025-12-30 13:10:00,Accruals,Depreciation adjustment,6886.38,U031,U036
+JE00570,2026-09-10 12:10:00,Suspense,Prepayments adjustment,7706.18,U027,U025
+JE00571,2026-06-26 11:33:00,Inter-unit transfers,Suspense adjustment,3806.23,U028,U013
+JE00572,2025-12-31 08:52:00,Payroll control,Suspense adjustment,1940.93,U032,U037
+JE00573,2025-11-25 15:45:00,Accruals,Inter-unit transfers adjustment,30803.41,U029,U038
+JE00574,2026-01-30 14:01:00,Depreciation,Provision for doubtful debts adjustment,6606.24,U029,U035
+JE00575,2026-04-28 12:59:00,Prepayments,Bank charges adjustment,6511.73,U028,U018
+JE00576,2026-09-14 12:06:00,Payroll control,Accruals adjustment,6818.63,U028,U017
+JE00577,2026-06-18 13:19:00,Inter-unit transfers,Payroll control adjustment,25054.96,U028,U039
+JE00578,2026-04-07 09:28:00,Prepayments,Accruals adjustment,33985.55,U029,U038
+JE00579,2026-08-05 08:49:00,Payroll control,Accruals adjustment,10609.41,U027,U035
+JE00580,2026-05-08 14:47:00,Accruals,Payroll control adjustment,6549.41,U028,U033
+JE00581,2025-12-31 15:18:00,Bank charges,Provision for doubtful debts adjustment,7100.54,U032,U023
+JE00582,2025-12-03 13:43:00,Bank charges,Inter-unit transfers adjustment,3178.87,U032,U017
+JE00583,2026-09-17 16:41:00,Prepayments,Payroll control adjustment,1272.61,U032,U020
+JE00584,2026-05-20 17:27:00,Suspense,Inter-unit transfers adjustment,3357.17,U029,U019
+JE00585,2025-12-18 14:28:00,Bank charges,Suspense adjustment,16490.61,U031,U034
+JE00586,2026-06-03 15:42:00,Payroll control,Prepayments adjustment,5246.21,U028,U034
+JE00587,2026-07-24 09:49:00,Payroll control,Inter-unit transfers adjustment,7469.21,U032,U023
+JE00588,2026-05-25 10:28:00,Accruals,Payroll control adjustment,14552.30,U029,U037
+JE00589,2026-01-28 11:40:00,Provision for doubtful debts,Accruals adjustment,178018.79,U032,U038
+JE00590,2026-02-04 14:25:00,Inter-unit transfers,Payroll control adjustment,7363.78,U030,U035
+JE00591,2026-03-20 13:42:00,Inter-unit transfers,Bank charges adjustment,8239.84,U030,U020
+JE00592,2026-06-04 14:47:00,Inter-unit transfers,Provision for doubtful debts adjustment,25218.38,U029,U037
+JE00593,2025-10-09 10:24:00,Suspense,Suspense adjustment,47632.84,U029,U033
+JE00594,2026-07-08 09:38:00,Provision for doubtful debts,Depreciation adjustment,978.51,U028,U024
+JE00595,2026-07-07 16:17:00,Suspense,Suspense adjustment,12695.10,U029,U034
+JE00596,2025-10-23 11:27:00,Bank charges,Bank charges adjustment,710.83,U027,U036
+JE00597,2025-10-22 09:30:00,Provision for doubtful debts,Prepayments adjustment,32471.26,U027,U034
+JE00598,2026-06-24 13:08:00,Prepayments,Suspense adjustment,1051.49,U027,U035
+JE00599,2025-12-22 13:34:00,Suspense,Inter-unit transfers adjustment,2920.81,U032,U038
+JE00600,2025-12-22 12:25:00,Bank charges,Prepayments adjustment,11002.04,U032,U035
+JE00601,2026-01-07 13:51:00,Bank charges,Prepayments adjustment,1147.39,U030,U017
+JE00602,2025-12-04 09:33:00,Accruals,Provision for doubtful debts adjustment,39155.30,U031,U038
+JE00603,2025-10-30 08:38:00,Provision for doubtful debts,Inter-unit transfers adjustment,36603.34,U028,U038
+JE00604,2025-12-09 14:55:00,Depreciation,Provision for doubtful debts adjustment,9074.12,U029,U037
+JE00605,2025-10-14 17:38:00,Accruals,Suspense adjustment,27468.81,U031,U037
+JE00606,2026-08-28 13:56:00,Bank charges,Suspense adjustment,2040.57,U032,U021
+JE00607,2026-08-14 13:42:00,Inter-unit transfers,Bank charges adjustment,4570.19,U028,U033
+JE00608,2026-06-24 13:46:00,Payroll control,Accruals adjustment,2697.44,U031,U013
+JE00609,2026-08-24 14:24:00,Payroll control,Provision for doubtful debts adjustment,8613.41,U031,U023
+JE00610,2026-04-28 15:04:00,Bank charges,Bank charges adjustment,19946.52,U031,U038
+JE00611,2026-07-13 11:29:00,Inter-unit transfers,Bank charges adjustment,7779.20,U029,U035
+JE00612,2026-05-26 12:45:00,Payroll control,Inter-unit transfers adjustment,1339.11,U028,U026
+JE00613,2025-12-26 10:12:00,Accruals,Provision for doubtful debts adjustment,5542.16,U027,U020
+JE00614,2025-12-08 08:46:00,Bank charges,Inter-unit transfers adjustment,8092.92,U027,U035
+JE00615,2025-12-04 17:19:00,Accruals,Accruals adjustment,1535.57,U029,U038
+JE00616,2026-03-12 10:30:00,Depreciation,Bank charges adjustment,12881.57,U029,U034
+JE00617,2026-08-14 10:39:00,Accruals,Prepayments adjustment,33956.28,U031,U038
+JE00618,2026-02-24 17:04:00,Accruals,Provision for doubtful debts adjustment,48821.32,U030,U033
+JE00619,2025-11-28 17:28:00,Payroll control,Depreciation adjustment,2154.63,U030,U026
+JE00620,2026-03-12 14:22:00,Suspense,Depreciation adjustment,8125.49,U031,U021
+JE00621,2025-10-27 10:44:00,Bank charges,Suspense adjustment,11202.92,U030,U039
+JE00622,2026-07-13 11:22:00,Payroll control,Payroll control adjustment,18819.38,U029,U033
+JE00623,2025-12-03 10:00:00,Provision for doubtful debts,Inter-unit transfers adjustment,2325.57,U027,U013
+JE00624,2026-03-20 10:27:00,Inter-unit transfers,Payroll control adjustment,2032.65,U030,U026
+JE00625,2025-12-29 14:02:00,Provision for doubtful debts,Depreciation adjustment,23131.10,U027,U038
+JE00626,2026-07-22 09:49:00,Bank charges,Inter-unit transfers adjustment,1211.99,U027,U033
+JE00627,2026-07-24 12:52:00,Inter-unit transfers,Prepayments adjustment,4802.69,U027,U033
+JE00628,2025-10-03 14:48:00,Prepayments,Provision for doubtful debts adjustment,7301.33,U029,U014
+JE00629,2026-05-04 12:13:00,Suspense,Bank charges adjustment,4170.85,U027,U017
+JE00630,2026-03-25 10:13:00,Accruals,Payroll control adjustment,21856.33,U027,U036
+JE00631,2026-03-31 09:47:00,Inter-unit transfers,Suspense adjustment,6100.76,U028,U012
+JE00632,2026-05-25 11:10:00,Provision for doubtful debts,Inter-unit transfers adjustment,59.12,U029,U023
+JE00633,2026-03-12 14:54:00,Payroll control,Prepayments adjustment,9882.87,U028,U036
+JE00634,2026-04-14 12:48:00,Inter-unit transfers,Prepayments adjustment,10241.61,U032,U035
+JE00635,2026-02-04 14:04:00,Payroll control,Provision for doubtful debts adjustment,1275.99,U030,U035
+JE00636,2026-06-08 10:50:00,Payroll control,Inter-unit transfers adjustment,6826.51,U027,U019
+JE00637,2025-10-01 13:53:00,Suspense,Provision for doubtful debts adjustment,738.09,U032,U015
+JE00638,2026-07-15 10:16:00,Prepayments,Provision for doubtful debts adjustment,15283.43,U027,U039
+JE00639,2026-03-11 17:14:00,Payroll control,Prepayments adjustment,3811.95,U029,U016
+JE00640,2026-06-16 14:31:00,Inter-unit transfers,Suspense adjustment,2193.51,U028,U015
+JE00641,2026-03-10 16:47:00,Accruals,Bank charges adjustment,5787.55,U032,U035
+JE00642,2026-09-01 11:08:00,Inter-unit transfers,Prepayments adjustment,73357.67,U027,U038
+JE00643,2026-01-14 14:27:00,Bank charges,Accruals adjustment,8223.00,U031,U013
+JE00644,2025-10-07 10:01:00,Payroll control,Depreciation adjustment,3019.12,U029,U013
+JE00645,2026-02-25 12:25:00,Payroll control,Payroll control adjustment,10904.25,U030,U039
+JE00646,2026-06-30 14:40:00,Suspense,Inter-unit transfers adjustment,4407.75,U031,U018
+JE00647,2026-09-23 15:08:00,Inter-unit transfers,Provision for doubtful debts adjustment,1195.35,U031,U017
+JE00648,2026-05-14 17:42:00,Provision for doubtful debts,Provision for doubtful debts adjustment,31294.57,U031,U034
+JE00649,2026-08-11 09:10:00,Depreciation,Inter-unit transfers adjustment,1237.23,U031,U011
+JE00650,2026-09-07 17:43:00,Accruals,Provision for doubtful debts adjustment,1843.96,U032,U016
+JE00651,2025-11-20 10:05:00,Inter-unit transfers,Bank charges adjustment,6771.28,U032,U033
+JE00652,2026-09-29 10:48:00,Payroll control,Prepayments adjustment,2583.66,U032,U011
+JE00653,2026-07-20 09:20:00,Inter-unit transfers,Inter-unit transfers adjustment,45031.19,U028,U037
+JE00654,2026-07-29 12:54:00,Suspense,Inter-unit transfers adjustment,11911.58,U029,U033
+JE00655,2026-03-17 15:54:00,Inter-unit transfers,Bank charges adjustment,4230.00,U030,U037
+JE00656,2025-10-10 08:37:00,Inter-unit transfers,Provision for doubtful debts adjustment,18440.52,U032,U038
+JE00657,2026-08-31 14:09:00,Inter-unit transfers,Accruals adjustment,24506.19,U032,U039
+JE00658,2026-05-05 10:35:00,Bank charges,Bank charges adjustment,2247.33,U027,U026
+JE00659,2026-07-24 09:15:00,Depreciation,Depreciation adjustment,31294.21,U029,U039
+JE00660,2026-05-06 12:01:00,Inter-unit transfers,Suspense adjustment,964.10,U027,U014
+JE00661,2026-03-27 14:19:00,Depreciation,Prepayments adjustment,1936.22,U031,U037
+JE00662,2026-07-06 08:30:00,Provision for doubtful debts,Provision for doubtful debts adjustment,7051.27,U032,U036
+JE00663,2026-09-02 16:05:00,Payroll control,Depreciation adjustment,843.51,U032,U026
+JE00664,2026-03-16 10:22:00,Prepayments,Inter-unit transfers adjustment,153945.59,U028,U039
+JE00665,2026-03-24 09:05:00,Payroll control,Suspense adjustment,6598.12,U028,U025
+JE00666,2025-11-11 12:19:00,Accruals,Payroll control adjustment,6988.67,U030,U024
+JE00667,2026-05-15 13:58:00,Depreciation,Depreciation adjustment,3318.77,U031,U013
+JE00668,2026-08-21 15:25:00,Inter-unit transfers,Provision for doubtful debts adjustment,47397.33,U031,U034
+JE00669,2026-01-09 09:42:00,Depreciation,Inter-unit transfers adjustment,33512.78,U030,U036
+JE00670,2026-03-11 17:20:00,Provision for doubtful debts,Provision for doubtful debts adjustment,15960.46,U032,U037
+JE00671,2026-09-22 10:35:00,Prepayments,Provision for doubtful debts adjustment,2242.50,U028,U036
+JE00672,2025-10-08 15:33:00,Payroll control,Prepayments adjustment,2902.95,U029,U020
+JE00673,2025-10-31 17:12:00,Accruals,Inter-unit transfers adjustment,19308.49,U031,U037
+JE00674,2026-05-01 10:54:00,Accruals,Accruals adjustment,8760.34,U029,U021
+JE00675,2026-05-14 11:28:00,Depreciation,Prepayments adjustment,33813.84,U027,U036
+JE00676,2026-04-24 13:09:00,Bank charges,Prepayments adjustment,55005.19,U031,U038
+JE00677,2026-07-15 11:42:00,Bank charges,Inter-unit transfers adjustment,7378.45,U029,U020
+JE00678,2026-03-31 12:30:00,Depreciation,Prepayments adjustment,23665.81,U027,U037
+JE00679,2026-08-11 11:55:00,Payroll control,Payroll control adjustment,12145.02,U032,U038
+JE00680,2026-01-23 09:57:00,Accruals,Suspense adjustment,6742.51,U030,U038
+JE00681,2026-05-06 10:28:00,Provision for doubtful debts,Depreciation adjustment,18245.22,U029,U038
+JE00682,2025-12-23 09:19:00,Inter-unit transfers,Inter-unit transfers adjustment,4324.06,U030,U013
+JE00683,2026-02-03 13:34:00,Accruals,Accruals adjustment,15374.00,U028,U033
+JE00684,2026-04-02 15:36:00,Depreciation,Bank charges adjustment,8727.23,U027,U017
+JE00685,2025-12-30 10:36:00,Bank charges,Payroll control adjustment,14385.50,U032,U034
+JE00686,2026-03-18 11:12:00,Provision for doubtful debts,Accruals adjustment,2042.37,U027,U033
+JE00687,2026-04-15 12:43:00,Accruals,Payroll control adjustment,11320.36,U031,U037
+JE00688,2026-05-08 16:12:00,Accruals,Inter-unit transfers adjustment,2174.46,U031,U038
+JE00689,2026-01-09 10:39:00,Prepayments,Suspense adjustment,6515.89,U031,U022
+JE00690,2026-05-14 16:32:00,Payroll control,Depreciation adjustment,4219.05,U031,U038
+JE00691,2026-06-15 14:33:00,Suspense,Payroll control adjustment,13645.53,U027,U036
+JE00692,2025-11-12 12:50:00,Provision for doubtful debts,Bank charges adjustment,11298.45,U029,U037
+JE00693,2025-11-07 13:11:00,Bank charges,Prepayments adjustment,2998.59,U031,U016
+JE00694,2026-06-08 11:14:00,Prepayments,Bank charges adjustment,49600.68,U031,U038
+JE00695,2026-06-23 16:40:00,Inter-unit transfers,Suspense adjustment,15078.22,U031,U037
+JE00696,2026-01-12 13:54:00,Depreciation,Inter-unit transfers adjustment,4976.37,U029,U026
+JE00697,2026-09-30 13:06:00,Payroll control,Provision for doubtful debts adjustment,99903.96,U031,U039
+JE00698,2025-12-30 09:06:00,Inter-unit transfers,Inter-unit transfers adjustment,22595.51,U029,U038
+JE00699,2026-07-27 17:05:00,Depreciation,Provision for doubtful debts adjustment,7090.88,U028,U016
+JE00700,2026-05-13 14:50:00,Inter-unit transfers,Bank charges adjustment,1626.33,U032,U024
+JE00701,2026-02-03 15:58:00,Bank charges,Prepayments adjustment,10214.41,U031,U034
+JE00702,2026-02-26 13:35:00,Bank charges,Inter-unit transfers adjustment,3484.39,U031,U014
+JE00703,2025-12-05 11:26:00,Depreciation,Bank charges adjustment,167765.04,U029,U039
+JE00704,2025-10-08 09:16:00,Provision for doubtful debts,Prepayments adjustment,33813.26,U031,U033
+JE00705,2026-08-18 11:19:00,Inter-unit transfers,Inter-unit transfers adjustment,32771.91,U027,U034
+JE00706,2026-06-25 14:22:00,Provision for doubtful debts,Depreciation adjustment,11202.02,U027,U038
+JE00707,2025-10-03 13:02:00,Bank charges,Bank charges adjustment,5239.21,U030,U037
+JE00708,2026-07-13 10:20:00,Inter-unit transfers,Bank charges adjustment,53272.46,U028,U038
+JE00709,2026-05-15 11:25:00,Inter-unit transfers,Inter-unit transfers adjustment,2676.93,U029,U019
+JE00710,2025-10-08 15:36:00,Inter-unit transfers,Prepayments adjustment,3104.34,U030,U016
+JE00711,2026-09-28 14:01:00,Payroll control,Inter-unit transfers adjustment,455.99,U032,U012
+JE00712,2026-07-14 15:54:00,Inter-unit transfers,Prepayments adjustment,514.75,U027,U025
+JE00713,2026-02-03 14:49:00,Accruals,Accruals adjustment,50928.89,U027,U039
+JE00714,2025-10-01 13:34:00,Suspense,Suspense adjustment,2102.85,U029,U019
+JE00715,2026-05-19 14:58:00,Provision for doubtful debts,Accruals adjustment,21087.57,U028,U039
+JE00716,2026-03-02 16:55:00,Suspense,Bank charges adjustment,2861.82,U031,U038
+JE00717,2026-08-26 13:46:00,Prepayments,Accruals adjustment,32801.48,U031,U034
+JE00718,2026-08-13 14:43:00,Inter-unit transfers,Inter-unit transfers adjustment,13389.07,U027,U038
+JE00719,2026-01-01 10:13:00,Payroll control,Payroll control adjustment,5943.99,U029,U038
+JE00720,2026-08-19 16:59:00,Bank charges,Prepayments adjustment,2562.56,U031,U013
+JE00721,2026-04-03 11:10:00,Provision for doubtful debts,Provision for doubtful debts adjustment,15689.06,U029,U034
+JE00722,2026-02-25 10:49:00,Accruals,Bank charges adjustment,1943.96,U027,U021
+JE00723,2026-02-17 17:05:00,Prepayments,Prepayments adjustment,2406.99,U031,U015
+JE00724,2025-10-17 15:53:00,Depreciation,Prepayments adjustment,26441.81,U029,U037
+JE00725,2026-06-26 13:10:00,Depreciation,Bank charges adjustment,14917.09,U031,U037
+JE00726,2026-04-20 13:30:00,Inter-unit transfers,Bank charges adjustment,2413.07,U031,U036
+JE00727,2026-06-01 17:06:00,Provision for doubtful debts,Suspense adjustment,11892.32,U031,U033
+JE00728,2026-08-06 11:09:00,Inter-unit transfers,Suspense adjustment,7240.52,U029,U026
+JE00729,2026-02-04 11:33:00,Depreciation,Inter-unit transfers adjustment,21082.05,U030,U038
+JE00730,2026-07-21 08:54:00,Prepayments,Suspense adjustment,9923.63,U027,U037
+JE00731,2026-05-22 08:50:00,Prepayments,Depreciation adjustment,8182.75,U028,U022
+JE00732,2026-06-22 11:02:00,Bank charges,Suspense adjustment,8830.08,U027,U037
+JE00733,2025-11-17 12:32:00,Depreciation,Payroll control adjustment,9159.45,U031,U014
+JE00734,2026-05-22 16:57:00,Prepayments,Accruals adjustment,3222.39,U029,U017
+JE00735,2026-04-21 10:11:00,Inter-unit transfers,Bank charges adjustment,10080.84,U032,U037
+JE00736,2026-08-14 15:15:00,Depreciation,Accruals adjustment,1619.28,U029,U025
+JE00737,2026-09-30 15:18:00,Payroll control,Accruals adjustment,91224.32,U032,U039
+JE00738,2025-12-03 16:59:00,Depreciation,Payroll control adjustment,2218.04,U028,U013
+JE00739,2026-07-02 15:32:00,Provision for doubtful debts,Depreciation adjustment,1311.20,U027,U015
+JE00740,2025-11-04 17:14:00,Prepayments,Depreciation adjustment,1187.27,U028,U014
+JE00741,2026-01-02 13:32:00,Inter-unit transfers,Provision for doubtful debts adjustment,51001.18,U028,U038
+JE00742,2026-09-21 11:17:00,Bank charges,Bank charges adjustment,17097.88,U029,U039
+JE00743,2026-06-15 14:11:00,Suspense,Bank charges adjustment,5904.97,U031,U025
+JE00744,2026-09-22 10:01:00,Bank charges,Payroll control adjustment,10909.51,U029,U038
+JE00745,2025-11-27 14:28:00,Prepayments,Prepayments adjustment,7305.11,U029,U015
+JE00746,2026-04-13 14:00:00,Prepayments,Accruals adjustment,2346.34,U032,U026
+JE00747,2026-07-24 09:39:00,Prepayments,Accruals adjustment,513.19,U032,U015
+JE00748,2026-01-02 13:41:00,Inter-unit transfers,Suspense adjustment,30201.43,U027,U038
+JE00749,2026-01-16 17:39:00,Depreciation,Suspense adjustment,154546.02,U032,U038
+JE00750,2026-01-02 09:48:00,Payroll control,Bank charges adjustment,587.63,U030,U015
+JE00751,2026-06-04 17:13:00,Bank charges,Accruals adjustment,2537.87,U027,U014
+JE00752,2026-02-27 08:30:00,Provision for doubtful debts,Depreciation adjustment,17523.17,U030,U033
+JE00753,2026-04-24 11:06:00,Bank charges,Payroll control adjustment,6677.17,U028,U037
+JE00754,2026-07-29 16:45:00,Suspense,Payroll control adjustment,1874.61,U028,U026
+JE00755,2026-04-30 11:53:00,Payroll control,Payroll control adjustment,2208.96,U032,U039
+JE00756,2026-08-05 13:37:00,Prepayments,Payroll control adjustment,24185.48,U032,U034
+JE00757,2026-02-12 14:05:00,Prepayments,Suspense adjustment,3893.09,U027,U011
+JE00758,2026-05-14 12:57:00,Provision for doubtful debts,Accruals adjustment,6333.44,U029,U023
+JE00759,2026-02-05 09:19:00,Accruals,Bank charges adjustment,10711.45,U030,U033
+JE00760,2026-02-27 16:42:00,Inter-unit transfers,Provision for doubtful debts adjustment,9800.57,U031,U019
+JE00761,2026-06-10 11:04:00,Prepayments,Accruals adjustment,1313.69,U029,U039
+JE00762,2026-03-16 13:16:00,Payroll control,Prepayments adjustment,9281.37,U028,U037
+JE00763,2026-06-15 14:33:00,Bank charges,Depreciation adjustment,83591.20,U027,U038
+JE00764,2026-02-11 11:57:00,Accruals,Depreciation adjustment,170878.26,U028,U038
+JE00765,2026-09-01 16:53:00,Prepayments,Payroll control adjustment,1017.45,U029,U023
+JE00766,2025-10-20 08:52:00,Provision for doubtful debts,Accruals adjustment,4947.97,U030,U033
+JE00767,2026-09-17 11:05:00,Bank charges,Bank charges adjustment,10887.58,U027,U035
+JE00768,2026-03-13 10:21:00,Depreciation,Accruals adjustment,30268.37,U027,U037
+JE00769,2025-12-22 11:38:00,Provision for doubtful debts,Suspense adjustment,15613.07,U030,U036
+JE00770,2026-01-02 10:57:00,Payroll control,Bank charges adjustment,3230.18,U029,U017
+JE00771,2025-12-09 09:31:00,Bank charges,Bank charges adjustment,20199.42,U031,U037
+JE00772,2026-04-02 10:46:00,Bank charges,Bank charges adjustment,18412.30,U031,U037
+JE00773,2026-06-22 11:02:00,Bank charges,Payroll control adjustment,17571.28,U027,U033
+JE00774,2026-04-21 09:17:00,Bank charges,Accruals adjustment,151044.77,U027,U038
+JE00775,2026-05-01 15:00:00,Suspense,Provision for doubtful debts adjustment,3623.30,U029,U018
+JE00776,2026-06-11 16:31:00,Inter-unit transfers,Provision for doubtful debts adjustment,8242.67,U028,U039
+JE00777,2026-08-13 15:27:00,Payroll control,Provision for doubtful debts adjustment,18259.16,U028,U037
+JE00778,2025-11-18 09:29:00,Inter-unit transfers,Bank charges adjustment,120753.64,U030,U038
+JE00779,2026-06-25 11:02:00,Bank charges,Suspense adjustment,235709.04,U032,U038
+JE00780,2026-07-20 11:33:00,Bank charges,Payroll control adjustment,6861.48,U032,U020
+JE00781,2025-11-13 15:39:00,Inter-unit transfers,Depreciation adjustment,4690.74,U027,U015
+JE00782,2026-01-16 08:57:00,Depreciation,Suspense adjustment,30555.89,U027,U036
+JE00783,2026-08-05 10:46:00,Accruals,Prepayments adjustment,693.08,U029,U036
+JE00784,2026-02-02 11:12:00,Inter-unit transfers,Suspense adjustment,47182.97,U027,U035
+JE00785,2025-10-15 09:43:00,Provision for doubtful debts,Accruals adjustment,46033.78,U027,U036
+JE00786,2026-01-01 10:33:00,Provision for doubtful debts,Inter-unit transfers adjustment,1919.08,U027,U015
+JE00787,2026-02-02 14:21:00,Suspense,Provision for doubtful debts adjustment,2888.50,U029,U035
+JE00788,2026-03-12 11:01:00,Inter-unit transfers,Depreciation adjustment,6699.85,U029,U024
+JE00789,2025-11-18 09:45:00,Accruals,Provision for doubtful debts adjustment,27917.48,U030,U034
+JE00790,2026-05-15 09:36:00,Provision for doubtful debts,Inter-unit transfers adjustment,43552.23,U028,U038
+JE00791,2025-10-09 15:58:00,Accruals,Provision for doubtful debts adjustment,27694.31,U029,U038
+JE00792,2026-07-10 15:57:00,Payroll control,Inter-unit transfers adjustment,334.08,U031,U017
+JE00793,2026-01-29 13:51:00,Bank charges,Prepayments adjustment,1113.42,U028,U026
+JE00794,2026-06-30 09:48:00,Accruals,Depreciation adjustment,20802.36,U029,U036
+JE00795,2026-08-27 13:28:00,Inter-unit transfers,Bank charges adjustment,587.28,U028,U014
+JE00796,2026-07-15 16:41:00,Inter-unit transfers,Inter-unit transfers adjustment,19872.24,U031,U037
+JE00797,2026-08-11 14:22:00,Prepayments,Provision for doubtful debts adjustment,4590.22,U029,U015
+JE00798,2025-10-09 10:40:00,Provision for doubtful debts,Inter-unit transfers adjustment,1993.22,U032,U022
+JE00799,2026-09-17 14:46:00,Inter-unit transfers,Bank charges adjustment,13114.20,U032,U034
+JE00800,2026-01-01 13:29:00,Inter-unit transfers,Payroll control adjustment,7342.50,U028,U024
+JE00801,2025-11-20 15:51:00,Suspense,Payroll control adjustment,1553.01,U027,U018
+JE00802,2026-09-18 13:17:00,Depreciation,Inter-unit transfers adjustment,12690.45,U031,U033
+JE00803,2026-08-25 17:36:00,Prepayments,Suspense adjustment,8200.71,U027,U019
+JE00804,2026-02-02 16:18:00,Suspense,Provision for doubtful debts adjustment,186062.00,U029,U038
+JE00805,2026-05-27 16:01:00,Prepayments,Provision for doubtful debts adjustment,1113.50,U031,U019
+JE00806,2026-02-24 14:47:00,Payroll control,Provision for doubtful debts adjustment,1715.27,U028,U018
+JE00807,2026-04-22 16:55:00,Accruals,Provision for doubtful debts adjustment,14124.62,U028,U035
+JE00808,2026-09-08 16:54:00,Suspense,Bank charges adjustment,542.33,U029,U016
+JE00809,2026-03-17 13:06:00,Depreciation,Inter-unit transfers adjustment,35311.46,U031,U038
+JE00810,2025-11-24 10:28:00,Suspense,Prepayments adjustment,1744.74,U028,U014
+JE00811,2026-04-09 15:17:00,Suspense,Suspense adjustment,11477.42,U029,U038
+JE00812,2026-01-29 15:44:00,Provision for doubtful debts,Bank charges adjustment,3456.71,U027,U039
+JE00813,2025-12-01 12:15:00,Suspense,Accruals adjustment,39312.28,U027,U037
+JE00814,2025-10-13 17:29:00,Inter-unit transfers,Payroll control adjustment,3418.77,U031,U024
+JE00815,2026-03-05 08:52:00,Suspense,Suspense adjustment,73015.01,U028,U039
+JE00816,2025-11-12 13:59:00,Suspense,Prepayments adjustment,45994.41,U031,U038
+JE00817,2026-09-11 17:38:00,Suspense,Payroll control adjustment,7002.01,U031,U019
+JE00818,2026-06-12 10:16:00,Accruals,Bank charges adjustment,1661.02,U031,U013
+JE00819,2026-05-14 16:34:00,Inter-unit transfers,Provision for doubtful debts adjustment,6260.12,U032,U023
+JE00820,2026-02-06 08:33:00,Payroll control,Prepayments adjustment,19501.38,U031,U035
+JE00821,2025-12-18 11:51:00,Suspense,Provision for doubtful debts adjustment,179648.48,U028,U039
+JE00822,2025-12-12 15:53:00,Accruals,Suspense adjustment,8961.66,U029,U017
+JE00823,2026-02-17 17:39:00,Provision for doubtful debts,Accruals adjustment,3631.28,U032,U023
+JE00824,2025-12-22 14:17:00,Bank charges,Depreciation adjustment,2208.19,U028,U012
+JE00825,2026-08-18 11:25:00,Inter-unit transfers,Inter-unit transfers adjustment,6020.56,U029,U016
+JE00826,2026-02-13 09:54:00,Provision for doubtful debts,Suspense adjustment,18322.61,U031,U037
+JE00827,2026-03-13 16:55:00,Depreciation,Provision for doubtful debts adjustment,15969.38,U032,U035
+JE00828,2026-06-08 13:00:00,Accruals,Bank charges adjustment,2906.19,U031,U011
+JE00829,2025-10-16 17:32:00,Bank charges,Bank charges adjustment,17647.83,U029,U033
+JE00830,2026-06-15 13:21:00,Accruals,Inter-unit transfers adjustment,60259.11,U029,U038
+JE00831,2026-07-02 09:04:00,Payroll control,Depreciation adjustment,14666.57,U028,U033
+JE00832,2026-02-02 15:19:00,Depreciation,Depreciation adjustment,5770.43,U027,U018
+JE00833,2026-01-15 11:56:00,Accruals,Bank charges adjustment,11579.13,U028,U037
+JE00834,2026-03-24 17:29:00,Accruals,Accruals adjustment,3986.41,U029,U025
+JE00835,2026-04-16 09:11:00,Bank charges,Prepayments adjustment,4425.53,U027,U019
+JE00836,2026-01-23 15:04:00,Inter-unit transfers,Payroll control adjustment,5624.86,U030,U015
+JE00837,2026-06-05 17:30:00,Bank charges,Prepayments adjustment,1554.50,U028,U022
+JE00838,2026-09-14 09:05:00,Payroll control,Accruals adjustment,6639.03,U031,U024
+JE00839,2026-06-12 16:10:00,Payroll control,Depreciation adjustment,2458.93,U031,U019
+JE00840,2026-09-07 15:38:00,Payroll control,Suspense adjustment,16236.78,U029,U038
+JE00841,2026-01-14 15:20:00,Provision for doubtful debts,Payroll control adjustment,9150.27,U030,U034
+JE00842,2026-07-28 12:52:00,Provision for doubtful debts,Accruals adjustment,6687.88,U032,U035
+JE00843,2026-05-22 10:12:00,Bank charges,Suspense adjustment,2476.63,U031,U011
+JE00844,2026-01-01 14:27:00,Suspense,Accruals adjustment,21084.89,U032,U033
+JE00845,2026-04-15 08:55:00,Bank charges,Payroll control adjustment,16895.08,U031,U039
+JE00846,2026-03-03 15:45:00,Prepayments,Payroll control adjustment,7587.99,U032,U013
+JE00847,2025-12-02 15:15:00,Depreciation,Provision for doubtful debts adjustment,7560.60,U030,U022
+JE00848,2026-01-23 16:56:00,Payroll control,Payroll control adjustment,9637.94,U029,U039
+JE00849,2026-02-26 14:01:00,Payroll control,Suspense adjustment,9494.52,U027,U018
+JE00850,2026-08-19 12:21:00,Bank charges,Inter-unit transfers adjustment,11888.74,U027,U037
+JE00851,2026-04-01 12:54:00,Depreciation,Inter-unit transfers adjustment,136156.50,U029,U038
+JE00852,2025-12-26 14:52:00,Payroll control,Inter-unit transfers adjustment,23216.93,U031,U037
+JE00853,2026-03-24 12:59:00,Accruals,Bank charges adjustment,58865.58,U029,U039
+JE00854,2026-04-07 12:07:00,Suspense,Prepayments adjustment,45268.76,U028,U033
+JE00855,2026-08-06 11:32:00,Suspense,Depreciation adjustment,6546.35,U029,U035
+JE00856,2026-05-01 16:33:00,Inter-unit transfers,Accruals adjustment,14628.85,U028,U038
+JE00857,2025-12-12 09:21:00,Inter-unit transfers,Depreciation adjustment,13749.55,U030,U036
+JE00858,2025-11-03 12:59:00,Suspense,Suspense adjustment,26450.01,U029,U035
+JE00859,2026-03-27 12:38:00,Payroll control,Depreciation adjustment,32766.43,U032,U036
+JE00860,2025-12-23 12:22:00,Prepayments,Bank charges adjustment,499.76,U028,U026
+JE00861,2026-09-07 08:18:00,Payroll control,Suspense adjustment,51299.77,U029,U039
+JE00862,2026-05-14 15:20:00,Prepayments,Depreciation adjustment,4944.65,U027,U026
+JE00863,2026-07-15 11:23:00,Suspense,Provision for doubtful debts adjustment,13335.42,U031,U033
+JE00864,2025-12-09 12:06:00,Payroll control,Provision for doubtful debts adjustment,7010.78,U031,U012
+JE00865,2026-02-24 14:57:00,Payroll control,Payroll control adjustment,2721.15,U028,U039
+JE00866,2026-09-24 11:21:00,Depreciation,Prepayments adjustment,52894.10,U031,U038
+JE00867,2026-04-01 16:05:00,Suspense,Suspense adjustment,266.75,U027,U018
+JE00868,2026-03-31 12:48:00,Provision for doubtful debts,Inter-unit transfers adjustment,16357.91,U027,U036
+JE00869,2026-04-24 10:12:00,Inter-unit transfers,Prepayments adjustment,107740.91,U032,U039
+JE00870,2026-05-08 10:37:00,Bank charges,Suspense adjustment,510.90,U032,U037
+JE00871,2026-08-03 16:38:00,Bank charges,Provision for doubtful debts adjustment,14051.23,U028,U038
+JE00872,2026-07-22 13:40:00,Provision for doubtful debts,Accruals adjustment,24907.79,U028,U033
+JE00873,2025-10-31 09:26:00,Prepayments,Suspense adjustment,101688.52,U030,U039
+JE00874,2026-07-09 10:31:00,Suspense,Suspense adjustment,54555.54,U027,U038
+JE00875,2026-02-27 08:38:00,Suspense,Payroll control adjustment,15765.58,U031,U039
+JE00876,2026-03-25 10:27:00,Suspense,Accruals adjustment,33914.27,U029,U036
+JE00877,2026-08-17 11:49:00,Depreciation,Prepayments adjustment,3685.76,U027,U033
+JE00878,2025-11-10 09:08:00,Accruals,Suspense adjustment,91501.37,U029,U039
+JE00879,2026-01-15 08:31:00,Provision for doubtful debts,Suspense adjustment,5618.85,U028,U015
+JE00880,2026-03-03 13:19:00,Bank charges,Suspense adjustment,3041.13,U029,U025
+JE00881,2025-10-10 09:17:00,Prepayments,Prepayments adjustment,7542.81,U029,U014
+JE00882,2025-10-09 15:48:00,Bank charges,Provision for doubtful debts adjustment,5738.49,U027,U014
+JE00883,2026-09-16 14:20:00,Depreciation,Suspense adjustment,391.43,U031,U034
+JE00884,2026-04-16 13:49:00,Depreciation,Suspense adjustment,14848.45,U028,U038
+JE00885,2025-10-09 11:01:00,Inter-unit transfers,Payroll control adjustment,1297.68,U029,U022
+JE00886,2026-02-06 17:36:00,Depreciation,Bank charges adjustment,804.27,U029,U017
+JE00887,2026-09-23 16:40:00,Provision for doubtful debts,Bank charges adjustment,1232.16,U027,U023
+JE00888,2026-08-25 11:36:00,Prepayments,Depreciation adjustment,8409.11,U029,U035
+JE00889,2026-07-21 16:18:00,Inter-unit transfers,Depreciation adjustment,3409.96,U027,U017
+JE00890,2026-06-10 10:36:00,Inter-unit transfers,Provision for doubtful debts adjustment,678.01,U031,U037
+JE00891,2026-04-21 12:49:00,Suspense,Bank charges adjustment,9733.09,U027,U034
+JE00892,2025-12-11 09:28:00,Bank charges,Bank charges adjustment,3666.86,U027,U016
+JE00893,2026-01-21 15:12:00,Accruals,Accruals adjustment,5091.38,U031,U038
+JE00894,2025-12-11 14:53:00,Payroll control,Suspense adjustment,6008.06,U030,U024
+JE00895,2025-12-09 10:31:00,Provision for doubtful debts,Suspense adjustment,11936.46,U028,U037
+JE00896,2026-09-14 15:13:00,Payroll control,Inter-unit transfers adjustment,1729.69,U027,U015
+JE00897,2025-11-10 16:08:00,Accruals,Depreciation adjustment,231.78,U031,U015
+JE00898,2026-06-02 10:52:00,Inter-unit transfers,Depreciation adjustment,2070.98,U027,U017
+JE00899,2026-09-30 09:56:00,Accruals,Inter-unit transfers adjustment,11503.91,U032,U035
+JE00900,2026-04-21 09:32:00,Provision for doubtful debts,Depreciation adjustment,23237.88,U032,U036
+JE00901,2026-01-16 10:21:00,Bank charges,Provision for doubtful debts adjustment,2266.97,U032,U039
+JE00902,2026-04-03 17:07:00,Provision for doubtful debts,Inter-unit transfers adjustment,1032.28,U029,U034
+JE00903,2026-01-05 09:39:00,Inter-unit transfers,Bank charges adjustment,6922.00,U029,U022
+JE00904,2026-08-26 17:21:00,Depreciation,Prepayments adjustment,4469.58,U028,U036
+JE00905,2026-09-07 09:26:00,Accruals,Depreciation adjustment,3380.15,U029,U036
+JE00906,2025-11-28 10:22:00,Depreciation,Depreciation adjustment,2092.50,U030,U022
+JE00907,2025-11-13 10:45:00,Depreciation,Accruals adjustment,58103.97,U029,U039
+JE00908,2025-12-05 10:44:00,Prepayments,Inter-unit transfers adjustment,195855.25,U027,U039
+JE00909,2026-04-22 11:12:00,Bank charges,Accruals adjustment,5783.83,U031,U020
+JE00910,2026-03-03 12:36:00,Suspense,Inter-unit transfers adjustment,15195.37,U031,U031
+JE00911,2026-09-22 08:18:00,Bank charges,Inter-unit transfers adjustment,14665.21,U029,U038
+JE00912,2026-01-29 14:26:00,Suspense,Suspense adjustment,6249.47,U031,U038
+JE00913,2026-07-07 10:06:00,Depreciation,Payroll control adjustment,4441.97,U029,U018
+JE00914,2026-05-13 16:08:00,Payroll control,Bank charges adjustment,788.63,U031,U023
+JE00915,2026-02-02 11:48:00,Depreciation,Inter-unit transfers adjustment,10225.18,U027,U038
+JE00916,2026-01-02 16:57:00,Depreciation,Payroll control adjustment,37734.37,U028,U037
+JE00917,2026-07-15 15:08:00,Suspense,Bank charges adjustment,4547.63,U028,U026
+JE00918,2025-12-22 16:01:00,Prepayments,Accruals adjustment,17264.84,U030,U036
+JE00919,2025-10-29 17:20:00,Accruals,Accruals adjustment,602.38,U031,U039
+JE00920,2025-10-31 14:32:00,Inter-unit transfers,Provision for doubtful debts adjustment,7245.81,U027,U039
+JE00921,2025-11-28 14:07:00,Inter-unit transfers,Provision for doubtful debts adjustment,70940.87,U031,U039
+JE00922,2026-06-11 15:43:00,Suspense,Depreciation adjustment,22087.04,U027,U035
+JE00923,2026-04-30 11:10:00,Payroll control,Accruals adjustment,49566.05,U031,U038
+JE00924,2026-01-08 12:45:00,Suspense,Payroll control adjustment,530.37,U031,U013
+JE00925,2026-07-06 11:53:00,Payroll control,Depreciation adjustment,5639.98,U027,U024
+JE00926,2026-04-09 09:45:00,Suspense,Prepayments adjustment,1892.19,U029,U012
+JE00927,2026-09-15 14:44:00,Provision for doubtful debts,Prepayments adjustment,3747.23,U028,U038
+JE00928,2026-07-09 09:42:00,Bank charges,Suspense adjustment,13185.81,U027,U035
+JE00929,2025-11-27 13:16:00,Payroll control,Inter-unit transfers adjustment,23018.32,U032,U038
+JE00930,2026-03-26 08:52:00,Prepayments,Prepayments adjustment,9032.27,U031,U033
+JE00931,2025-12-17 17:02:00,Prepayments,Provision for doubtful debts adjustment,1815.15,U028,U037
+JE00932,2026-05-29 14:29:00,Accruals,Accruals adjustment,6147.92,U029,U019
+JE00933,2026-03-04 09:29:00,Prepayments,Payroll control adjustment,2394.36,U027,U020
+JE00934,2026-01-22 11:50:00,Prepayments,Accruals adjustment,3750.80,U029,U026
+JE00935,2026-04-17 13:11:00,Suspense,Suspense adjustment,4730.15,U032,U024
+JE00936,2026-02-02 08:19:00,Depreciation,Payroll control adjustment,94707.89,U029,U039
+JE00937,2026-09-25 16:37:00,Suspense,Prepayments adjustment,7945.44,U029,U011
+JE00938,2026-01-30 15:46:00,Inter-unit transfers,Prepayments adjustment,1720.06,U031,U017
+JE00939,2025-10-16 15:34:00,Provision for doubtful debts,Payroll control adjustment,53988.00,U032,U038
+JE00940,2025-10-21 14:31:00,Depreciation,Depreciation adjustment,1696.01,U027,U014
+JE00941,2026-03-02 10:13:00,Prepayments,Inter-unit transfers adjustment,6125.61,U032,U021
+JE00942,2026-08-11 12:44:00,Prepayments,Provision for doubtful debts adjustment,18944.55,U032,U039
+JE00943,2026-09-29 09:58:00,Suspense,Provision for doubtful debts adjustment,25682.74,U028,U037
+JE00944,2026-01-13 09:35:00,Suspense,Inter-unit transfers adjustment,16258.06,U030,U033
+JE00945,2026-02-10 10:45:00,Inter-unit transfers,Accruals adjustment,2400.36,U032,U012
+JE00946,2025-11-14 09:23:00,Depreciation,Payroll control adjustment,40602.35,U028,U037
+JE00947,2026-03-25 12:54:00,Prepayments,Accruals adjustment,484.12,U030,U035
+JE00948,2026-03-24 08:51:00,Accruals,Depreciation adjustment,4930.87,U031,U016
+JE00949,2026-08-21 13:32:00,Inter-unit transfers,Provision for doubtful debts adjustment,512.04,U032,U026
+JE00950,2026-07-21 15:11:00,Provision for doubtful debts,Accruals adjustment,4762.68,U028,U020
+JE00951,2026-06-19 14:49:00,Suspense,Payroll control adjustment,12254.09,U032,U034
+JE00952,2026-03-02 08:37:00,Provision for doubtful debts,Payroll control adjustment,34977.66,U032,U037
+JE00953,2026-07-16 13:32:00,Depreciation,Inter-unit transfers adjustment,5017.00,U032,U036
+JE00954,2026-08-27 09:32:00,Inter-unit transfers,Inter-unit transfers adjustment,1973.46,U029,U034
+JE00955,2026-06-08 12:00:00,Inter-unit transfers,Inter-unit transfers adjustment,12537.79,U029,U039
+JE00956,2026-04-06 17:36:00,Inter-unit transfers,Depreciation adjustment,3461.79,U029,U017
+JE00957,2026-05-01 11:04:00,Payroll control,Depreciation adjustment,18109.90,U031,U037
+JE00958,2026-01-06 13:03:00,Provision for doubtful debts,Bank charges adjustment,50297.68,U030,U039
+JE00959,2026-02-12 08:39:00,Provision for doubtful debts,Inter-unit transfers adjustment,49355.53,U027,U038
+JE00960,2025-11-07 11:56:00,Prepayments,Depreciation adjustment,2647.79,U029,U021
+JE00961,2026-05-12 15:03:00,Inter-unit transfers,Prepayments adjustment,34469.04,U028,U038
+JE00962,2026-07-30 13:56:00,Accruals,Suspense adjustment,8300.81,U032,U023
+JE00963,2026-01-29 12:39:00,Suspense,Prepayments adjustment,6070.94,U032,U024
+JE00964,2025-12-11 14:08:00,Suspense,Bank charges adjustment,488.01,U027,U033
+JE00965,2025-10-14 10:26:00,Inter-unit transfers,Suspense adjustment,31936.42,U032,U036
+JE00966,2026-06-29 14:38:00,Bank charges,Depreciation adjustment,4470.25,U032,U015
+JE00967,2026-06-26 12:50:00,Provision for doubtful debts,Depreciation adjustment,963.00,U028,U026
+JE00968,2025-10-21 15:58:00,Accruals,Payroll control adjustment,6143.24,U031,U035
+JE00969,2026-07-10 13:52:00,Suspense,Accruals adjustment,13068.22,U029,U035
+JE00970,2026-05-28 15:14:00,Depreciation,Prepayments adjustment,2292.65,U028,U020
+JE00971,2026-06-25 11:37:00,Inter-unit transfers,Provision for doubtful debts adjustment,23513.22,U029,U037
+JE00972,2025-12-10 15:26:00,Depreciation,Bank charges adjustment,21164.95,U027,U033
+JE00973,2026-08-27 08:59:00,Payroll control,Accruals adjustment,2493.49,U028,U021
+JE00974,2026-04-20 10:51:00,Provision for doubtful debts,Suspense adjustment,6927.04,U031,U022
+JE00975,2026-07-20 14:59:00,Provision for doubtful debts,Inter-unit transfers adjustment,2137.50,U029,U025
+JE00976,2026-08-18 12:05:00,Accruals,Prepayments adjustment,20685.08,U028,U039
+JE00977,2026-08-28 12:47:00,Prepayments,Bank charges adjustment,8589.21,U028,U015
+JE00978,2026-06-05 13:25:00,Inter-unit transfers,Payroll control adjustment,1643.10,U027,U012
+JE00979,2025-10-13 15:05:00,Accruals,Payroll control adjustment,2846.64,U031,U019
+JE00980,2026-02-27 10:23:00,Suspense,Prepayments adjustment,33832.35,U031,U038
+JE00981,2026-04-15 15:16:00,Prepayments,Bank charges adjustment,1545.03,U029,U022
+JE00982,2026-03-27 14:53:00,Payroll control,Provision for doubtful debts adjustment,2961.81,U030,U015
+JE00983,2026-02-06 11:05:00,Depreciation,Inter-unit transfers adjustment,48345.83,U028,U034
+JE00984,2026-01-26 08:19:00,Accruals,Provision for doubtful debts adjustment,3884.19,U030,U035
+JE00985,2026-01-02 09:48:00,Prepayments,Accruals adjustment,33535.25,U032,U038
+JE00986,2026-01-13 09:39:00,Provision for doubtful debts,Inter-unit transfers adjustment,6006.77,U028,U014
+JE00987,2026-04-17 15:07:00,Provision for doubtful debts,Bank charges adjustment,17673.28,U027,U039
+JE00988,2026-05-12 10:31:00,Suspense,Provision for doubtful debts adjustment,22457.22,U028,U033
+JE00989,2026-03-25 13:11:00,Provision for doubtful debts,Bank charges adjustment,3129.73,U030,U012
+JE00990,2026-01-28 14:07:00,Bank charges,Depreciation adjustment,73969.25,U030,U038
+JE00991,2026-03-04 10:48:00,Accruals,Inter-unit transfers adjustment,32412.98,U032,U034
+JE00992,2026-04-28 09:40:00,Payroll control,Payroll control adjustment,58966.01,U028,U039
+JE00993,2025-12-26 15:07:00,Accruals,Bank charges adjustment,512.70,U030,U015
+JE00994,2026-05-14 17:19:00,Prepayments,Depreciation adjustment,2700.77,U032,U022
+JE00995,2026-02-26 09:09:00,Depreciation,Prepayments adjustment,15322.81,U030,U034
+JE00996,2026-09-18 12:49:00,Payroll control,Provision for doubtful debts adjustment,9170.40,U028,U033
+JE00997,2025-12-03 10:53:00,Payroll control,Accruals adjustment,16410.51,U027,U037
+JE00998,2026-02-23 11:42:00,Prepayments,Payroll control adjustment,3552.76,U028,U021
+JE00999,2026-08-12 11:16:00,Accruals,Inter-unit transfers adjustment,14054.43,U028,U039
+JE01000,2026-06-01 16:50:00,Inter-unit transfers,Bank charges adjustment,1178.32,U027,U035
+JE01001,2025-10-02 12:56:00,Provision for doubtful debts,Provision for doubtful debts adjustment,14052.27,U032,U033
+JE01002,2026-04-08 16:26:00,Payroll control,Prepayments adjustment,16024.83,U029,U034
+JE01003,2026-04-24 09:38:00,Accruals,Bank charges adjustment,2633.45,U032,U013
+JE01004,2026-02-27 10:18:00,Payroll control,Prepayments adjustment,3653.18,U029,U039
+JE01005,2025-11-04 17:04:00,Suspense,Payroll control adjustment,2929.96,U027,U037
+JE01006,2026-06-23 10:27:00,Bank charges,Inter-unit transfers adjustment,1864.06,U032,U039
+JE01007,2026-06-12 10:04:00,Prepayments,Provision for doubtful debts adjustment,3084.54,U027,U019
+JE01008,2026-01-28 14:11:00,Payroll control,Suspense adjustment,1453.11,U031,U017
+JE01009,2026-04-24 10:19:00,Inter-unit transfers,Suspense adjustment,8378.02,U029,U039
+JE01010,2026-08-31 14:03:00,Accruals,Accruals adjustment,31307.88,U031,U036
+JE01011,2026-05-28 15:09:00,Inter-unit transfers,Provision for doubtful debts adjustment,4337.97,U029,U013
+JE01012,2026-01-05 11:14:00,Accruals,Payroll control adjustment,903.85,U027,U035
+JE01013,2026-02-06 11:43:00,Suspense,Prepayments adjustment,12613.28,U028,U037
+JE01014,2026-05-12 10:07:00,Prepayments,Prepayments adjustment,12635.48,U032,U036
+JE01015,2025-11-03 16:23:00,Payroll control,Prepayments adjustment,3842.35,U028,U026
+JE01016,2026-05-28 15:21:00,Inter-unit transfers,Inter-unit transfers adjustment,2435.54,U032,U039
+JE01017,2026-04-17 11:08:00,Provision for doubtful debts,Depreciation adjustment,3652.25,U028,U039
+JE01018,2026-01-21 15:02:00,Depreciation,Inter-unit transfers adjustment,25707.93,U029,U035
+JE01019,2025-10-10 12:51:00,Suspense,Prepayments adjustment,1858.98,U030,U017
+JE01020,2026-09-28 15:16:00,Inter-unit transfers,Bank charges adjustment,30889.95,U031,U034
+JE01021,2025-10-02 15:20:00,Depreciation,Suspense adjustment,4423.29,U029,U033
+JE01022,2026-08-13 16:39:00,Provision for doubtful debts,Depreciation adjustment,18261.45,U031,U036
+JE01023,2026-01-01 10:32:00,Prepayments,Accruals adjustment,1761.23,U030,U034
+JE01024,2025-12-04 13:51:00,Depreciation,Prepayments adjustment,27015.85,U030,U036
+JE01025,2026-04-02 08:55:00,Prepayments,Prepayments adjustment,17402.15,U028,U036
+JE01026,2026-05-11 14:40:00,Bank charges,Depreciation adjustment,1673.49,U028,U014
+JE01027,2026-08-19 11:15:00,Prepayments,Bank charges adjustment,525.60,U027,U021
+JE01028,2026-07-08 13:14:00,Bank charges,Inter-unit transfers adjustment,26541.73,U027,U034
+JE01029,2026-09-18 10:30:00,Accruals,Payroll control adjustment,11313.94,U027,U033
+JE01030,2026-06-24 10:50:00,Bank charges,Prepayments adjustment,8771.82,U028,U015
+JE01031,2026-07-14 08:51:00,Inter-unit transfers,Accruals adjustment,2748.69,U028,U012
+JE01032,2026-03-05 15:16:00,Provision for doubtful debts,Suspense adjustment,7284.20,U032,U033
+JE01033,2026-06-04 14:30:00,Bank charges,Accruals adjustment,9088.34,U027,U039
+JE01034,2026-02-05 09:36:00,Accruals,Depreciation adjustment,5985.74,U032,U022
+JE01035,2026-05-08 13:07:00,Bank charges,Depreciation adjustment,229.16,U027,U038
+JE01036,2026-02-11 11:59:00,Inter-unit transfers,Prepayments adjustment,8995.03,U032,U013
+JE01037,2026-09-17 13:25:00,Prepayments,Provision for doubtful debts adjustment,37222.89,U032,U034
+JE01038,2025-10-23 15:05:00,Inter-unit transfers,Bank charges adjustment,20012.66,U027,U033
+JE01039,2026-06-25 14:18:00,Depreciation,Bank charges adjustment,16938.48,U032,U037
+JE01040,2025-12-05 13:45:00,Suspense,Bank charges adjustment,2869.76,U030,U022
+JE01041,2026-06-29 12:03:00,Suspense,Provision for doubtful debts adjustment,15665.91,U031,U037
+JE01042,2025-10-27 10:52:00,Prepayments,Suspense adjustment,4230.62,U027,U021
+JE01043,2026-05-18 15:08:00,Bank charges,Bank charges adjustment,26232.42,U029,U038
+JE01044,2026-05-05 15:19:00,Depreciation,Suspense adjustment,8277.11,U027,U012
+JE01045,2026-09-25 13:54:00,Provision for doubtful debts,Bank charges adjustment,11584.17,U031,U037
+JE01046,2026-04-14 13:25:00,Payroll control,Bank charges adjustment,7098.61,U031,U011
+JE01047,2026-04-16 09:30:00,Bank charges,Prepayments adjustment,94384.08,U028,U039
+JE01048,2025-10-17 10:34:00,Payroll control,Inter-unit transfers adjustment,1736.65,U027,U011
+JE01049,2025-12-15 09:50:00,Suspense,Bank charges adjustment,14463.46,U028,U038
+JE01050,2025-10-15 14:12:00,Provision for doubtful debts,Suspense adjustment,1104.03,U028,U014
+JE01051,2025-10-21 13:30:00,Inter-unit transfers,Inter-unit transfers adjustment,3891.50,U032,U011
+JE01052,2026-06-16 10:45:00,Depreciation,Payroll control adjustment,1523.50,U031,U033
+JE01053,2026-04-17 09:16:00,Inter-unit transfers,Provision for doubtful debts adjustment,7599.97,U027,U014
+JE01054,2025-12-24 17:39:00,Depreciation,Bank charges adjustment,7099.84,U031,U012
+JE01055,2026-07-14 14:40:00,Payroll control,Prepayments adjustment,51420.64,U031,U039
+JE01056,2026-06-08 14:41:00,Depreciation,Bank charges adjustment,37096.55,U031,U036
+JE01057,2026-07-20 16:35:00,Inter-unit transfers,Bank charges adjustment,2809.83,U032,U033
+JE01058,2026-07-14 12:50:00,Accruals,Prepayments adjustment,2386.96,U031,U017
+JE01059,2026-08-10 12:28:00,Suspense,Depreciation adjustment,12561.04,U031,U037
+JE01060,2026-05-01 11:23:00,Suspense,Provision for doubtful debts adjustment,12231.54,U029,U034
+JE01061,2025-10-28 09:38:00,Payroll control,Payroll control adjustment,6397.12,U031,U025
+JE01062,2026-03-17 08:46:00,Bank charges,Suspense adjustment,6430.11,U029,U015
+JE01063,2026-01-29 09:28:00,Prepayments,Provision for doubtful debts adjustment,17125.39,U031,U039
+JE01064,2025-12-29 13:13:00,Depreciation,Inter-unit transfers adjustment,28968.74,U028,U037
+JE01065,2026-07-09 12:03:00,Inter-unit transfers,Accruals adjustment,3613.65,U031,U033
+JE01066,2026-03-23 14:39:00,Provision for doubtful debts,Prepayments adjustment,1928.13,U031,U034
+JE01067,2026-03-26 08:48:00,Accruals,Provision for doubtful debts adjustment,8069.33,U031,U025
+JE01068,2026-06-24 09:15:00,Bank charges,Suspense adjustment,4188.68,U028,U037
+JE01069,2026-03-12 10:31:00,Depreciation,Inter-unit transfers adjustment,7697.43,U030,U037
+JE01070,2026-02-16 10:54:00,Depreciation,Depreciation adjustment,12204.73,U027,U037
+JE01071,2026-07-29 08:34:00,Depreciation,Suspense adjustment,9134.75,U028,U016
+JE01072,2026-06-23 15:33:00,Accruals,Suspense adjustment,11744.09,U027,U035
+JE01073,2026-07-09 17:25:00,Bank charges,Bank charges adjustment,3730.10,U028,U017
+JE01074,2025-12-02 12:20:00,Accruals,Inter-unit transfers adjustment,5298.81,U028,U036
+JE01075,2025-10-13 14:06:00,Payroll control,Inter-unit transfers adjustment,3006.87,U030,U024
+JE01076,2026-09-30 15:30:00,Bank charges,Bank charges adjustment,31285.83,U032,U035
+JE01077,2026-08-21 12:07:00,Depreciation,Bank charges adjustment,52938.81,U029,U038
+JE01078,2026-03-10 08:43:00,Suspense,Payroll control adjustment,1349.50,U030,U012
+JE01079,2026-07-02 15:20:00,Bank charges,Depreciation adjustment,5911.50,U032,U019
+JE01080,2025-10-29 16:28:00,Depreciation,Bank charges adjustment,2319.13,U027,U020
+JE01081,2026-04-20 08:58:00,Suspense,Prepayments adjustment,1714.12,U028,U036
+JE01082,2026-04-16 11:10:00,Provision for doubtful debts,Provision for doubtful debts adjustment,5755.21,U031,U024
+JE01083,2026-03-30 14:20:00,Payroll control,Prepayments adjustment,10903.79,U031,U036
+JE01084,2026-03-09 15:11:00,Bank charges,Payroll control adjustment,2247.39,U030,U038
+JE01085,2026-06-03 08:15:00,Bank charges,Payroll control adjustment,935.03,U029,U037
+JE01086,2026-08-12 13:01:00,Inter-unit transfers,Payroll control adjustment,10780.66,U028,U034
+JE01087,2026-03-12 08:54:00,Payroll control,Bank charges adjustment,3845.36,U032,U024
+JE01088,2025-12-30 12:52:00,Bank charges,Bank charges adjustment,2264.70,U031,U017
+JE01089,2026-03-26 09:15:00,Payroll control,Bank charges adjustment,5572.39,U028,U034
+JE01090,2025-11-19 16:07:00,Depreciation,Prepayments adjustment,849.18,U031,U018
+JE01091,2026-03-17 09:42:00,Provision for doubtful debts,Accruals adjustment,42670.95,U028,U034
+JE01092,2026-03-18 15:17:00,Accruals,Depreciation adjustment,1035.81,U030,U039
+JE01093,2026-07-22 09:20:00,Bank charges,Accruals adjustment,44146.17,U032,U035
+JE01094,2026-02-23 16:11:00,Bank charges,Accruals adjustment,15758.42,U030,U039
+JE01095,2026-01-27 11:58:00,Provision for doubtful debts,Payroll control adjustment,5566.91,U027,U036
+JE01096,2026-01-09 16:59:00,Bank charges,Suspense adjustment,10396.01,U031,U035
+JE01097,2026-02-20 17:40:00,Inter-unit transfers,Payroll control adjustment,4836.47,U027,U013
+JE01098,2025-10-15 11:36:00,Accruals,Suspense adjustment,6535.99,U030,U036
+JE01099,2026-01-27 09:26:00,Prepayments,Payroll control adjustment,3576.15,U030,U013
+JE01100,2026-04-03 16:13:00,Accruals,Provision for doubtful debts adjustment,1792.61,U031,U016
+JE01101,2026-02-12 16:14:00,Provision for doubtful debts,Provision for doubtful debts adjustment,3289.58,U029,U036
+JE01102,2026-02-03 16:29:00,Prepayments,Payroll control adjustment,9217.79,U027,U017
+JE01103,2026-03-17 16:10:00,Payroll control,Prepayments adjustment,17480.15,U031,U035
+JE01104,2026-07-02 08:29:00,Provision for doubtful debts,Provision for doubtful debts adjustment,4747.85,U029,U017
+JE01105,2026-08-24 15:36:00,Suspense,Suspense adjustment,4429.05,U027,U039
+JE01106,2026-07-14 17:34:00,Depreciation,Depreciation adjustment,7079.79,U032,U014
+JE01107,2026-06-19 09:15:00,Accruals,Bank charges adjustment,54907.73,U032,U039
+JE01108,2026-03-12 11:42:00,Accruals,Payroll control adjustment,3545.93,U028,U026
+JE01109,2026-07-02 09:58:00,Accruals,Bank charges adjustment,8618.89,U029,U014
+JE01110,2026-04-13 09:42:00,Prepayments,Accruals adjustment,5263.76,U031,U039
+JE01111,2025-12-01 14:00:00,Depreciation,Suspense adjustment,8125.53,U032,U038
+JE01112,2026-09-24 16:23:00,Accruals,Bank charges adjustment,4961.23,U027,U018
+JE01113,2026-03-16 08:16:00,Payroll control,Prepayments adjustment,10825.14,U029,U033
+JE01114,2026-06-02 16:12:00,Inter-unit transfers,Suspense adjustment,2729.13,U031,U014
+JE01115,2026-01-26 15:06:00,Bank charges,Payroll control adjustment,2871.65,U029,U025
+JE01116,2026-01-09 17:00:00,Payroll control,Accruals adjustment,10783.37,U027,U034
+JE01117,2026-09-17 09:36:00,Depreciation,Bank charges adjustment,16127.82,U032,U038
+JE01118,2026-08-06 13:00:00,Suspense,Bank charges adjustment,2316.90,U029,U011
+JE01119,2026-04-10 09:00:00,Suspense,Suspense adjustment,13654.90,U028,U038
+JE01120,2025-11-14 09:16:00,Depreciation,Depreciation adjustment,30845.33,U032,U035
+JE01121,2026-06-19 16:56:00,Prepayments,Provision for doubtful debts adjustment,2238.07,U029,U039
+JE01122,2026-01-22 16:48:00,Payroll control,Accruals adjustment,5889.09,U032,U017
+JE01123,2026-08-31 17:03:00,Accruals,Suspense adjustment,40538.24,U031,U037
+JE01124,2026-08-27 09:54:00,Prepayments,Accruals adjustment,1149.72,U031,U014
+JE01125,2026-06-10 14:54:00,Suspense,Payroll control adjustment,18989.16,U032,U037
+JE01126,2026-08-03 10:13:00,Payroll control,Accruals adjustment,2833.38,U032,U036
+JE01127,2026-09-09 09:34:00,Bank charges,Suspense adjustment,1546.12,U032,U021
+JE01128,2026-06-08 14:16:00,Accruals,Suspense adjustment,4327.05,U028,U018
+JE01129,2026-09-18 09:15:00,Provision for doubtful debts,Bank charges adjustment,11571.32,U029,U037
+JE01130,2026-02-04 13:59:00,Provision for doubtful debts,Payroll control adjustment,974.31,U030,U033
+JE01131,2026-01-01 12:22:00,Payroll control,Depreciation adjustment,9484.46,U027,U011
+JE01132,2025-11-19 13:41:00,Payroll control,Provision for doubtful debts adjustment,16045.20,U031,U039
+JE01133,2026-07-10 14:30:00,Suspense,Provision for doubtful debts adjustment,2721.89,U028,U026
+JE01134,2025-10-27 12:21:00,Suspense,Bank charges adjustment,228.22,U027,U034
+JE01135,2026-01-23 14:48:00,Suspense,Suspense adjustment,8583.30,U031,U022
+JE01136,2025-10-07 11:11:00,Suspense,Prepayments adjustment,1238.07,U028,U026
+JE01137,2026-07-20 11:12:00,Suspense,Payroll control adjustment,2019.89,U031,U011
+JE01138,2025-11-26 13:30:00,Payroll control,Suspense adjustment,6064.60,U029,U013
+JE01139,2026-03-25 17:00:00,Provision for doubtful debts,Accruals adjustment,10300.34,U027,U034
+JE01140,2025-11-25 16:12:00,Depreciation,Payroll control adjustment,14296.91,U031,U034
+JE01141,2026-06-12 10:01:00,Suspense,Bank charges adjustment,8120.74,U031,U015
+JE01142,2025-12-12 13:49:00,Provision for doubtful debts,Inter-unit transfers adjustment,11807.52,U027,U039
+JE01143,2026-07-06 17:17:00,Accruals,Suspense adjustment,21952.16,U032,U036
+JE01144,2026-04-08 14:28:00,Payroll control,Suspense adjustment,10963.58,U032,U039
+JE01145,2026-05-01 12:08:00,Prepayments,Accruals adjustment,1276.90,U029,U018
+JE01146,2026-07-07 14:18:00,Payroll control,Provision for doubtful debts adjustment,6011.85,U031,U013
+JE01147,2026-04-10 12:16:00,Depreciation,Suspense adjustment,901.79,U032,U014
+JE01148,2026-03-30 10:20:00,Accruals,Bank charges adjustment,1817.02,U029,U026
+JE01149,2026-05-29 16:22:00,Bank charges,Depreciation adjustment,5439.87,U027,U015
+JE01150,2026-01-28 16:00:00,Prepayments,Provision for doubtful debts adjustment,2288.76,U032,U022
+JE01151,2025-10-13 08:49:00,Payroll control,Prepayments adjustment,2535.20,U028,U033
+JE01152,2026-04-07 16:31:00,Suspense,Accruals adjustment,8249.94,U027,U019
+JE01153,2026-01-23 13:27:00,Provision for doubtful debts,Accruals adjustment,4621.16,U032,U015
+JE01154,2026-09-25 14:29:00,Prepayments,Payroll control adjustment,3352.87,U027,U019
+JE01155,2026-05-07 14:30:00,Provision for doubtful debts,Bank charges adjustment,19226.77,U032,U036
+JE01156,2026-04-30 15:09:00,Provision for doubtful debts,Inter-unit transfers adjustment,131262.69,U032,U038
+JE01157,2026-03-02 16:18:00,Provision for doubtful debts,Accruals adjustment,6314.65,U031,U020
+JE01158,2025-12-16 17:13:00,Bank charges,Prepayments adjustment,21436.00,U029,U036
+JE01159,2026-01-19 09:26:00,Provision for doubtful debts,Prepayments adjustment,12134.39,U028,U037
+JE01160,2026-06-30 14:30:00,Payroll control,Accruals adjustment,2778.34,U032,U023
+JE01161,2026-03-17 08:55:00,Payroll control,Suspense adjustment,17397.63,U028,U039
+JE01162,2026-04-03 11:26:00,Prepayments,Provision for doubtful debts adjustment,1503.64,U029,U026
+JE01163,2026-02-24 16:36:00,Depreciation,Accruals adjustment,5619.23,U031,U014
+JE01164,2026-09-24 16:30:00,Depreciation,Bank charges adjustment,28442.63,U028,U035
+JE01165,2026-07-01 15:38:00,Depreciation,Depreciation adjustment,2907.92,U032,U039
+JE01166,2026-04-06 08:38:00,Provision for doubtful debts,Accruals adjustment,3217.37,U031,U014
+JE01167,2026-05-11 17:02:00,Suspense,Bank charges adjustment,22332.24,U031,U036
+JE01168,2026-03-05 09:04:00,Depreciation,Depreciation adjustment,26163.09,U032,U036
+JE01169,2026-03-25 13:03:00,Prepayments,Bank charges adjustment,3764.97,U027,U015
+JE01170,2026-05-21 14:39:00,Suspense,Bank charges adjustment,745.01,U029,U022
+JE01171,2026-07-16 10:02:00,Suspense,Suspense adjustment,55778.37,U027,U039
+JE01172,2026-07-13 09:30:00,Payroll control,Depreciation adjustment,1099.99,U031,U012
+JE01173,2025-10-20 16:13:00,Accruals,Depreciation adjustment,11673.86,U032,U035
+JE01174,2026-02-24 16:50:00,Inter-unit transfers,Provision for doubtful debts adjustment,4197.89,U027,U021
+JE01175,2026-07-21 13:12:00,Accruals,Inter-unit transfers adjustment,25115.33,U031,U037
+JE01176,2026-01-19 10:44:00,Depreciation,Payroll control adjustment,11503.12,U031,U036
+JE01177,2026-05-26 09:56:00,Prepayments,Accruals adjustment,16243.67,U032,U039
+JE01178,2026-06-10 14:00:00,Prepayments,Payroll control adjustment,12960.54,U027,U036
+JE01179,2025-10-31 16:19:00,Prepayments,Inter-unit transfers adjustment,2104.38,U031,U011
+JE01180,2025-11-12 17:05:00,Inter-unit transfers,Payroll control adjustment,12753.45,U031,U034
+JE01181,2026-06-24 13:45:00,Inter-unit transfers,Payroll control adjustment,14635.92,U028,U036
+JE01182,2026-07-31 15:30:00,Provision for doubtful debts,Inter-unit transfers adjustment,14740.53,U028,U037
+JE01183,2026-06-16 15:23:00,Accruals,Inter-unit transfers adjustment,17935.08,U031,U034
+JE01184,2026-02-18 13:56:00,Payroll control,Accruals adjustment,647.16,U030,U015
+JE01185,2025-12-29 16:01:00,Provision for doubtful debts,Provision for doubtful debts adjustment,10213.41,U028,U038
+JE01186,2025-11-27 11:41:00,Suspense,Prepayments adjustment,13219.76,U032,U037
+JE01187,2026-01-05 12:17:00,Inter-unit transfers,Depreciation adjustment,51458.54,U030,U039
+JE01188,2026-02-13 15:40:00,Depreciation,Prepayments adjustment,56051.61,U029,U039
+JE01189,2026-04-30 17:00:00,Payroll control,Prepayments adjustment,4885.75,U031,U035
+JE01190,2026-07-08 10:29:00,Prepayments,Payroll control adjustment,269.47,U032,U033
+JE01191,2026-03-03 15:50:00,Bank charges,Payroll control adjustment,3190.44,U031,U021
+JE01192,2026-02-06 09:49:00,Accruals,Provision for doubtful debts adjustment,93578.16,U028,U038
+JE01193,2026-02-27 15:45:00,Bank charges,Inter-unit transfers adjustment,13577.24,U029,U036
+JE01194,2026-02-25 13:37:00,Bank charges,Accruals adjustment,7860.35,U028,U015
+JE01195,2026-06-16 14:42:00,Suspense,Accruals adjustment,16459.03,U031,U039
+JE01196,2026-05-18 09:53:00,Depreciation,Suspense adjustment,3364.66,U028,U018
+JE01197,2026-07-10 10:10:00,Inter-unit transfers,Bank charges adjustment,3720.75,U027,U015
+JE01198,2025-10-27 14:13:00,Payroll control,Accruals adjustment,8252.43,U030,U021
+JE01199,2025-11-28 16:44:00,Provision for doubtful debts,Payroll control adjustment,2900.91,U028,U016
+JE01200,2026-03-18 10:40:00,Prepayments,Inter-unit transfers adjustment,97502.08,U029,U038
+JE01201,2026-01-10 22:47:00,Suspense,Manual adjustment,41501.87,U028,U034
+JE01202,2026-03-01 11:05:00,Suspense,Manual adjustment,23479.87,U028,U034
+JE01203,2026-03-28 09:30:00,Suspense,Manual adjustment,28961.41,U028,U034
+JE01204,2026-06-16 23:58:00,Suspense,Manual adjustment,31315.72,U028,U034
+JE01205,2026-08-29 14:12:00,Suspense,Manual adjustment,32055.14,U028,U034
+JE01206,2026-09-29 05:40:00,Suspense,Manual adjustment,23170.47,U028,U034
+JE01207,2026-07-14 10:15:00,Accruals,Accrual reversal,3346.80,U030,U034
+JE01208,2026-08-03 10:15:00,Accruals,Accrual reversal,5523.16,U030,U034
+JE01209,2026-02-09 16:20:00,Inter-unit transfers,System correction,14885.37,U040,U035
+JE01210,2026-05-18 16:20:00,Inter-unit transfers,System correction,23596.68,U041,U035

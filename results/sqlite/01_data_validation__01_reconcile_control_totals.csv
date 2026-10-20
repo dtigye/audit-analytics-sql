@@ -1,0 +1,9 @@
+table_name,reported_count,extract_count,reported_total,extract_total,status
+approval_limits,7,7,,,MATCH
+employees,120,120,,,MATCH
+invoices,1231,1231,4319983.14,4319983.14,MATCH
+journal_entries,1210,1210,20463361.71,20463361.71,MATCH
+payments,1199,1199,4028836.48,4028836.48,MATCH
+purchase_orders,908,908,3805989.31,3805989.31,MATCH
+users,41,41,,,MATCH
+vendors,81,81,,,MATCH

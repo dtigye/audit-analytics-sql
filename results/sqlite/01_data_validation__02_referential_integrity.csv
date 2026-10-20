@@ -1,0 +1,5 @@
+table_name,record_id,field,missing_value
+invoices,INV01201,vendor_id,V099
+payments,PAY90001,invoice_id,INV99901
+payments,PAY90002,invoice_id,INV99902
+purchase_orders,PO00041,approved_by,U999

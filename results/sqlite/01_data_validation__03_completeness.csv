@@ -1,0 +1,9 @@
+table_name,field,blank_count,total_records
+employees,address,0,120
+employees,bank_account,0,120
+invoices,invoice_number,0,1231
+journal_entries,approved_by,0,1210
+payments,amount,0,1199
+vendors,address,0,81
+vendors,bank_account,0,81
+vendors,tax_id,0,81
