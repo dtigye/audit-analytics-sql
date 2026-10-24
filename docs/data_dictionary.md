@@ -99,3 +99,11 @@ Policy: purchase orders above **10,000** require a Finance Manager or Director.
 | table_name | VARCHAR(30) | Table the totals relate to |
 | record_count | INTEGER | Records reported by the source system |
 | amount_total | NUMERIC(16,2) | Sum of `amount`; blank where the table has none |
+
+## Helper views (`sql/views/`)
+Created automatically after the data loads. Each view exists in a SQLite and a PostgreSQL version with identical columns and values; they are the only engine-specific SQL in the project.
+
+| View | Adds | Used for |
+|---|---|---|
+| v_payments | `pay_day`: whole days since 1 Jan 2000 | Date windows ("within 30 days") in Phase 2 |
+| v_purchase_orders | `po_day`: whole days since 1 Jan 2000 | Date windows ("within 3 days") in Phase 2 |

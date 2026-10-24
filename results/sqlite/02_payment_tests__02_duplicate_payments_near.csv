@@ -1,0 +1,4 @@
+payment_id,vendor_id,amount,payment_date,invoice_number,earlier_payment_id,earlier_payment_date,earlier_invoice_number,days_apart,match_basis
+PAY01186,V046,3602.84,2026-09-29,04600124,PAY00121,2026-09-23,046-00124,6,Same invoice number once punctuation is removed
+PAY01187,V022,7908.77,2026-02-10,02200339,PAY00331,2026-02-04,022-00339,6,Same invoice number once punctuation is removed
+PAY01188,V029,1373.91,2026-07-06,02900653,PAY00641,2026-06-30,029-00653,6,Same invoice number once punctuation is removed

@@ -6,7 +6,7 @@ Data analytics tests an auditor runs over a public body's finance and access
 records: duplicate payments, split purchases, payments to unapproved vendors,
 vendor–employee conflicts, Benford's law, out-of-hours postings and
 segregation-of-duties breaches. Every test is plain SQL that runs unchanged on
-**SQLite and PostgreSQL**.
+**SQLite and PostgreSQL**, and is checked against a known answer key.
 
 > **All data is synthetic.** "Northgate Regional Agency" is fictional, the same
 > organisation used in [ict-risk-register-and-kpi-dashboard](https://github.com/dtigye/ict-risk-register-and-kpi-dashboard).
@@ -19,7 +19,7 @@ The project is being built in phases. Each phase is complete and tested on its o
 | Phase | Content | Status |
 |---|---|---|
 | 1 | Dataset, schema, and data validation before testing | ✅ Complete |
-| 2 | Payment tests: duplicates, split purchases, unapproved/inactive vendors, round sums | Planned |
+| 2 | Payment tests: duplicates, split purchases, unapproved/inactive vendors, round sums | ✅ Complete |
 | 3 | Vendor and timing tests: vendor–employee matches, Benford's law, out-of-hours postings | Planned |
 | 4 | Access tests: segregation of duties, leavers' activity, privileged accounts | Planned |
 | 5 | Reporting: exceptions summary and findings written as audit working papers | Planned |
@@ -46,6 +46,37 @@ consistent** and **covers the right period**. Phase 1 does exactly that.
 | `PO00041` | Purchase order approved by user `U999`, unknown to the system | Approval cannot be attributed to an authorised person |
 
 Full outputs: [`results/sqlite/`](results/sqlite).
+
+## Phase 2: Payment tests
+
+Five tests over the year's 1,199 payments and 908 purchase orders. Each SQL
+file starts with a header stating the **risk**, the **criteria** (what
+"correct" looks like), the **method** and the **limits** of the test.
+
+| Test | Risk it addresses | Exceptions | Value |
+|---|---|---|---|
+| [`01_duplicate_payments_exact`](sql/02_payment_tests/01_duplicate_payments_exact.sql) | The same invoice paid twice | 4 payments | 7,314.07 |
+| [`02_duplicate_payments_near`](sql/02_payment_tests/02_duplicate_payments_near.sql) | A bill re-keyed under a slightly different invoice number (`046-00124` → `04600124`) and paid again | 3 payments | 12,885.52 |
+| [`03_split_purchases`](sql/02_payment_tests/03_split_purchases.sql) | Orders split to stay under the 10,000 approval limit | 3 clusters, 8 POs | 77,905.70 |
+| [`04_payments_to_unapproved_vendors`](sql/02_payment_tests/04_payments_to_unapproved_vendors.sql) | Payments to an inactive vendor, or one that never passed due diligence | 4 payments | 26,808.31 |
+| [`05_round_sum_payments`](sql/02_payment_tests/05_round_sum_payments.sql) | Large exact round amounts that may not be backed by a real invoice | 5 payments | 138,000.00 |
+
+**What the results say (sample data):**
+
+- **20,199.59 was paid twice.** Seven duplicate payments, each 6 to 10 days after the original. The near-duplicates
+  slipped past because the invoice number was re-typed without its hyphen, which is why the test normalises
+  invoice numbers before comparing them. *Next step:* confirm with the vendors and recover the overpayments.
+- **Three officers split orders** worth 19,595 to 29,481 into two or three POs of just under 10,000 each,
+  over consecutive days, all approved by an officer whose own limit is 10,000. *Next step:* establish whether
+  each cluster was one requirement and, if so, why Manager approval was avoided.
+- **26,808.31 went to vendors that should not have been paid:** an inactive vendor (`V073`) and a new
+  vendor that never completed due diligence (`V081`), one payment of which was over 10,000.
+- **Five round-sum payments** totalling 138,000 need their invoices checked. A round figure is a prompt to
+  look, not proof of a problem.
+
+**SQL techniques used:** window functions (`ROW_NUMBER`, `FIRST_VALUE`), self-joins with a date window,
+`GROUP BY … HAVING`, text normalisation with `UPPER`/`REPLACE`, and parameters held in a `params` CTE so
+thresholds are set in one place.
 
 ## The data
 
@@ -107,17 +138,23 @@ python -m pytest               # now also runs the PostgreSQL tests
 Or run any `.sql` file directly in DBeaver, pgAdmin or the `sqlite3` shell
 after loading the data.
 
-**Portability rules used throughout:** no engine-specific functions; flags
-stored as 0/1; dates compared as ISO text where needed; `NULL` columns in
-`UNION`s cast explicitly (PostgreSQL requires it, SQLite does not). CI runs
-every test on both engines.
+**Portability rules used throughout:**
+- Engine differences live in **one place**: [`sql/views/`](sql/views) has a SQLite and a PostgreSQL version
+  of the same helper views (for example, a day number for date arithmetic). Every audit query uses the
+  views and is identical on both engines.
+- Flags stored as 0/1; `NULL` columns in `UNION`s cast explicitly (PostgreSQL requires it, SQLite does not).
+- No `%` for "is this a round number": SQLite converts both sides to integers first, so
+  `25000.37 % 1000` is `0` in SQLite but `0.37` in PostgreSQL.
+- CI runs every test on both engines.
 
 ## Repository layout
 
 ```
 data/                    synthetic CSV extract (regenerated by src/generate_data.py)
 sql/schema.sql           portable DDL
+sql/views/               helper views, one file per engine (the only engine-specific SQL)
 sql/01_data_validation/  Phase 1 queries (one test per file, documented in its header)
+sql/02_payment_tests/    Phase 2 queries
 src/                     data generator, loader/runner for both engines
 tests/                   answer key and tests for each phase
 results/sqlite/          query outputs from the last run

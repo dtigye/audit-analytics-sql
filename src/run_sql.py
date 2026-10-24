@@ -41,7 +41,9 @@ def main() -> None:
             if rows:
                 w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
                 w.writeheader()
-                w.writerows(rows)
+                # SQLite returns money as floats (9350.2); print two decimals
+                w.writerows({k: f"{v:.2f}" if isinstance(v, float) else v for k, v in r.items()}
+                            for r in rows)
         print(f"  {f.parent.name}/{f.name:<38} {len(rows):>4} rows")
     db.close()
     print(f"\nResults written to results/{args.engine}/")

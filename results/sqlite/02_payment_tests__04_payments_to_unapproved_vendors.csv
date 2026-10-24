@@ -1,0 +1,5 @@
+payment_id,payment_date,amount,approved_by,vendor_id,vendor_name,status,approved,vendor_created_date,reason
+PAY01189,2026-03-10,6420.18,U035,V073,Cedar IT Supplies Ltd,Inactive,1,2025-02-03,Vendor status: Inactive
+PAY01191,2026-04-21,12870.44,U037,V081,Swiftline Supplies Ltd,Active,0,2026-03-30,Vendor not approved (due diligence incomplete)
+PAY01190,2026-06-02,3115.60,U033,V073,Cedar IT Supplies Ltd,Inactive,1,2025-02-03,Vendor status: Inactive
+PAY01192,2026-08-12,4402.09,U038,V081,Swiftline Supplies Ltd,Active,0,2026-03-30,Vendor not approved (due diligence incomplete)

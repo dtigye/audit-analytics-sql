@@ -1,0 +1,6 @@
+payment_id,payment_date,vendor_id,vendor_name,amount,approved_by
+PAY01195,2026-03-30,V027,Unity Print & Media Ltd,50000,U039
+PAY01197,2026-09-11,V066,Trident Print & Media Ltd,40000,U038
+PAY01193,2025-12-18,V003,Willow IT Supplies Ltd,25000,U033
+PAY01194,2026-02-26,V018,Granite Logistics Ltd,15000,U033
+PAY01196,2026-06-24,V060,Meridian Facilities Services Ltd,8000,U034
