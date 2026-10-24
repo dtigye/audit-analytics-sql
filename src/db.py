@@ -70,7 +70,8 @@ class Database:
 
     # ----------------------------------------------------------------- query
     def query(self, sql: str) -> list[dict]:
-        """Run SQL (one or more statements); return rows of the last SELECT as dicts."""
+        """Run SQL (one or more statements) in a single session; return the rows
+        of the last statement as dicts. Behaves the same on both engines."""
         if self.engine == "sqlite":
             if self.conn is None:
                 self.conn = sqlite3.connect(SQLITE_PATH)
@@ -82,7 +83,19 @@ class Database:
                 return []
             cols = [d[0] for d in cur.description]
             return [dict(zip(cols, r)) for r in cur.fetchall()]
-        out = self._psql(sql, csv_out=True)
+        # PostgreSQL: psql prints every result set, so earlier statements'
+        # output is redirected to the null device (\o) and only the last
+        # statement is printed. One psql process = one session, so temporary
+        # views or tables created earlier in the file are still visible.
+        statements = [s.strip() for s in _split(sql) if s.strip()]
+        if not statements:
+            return []
+        devnull = os.devnull.replace("\\", "/")
+        script = ""
+        if len(statements) > 1:
+            script += f"\\o {devnull}\n" + ";\n".join(statements[:-1]) + ";\n\\o\n"
+        script += statements[-1] + ";\n"
+        out = self._psql(script, csv_out=True)
         return list(csv.DictReader(io.StringIO(out))) if out.strip() else []
 
     def run_file(self, path: Path) -> list[dict]:
