@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SQL = ROOT / "sql"
 SCHEMA = SQL / "schema.sql"
+VIEWS = SQL / "views"  # one file per engine; the only engine-specific SQL
 SQLITE_PATH = ROOT / "audit.db"
 
 TABLES = ["employees", "users", "approval_limits", "vendors", "purchase_orders",
@@ -59,6 +60,7 @@ class Database:
                 header, rows = _rows(t)
                 marks = ",".join("?" * len(header))
                 self.conn.executemany(f"INSERT INTO {t} ({','.join(header)}) VALUES ({marks})", rows)
+            self.conn.executescript((VIEWS / "sqlite.sql").read_text(encoding="utf-8"))
             self.conn.commit()
         else:
             script = [SCHEMA.read_text(encoding="utf-8")]
@@ -66,6 +68,7 @@ class Database:
                 header = _rows(t)[0]
                 path = (DATA / f"{t}.csv").as_posix()
                 script.append(f"\\copy {t} ({','.join(header)}) FROM '{path}' WITH (FORMAT csv, HEADER true)")
+            script.append((VIEWS / "postgres.sql").read_text(encoding="utf-8"))
             self._psql("\n".join(script))
 
     # ----------------------------------------------------------------- query
