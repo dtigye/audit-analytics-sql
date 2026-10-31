@@ -17,3 +17,12 @@ CREATE VIEW v_purchase_orders AS
 SELECT po.*,
        CAST(julianday(po.po_date) - julianday('2000-01-01') AS INTEGER) AS po_day
 FROM purchase_orders po;
+
+-- posted_dow: day of week, 0 = Sunday ... 6 = Saturday.
+-- posted_hour: hour of the day, 0-23.
+DROP VIEW IF EXISTS v_journal_entries;
+CREATE VIEW v_journal_entries AS
+SELECT je.*,
+       CAST(strftime('%w', je.posted_at) AS INTEGER) AS posted_dow,
+       CAST(strftime('%H', je.posted_at) AS INTEGER) AS posted_hour
+FROM journal_entries je;

@@ -20,7 +20,7 @@ The project is being built in phases. Each phase is complete and tested on its o
 |---|---|---|
 | 1 | Dataset, schema, and data validation before testing | ✅ Complete |
 | 2 | Payment tests: duplicates, split purchases, unapproved/inactive vendors, round sums | ✅ Complete |
-| 3 | Vendor and timing tests: vendor–employee matches, Benford's law, out-of-hours postings | Planned |
+| 3 | Vendor and timing tests: vendor–employee matches, Benford's law, out-of-hours postings | ✅ Complete |
 | 4 | Access tests: segregation of duties, leavers' activity, privileged accounts | Planned |
 | 5 | Reporting: exceptions summary and findings written as audit working papers | Planned |
 
@@ -77,6 +77,36 @@ file starts with a header stating the **risk**, the **criteria** (what
 **SQL techniques used:** window functions (`ROW_NUMBER`, `FIRST_VALUE`), self-joins with a date window,
 `GROUP BY … HAVING`, text normalisation with `UPPER`/`REPLACE`, and parameters held in a `params` CTE so
 thresholds are set in one place.
+
+## Phase 3: Vendor and timing tests
+
+Four tests over the vendor master (81 vendors), staff records (120
+employees), 1,231 invoices and 1,210 manual journals.
+
+| Test | Risk it addresses | Exceptions | Value |
+|---|---|---|---|
+| [`01_vendor_employee_matches`](sql/03_vendor_and_timing_tests/01_vendor_employee_matches.sql) | A member of staff controls a vendor: same bank account or same address | 4 vendors | 199,521.89 paid to them |
+| [`02_benford_first_digit`](sql/03_vendor_and_timing_tests/02_benford_first_digit.sql) | Invented amounts (first-digit profile of all invoices against Benford's law) | Profile, not exceptions | — |
+| [`03_benford_vendor_outliers`](sql/03_vendor_and_timing_tests/03_benford_vendor_outliers.sql) | One vendor's amounts break the pattern, e.g. kept just under a limit | 1 vendor, 18 invoices | 171,074.84 |
+| [`04_out_of_hours_journals`](sql/03_vendor_and_timing_tests/04_out_of_hours_journals.sql) | Manual journals posted at weekends or at night, when nobody reviews them | 6 journals | 180,484.48 |
+
+**What the results say (sample data):**
+
+- **Two vendors are paid into staff bank accounts** (`V023` → a Finance employee, `V059` → an Operations
+  employee) and **two share a staff member's home address**, one of them with someone in Procurement.
+  *Next step:* check the conflict-of-interest register, then who set up and approved each vendor.
+- **The invoice population as a whole follows Benford's law** (every digit within about 1.2 percentage points),
+  so a population-level test would have found nothing. **One vendor breaks it:** `V041` has 19 invoices starting
+  with 9 where about 2 would be expected. The 18 at or above the 1,000 materiality floor are all between 9,111
+  and 9,981, just under the 10,000 approval limit. *Next step:* inspect the invoices and the goods received.
+- **Six journals to the Suspense account** (180,484.48) were posted on Saturdays, a Sunday, or before 06:00 and
+  near midnight on Tuesdays, all by the same Accountant and approved by the same Finance Manager.
+  *Next step:* ask what each journal corrected and whether the approver reviewed it before or after posting.
+
+**SQL techniques used:** `UNION ALL` to combine two kinds of match, a `VALUES` list as an inline lookup
+table (Benford's percentages), `LEFT JOIN` so every digit appears even with no invoices, aggregation within
+groups compared with an expected count, and a weekday/hour helper view so the same query works on both
+engines.
 
 ## The data
 
@@ -145,6 +175,9 @@ after loading the data.
 - Flags stored as 0/1; `NULL` columns in `UNION`s cast explicitly (PostgreSQL requires it, SQLite does not).
 - No `%` for "is this a round number": SQLite converts both sides to integers first, so
   `25000.37 % 1000` is `0` in SQLite but `0.37` in PostgreSQL.
+- No `CAST(amount AS INTEGER)` to get a first digit: SQLite truncates (9999.60 → 9999) but PostgreSQL
+  rounds (→ 10000). The Benford tests take the first character of the amount as text instead, and type
+  Benford's percentages in a `VALUES` list because not every SQLite build has `log10()`.
 - CI runs every test on both engines.
 
 ## Repository layout
@@ -155,6 +188,7 @@ sql/schema.sql           portable DDL
 sql/views/               helper views, one file per engine (the only engine-specific SQL)
 sql/01_data_validation/  Phase 1 queries (one test per file, documented in its header)
 sql/02_payment_tests/    Phase 2 queries
+sql/03_vendor_and_timing_tests/  Phase 3 queries
 src/                     data generator, loader/runner for both engines
 tests/                   answer key and tests for each phase
 results/sqlite/          query outputs from the last run

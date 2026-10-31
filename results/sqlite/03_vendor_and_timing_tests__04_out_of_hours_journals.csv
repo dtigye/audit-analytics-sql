@@ -1,0 +1,7 @@
+je_id,posted_at,posted_day,account,description,amount,created_by,approved_by,reason
+JE01201,2026-01-10 22:47:00,Sat,Suspense,Manual adjustment,41501.87,U028,U034,Posted at the weekend
+JE01202,2026-03-01 11:05:00,Sun,Suspense,Manual adjustment,23479.87,U028,U034,Posted at the weekend
+JE01203,2026-03-28 09:30:00,Sat,Suspense,Manual adjustment,28961.41,U028,U034,Posted at the weekend
+JE01204,2026-06-16 23:58:00,Tue,Suspense,Manual adjustment,31315.72,U028,U034,Posted outside working hours
+JE01205,2026-08-29 14:12:00,Sat,Suspense,Manual adjustment,32055.14,U028,U034,Posted at the weekend
+JE01206,2026-09-29 05:40:00,Tue,Suspense,Manual adjustment,23170.47,U028,U034,Posted outside working hours

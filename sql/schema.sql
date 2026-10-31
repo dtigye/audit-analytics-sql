@@ -12,6 +12,7 @@
 -- drop a table while a view uses it, so the views are dropped first.
 DROP VIEW IF EXISTS v_payments;
 DROP VIEW IF EXISTS v_purchase_orders;
+DROP VIEW IF EXISTS v_journal_entries;
 
 DROP TABLE IF EXISTS extract_control_totals;
 DROP TABLE IF EXISTS journal_entries;
