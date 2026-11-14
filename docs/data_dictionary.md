@@ -107,4 +107,4 @@ Created automatically after the data loads. Each view exists in a SQLite and a P
 |---|---|---|
 | v_payments | `pay_day`: whole days since 1 Jan 2000 | Date windows ("within 30 days") in Phase 2 |
 | v_purchase_orders | `po_day`: whole days since 1 Jan 2000 | Date windows ("within 3 days") in Phase 2 |
-| v_journal_entries | `posted_dow` (0 = Sunday … 6 = Saturday) and `posted_hour` (0–23) | Weekend and out-of-hours journals in Phase 3 |
+| v_journal_entries | `posted_dow` (0 = Sunday … 6 = Saturday), `posted_hour` (0–23) and `posted_date` (the date as a DATE) | Weekend and out-of-hours journals in Phase 3; comparing postings with dates in Phase 4 |

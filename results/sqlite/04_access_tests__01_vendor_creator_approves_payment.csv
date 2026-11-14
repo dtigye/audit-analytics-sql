@@ -1,0 +1,10 @@
+payment_id,payment_date,amount,vendor_id,vendor_name,vendor_created_date,vendor_created_by,payment_approved_by,username,role
+PAY00057,2026-02-17,602.24,V014,Horizon Consulting Ltd,2023-12-03,U033,U033,emmanuel.nwosu,Finance Manager
+PAY01084,2026-03-02,119.94,V014,Horizon Consulting Ltd,2023-12-03,U033,U033,emmanuel.nwosu,Finance Manager
+PAY01155,2026-05-05,178.55,V014,Horizon Consulting Ltd,2023-12-03,U033,U033,emmanuel.nwosu,Finance Manager
+PAY00868,2026-07-27,3877.64,V014,Horizon Consulting Ltd,2023-12-03,U033,U033,emmanuel.nwosu,Finance Manager
+PAY00015,2026-09-03,6078.87,V014,Horizon Consulting Ltd,2023-12-03,U033,U033,emmanuel.nwosu,Finance Manager
+PAY00311,2026-09-15,787.56,V014,Horizon Consulting Ltd,2023-12-03,U033,U033,emmanuel.nwosu,Finance Manager
+PAY00156,2026-02-24,255.58,V063,Horizon Catering Ltd,2023-04-30,U037,U037,michael.nwosu,Finance Manager
+PAY00711,2026-04-24,884.32,V063,Horizon Catering Ltd,2023-04-30,U037,U037,michael.nwosu,Finance Manager
+PAY00073,2026-06-15,20735.37,V063,Horizon Catering Ltd,2023-04-30,U037,U037,michael.nwosu,Finance Manager

@@ -21,7 +21,7 @@ The project is being built in phases. Each phase is complete and tested on its o
 | 1 | Dataset, schema, and data validation before testing | ✅ Complete |
 | 2 | Payment tests: duplicates, split purchases, unapproved/inactive vendors, round sums | ✅ Complete |
 | 3 | Vendor and timing tests: vendor–employee matches, Benford's law, out-of-hours postings | ✅ Complete |
-| 4 | Access tests: segregation of duties, leavers' activity, privileged accounts | Planned |
+| 4 | Access tests: segregation of duties, leavers' activity, privileged accounts | ✅ Complete |
 | 5 | Reporting: exceptions summary and findings written as audit working papers | Planned |
 
 ## Phase 1: Validate the data before testing it
@@ -108,6 +108,38 @@ table (Benford's percentages), `LEFT JOIN` so every digit appears even with no i
 groups compared with an expected count, and a weekday/hour helper view so the same query works on both
 engines.
 
+## Phase 4: Access tests
+
+Who did what, and should they have been able to? Four tests over the 41 user
+accounts and every transaction that records a user.
+
+| Test | Risk it addresses | Exceptions | Value |
+|---|---|---|---|
+| [`01_vendor_creator_approves_payment`](sql/04_access_tests/01_vendor_creator_approves_payment.sql) | One person sets up a vendor and approves its payments | 9 payments, 2 vendors | 33,520.07 |
+| [`02_same_person_both_steps`](sql/04_access_tests/02_same_person_both_steps.sql) | The same user at both steps of a PO, payment or journal | 3 journals | 17,522.08 |
+| [`03_activity_after_leaving`](sql/04_access_tests/03_activity_after_leaving.sql) | A leaver's account still in use | 3 actions, 2 accounts | 9,369.78 |
+| [`04_privileged_account_activity`](sql/04_access_tests/04_privileged_account_activity.sql) | Administrator accounts used to post transactions | 2 journals | 38,482.05 |
+
+**What the results say (sample data):**
+
+- **Two Finance Managers approved payments to vendors they had set up themselves** (`V014`, `V063`),
+  nine payments in all. *Next step:* confirm both vendors are real and the services were received, and
+  remove vendor-creation rights from payment approvers.
+- **Three journals were approved by the Accountant who created them** (two Accountants), two of them
+  to Suspense.
+  Purchase orders and payments passed: no one raised and approved, or approved and released, their own.
+- **Two disabled accounts were still used:** an Accountant's account posted two journals three and a half
+  and four months after it was disabled, and a Finance Officer's released a payment seven weeks after. The journals
+  were approved by a Finance Manager, so the second-person check did not catch it. *Next step:* find out
+  who used the accounts, and how a disabled account could still post.
+- **Both administrator accounts posted journals**, one of them `fin_batch`, a generic account with no
+  named person behind it. *Next step:* stop business postings from privileged accounts and link every
+  account to a person.
+
+**SQL techniques used:** `UNION ALL` to turn eight user columns in five tables into one "who did what,
+when" activity list (an unpivot), the same list reused by two tests, and a `posted_date` helper column so a timestamp
+can be compared with a date on both engines.
+
 ## The data
 
 One financial year (1 Oct 2025 – 30 Sep 2026) for a fictional agency.
@@ -189,6 +221,7 @@ sql/views/               helper views, one file per engine (the only engine-spec
 sql/01_data_validation/  Phase 1 queries (one test per file, documented in its header)
 sql/02_payment_tests/    Phase 2 queries
 sql/03_vendor_and_timing_tests/  Phase 3 queries
+sql/04_access_tests/     Phase 4 queries
 src/                     data generator, loader/runner for both engines
 tests/                   answer key and tests for each phase
 results/sqlite/          query outputs from the last run

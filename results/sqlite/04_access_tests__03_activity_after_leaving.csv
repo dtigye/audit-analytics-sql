@@ -1,0 +1,4 @@
+record_id,action,action_date,user_id,username,role,disabled_date
+JE01207,Created journal,2026-07-14,U030,joy.sani,Accountant,2026-03-31
+JE01208,Created journal,2026-08-03,U030,joy.sani,Accountant,2026-03-31
+PAY00002,Released payment,2026-08-19,U022,victor.mensah,Finance Officer,2026-06-30

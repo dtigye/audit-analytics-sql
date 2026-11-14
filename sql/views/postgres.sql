@@ -22,9 +22,11 @@ FROM purchase_orders po;
 -- posted_dow: day of week, 0 = Sunday ... 6 = Saturday (EXTRACT(DOW) uses
 -- the same numbering as SQLite's strftime('%w')).
 -- posted_hour: hour of the day, 0-23.
+-- posted_date: the calendar date of the posting, as a DATE.
 DROP VIEW IF EXISTS v_journal_entries;
 CREATE VIEW v_journal_entries AS
 SELECT je.*,
        CAST(EXTRACT(DOW  FROM je.posted_at) AS INTEGER) AS posted_dow,
-       CAST(EXTRACT(HOUR FROM je.posted_at) AS INTEGER) AS posted_hour
+       CAST(EXTRACT(HOUR FROM je.posted_at) AS INTEGER) AS posted_hour,
+       CAST(je.posted_at AS DATE) AS posted_date
 FROM journal_entries je;

@@ -20,9 +20,11 @@ FROM purchase_orders po;
 
 -- posted_dow: day of week, 0 = Sunday ... 6 = Saturday.
 -- posted_hour: hour of the day, 0-23.
+-- posted_date: the calendar date of the posting, as a DATE.
 DROP VIEW IF EXISTS v_journal_entries;
 CREATE VIEW v_journal_entries AS
 SELECT je.*,
        CAST(strftime('%w', je.posted_at) AS INTEGER) AS posted_dow,
-       CAST(strftime('%H', je.posted_at) AS INTEGER) AS posted_hour
+       CAST(strftime('%H', je.posted_at) AS INTEGER) AS posted_hour,
+       DATE(je.posted_at) AS posted_date
 FROM journal_entries je;
