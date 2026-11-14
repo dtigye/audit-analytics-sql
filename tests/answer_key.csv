@@ -72,3 +72,10 @@ phase,test,table,record_id,note
 4,ACTIVITY_AFTER_LEAVING,payments,PAY00002,U022 disabled 2026-06-30
 4,PRIVILEGED_ACCOUNT_POSTING,journal_entries,JE01209,posted by U040
 4,PRIVILEGED_ACCOUNT_POSTING,journal_entries,JE01210,posted by U041
+4,GL_AMOUNT_DIFFERENCE,payments,PAY00422,"paid 6205.64, posted 6250.64"
+4,GL_AMOUNT_DIFFERENCE,payments,PAY00713,"paid 1197.06, posted 1179.06"
+4,GL_WRONG_PERIOD,payments,PAY01074,"paid 2026-04-27, posted 2026-05-04"
+4,GL_NOT_POSTED,payments,PAY01029,payment never posted to the GL
+4,GL_NOT_POSTED,payments,PAY00185,payment never posted to the GL
+4,GL_WRONG_PERIOD,payments,PAY00260,"paid 2026-07-30, posted 2026-08-03"
+4,GL_NOT_POSTED,payments,PAY00505,payment never posted to the GL

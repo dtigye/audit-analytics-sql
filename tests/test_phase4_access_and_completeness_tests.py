@@ -1,4 +1,4 @@
-"""Phase 4 tests: access and segregation-of-duties tests find exactly their
+"""Phase 4 tests: access, segregation-of-duties and completeness tests find exactly their
 planted exceptions (nothing missed, no false positives) on SQLite and, when
 DATABASE_URL is set, on PostgreSQL.
 """
@@ -9,7 +9,7 @@ import unittest
 
 from src.db import ROOT, Database
 
-Q = ROOT / "sql" / "04_access_tests"
+Q = ROOT / "sql" / "04_access_and_completeness_tests"
 KEY = ROOT / "tests" / "answer_key.csv"
 
 # query file -> (answer-key test codes it must find, id column in its output)
@@ -19,6 +19,14 @@ EXPECTED = {
     "02_same_person_both_steps.sql": ({"SOD_JOURNAL_SELF_APPROVED"}, "record_id"),
     "03_activity_after_leaving.sql": ({"ACTIVITY_AFTER_LEAVING"}, "record_id"),
     "04_privileged_account_activity.sql": ({"PRIVILEGED_ACCOUNT_POSTING"}, "record_id"),
+    "05_subledger_to_gl_completeness.sql": (
+        {"GL_NOT_POSTED", "GL_WRONG_PERIOD", "GL_AMOUNT_DIFFERENCE"}, "payment_id"),
+}
+
+BREAK_FOR_CODE = {
+    "GL_NOT_POSTED": "Not posted to the GL",
+    "GL_WRONG_PERIOD": "Posted to the GL in a different month",
+    "GL_AMOUNT_DIFFERENCE": "Posted to the GL at a different amount",
 }
 
 
@@ -77,6 +85,26 @@ class Phase4Mixin:
         owners = {r["user_id"]: r["account_owner"] for r in rows}
         self.assertEqual(owners["U041"], "Generic account: no named person")
         self.assertTrue(owners["U040"].startswith("Named administrator"))
+
+    def test_subledger_to_gl_completeness(self):
+        rows = self.check("05_subledger_to_gl_completeness.sql")
+        expected = {r["record_id"]: BREAK_FOR_CODE[r["test"]]
+                    for r in key_rows(set(BREAK_FOR_CODE))}
+        self.assertEqual({r["payment_id"]: r["break_type"] for r in rows}, expected)
+        for r in rows:
+            if r["break_type"] == "Not posted to the GL":
+                self.assertEqual(float(r["difference"]), float(r["payment_amount"]))
+            if r["break_type"] == "Posted to the GL at a different amount":
+                # two swapped digits always leave a difference divisible by 9
+                self.assertEqual(round(abs(float(r["difference"]))) % 9, 0)
+
+    def test_every_other_payment_posts_once(self):
+        """Clean payments post exactly one GL line each (the test is not hiding duplicates)."""
+        rows = self.db.query("""
+            SELECT COUNT(*) AS n FROM (
+                SELECT source_doc FROM gl_postings GROUP BY source_doc HAVING COUNT(*) > 1
+            ) t;""")
+        self.assertEqual(int(rows[0]["n"]), 0)
 
     def test_helper_view_posted_date(self):
         rows = self.db.query("SELECT posted_date FROM v_journal_entries WHERE je_id = 'JE01207';")

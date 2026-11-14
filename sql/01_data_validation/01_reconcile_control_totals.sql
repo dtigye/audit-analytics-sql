@@ -13,6 +13,7 @@ WITH extract_totals AS (
     UNION ALL SELECT 'invoices', COUNT(*), ROUND(SUM(amount), 2) FROM invoices
     UNION ALL SELECT 'payments', COUNT(*), ROUND(SUM(amount), 2) FROM payments
     UNION ALL SELECT 'journal_entries', COUNT(*), ROUND(SUM(amount), 2) FROM journal_entries
+    UNION ALL SELECT 'gl_postings', COUNT(*), ROUND(SUM(amount), 2) FROM gl_postings
 )
 SELECT
     c.table_name,

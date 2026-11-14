@@ -287,11 +287,12 @@ def build(seed: int = SEED) -> tuple[dict[str, list[dict]], list[dict]]:
                          "approved_by": appr["user_id"]})
 
     plant_exceptions(g, vendors, users, employees, pos, invoices, payments, journals, new_payment)
+    gl_postings = build_gl_postings(g, payments, seed)
 
     limits = [{"role": r, "max_approval": f"{v:.2f}"} for r, v in APPROVAL_LIMITS.items()]
     tables = {"employees": employees, "users": users, "approval_limits": limits, "vendors": vendors,
               "purchase_orders": pos, "invoices": invoices, "payments": payments,
-              "journal_entries": journals}
+              "journal_entries": journals, "gl_postings": gl_postings}
     # Control totals as the source system would report them at extract time
     controls = []
     for name, rows in tables.items():
@@ -301,6 +302,60 @@ def build(seed: int = SEED) -> tuple[dict[str, list[dict]], list[dict]]:
         controls.append({"table_name": name, "record_count": len(rows), "amount_total": total})
     tables["extract_control_totals"] = controls
     return tables, g.key
+
+
+def build_gl_postings(g, payments, seed):
+    """General-ledger lines posted from the payables subledger: one per payment,
+    same date and amount, plus planted breaks for the subledger-to-GL test.
+
+    Uses its own random stream so adding this table leaves every other table
+    exactly as it was."""
+    rng = np.random.default_rng(seed + 4_000)
+    planted = {r["record_id"] for r in g.key}
+    clean = [p for p in payments if p["payment_id"] not in planted]
+
+    def pick(cands, n):
+        idx = rng.choice(len(cands), size=n, replace=False)
+        return [cands[i] for i in sorted(idx)]
+
+    # Breaks: never posted; posted in the next month (cut-off); posted at a
+    # different amount (two digits swapped when keying, a classic slip).
+    late_cands = [p for p in clean if int(p["payment_date"][8:10]) >= 27
+                  and p["payment_date"][:7] < "2026-09"]
+    late = pick(late_cands, 2)
+    rest = [p for p in clean if p not in late]
+    missing = pick(rest, 3)
+    rest = [p for p in rest if p not in missing]
+    swap_cands = [p for p in rest if p["amount"].split(".")[0][-2] != p["amount"].split(".")[0][-1]
+                  and float(p["amount"]) >= 1000]
+    swapped = pick(swap_cands, 2)
+    missing_ids = {p["payment_id"] for p in missing}
+    late_ids = {p["payment_id"] for p in late}
+    swap_ids = {p["payment_id"] for p in swapped}
+
+    lines = []
+    for p in sorted(payments, key=lambda r: (r["payment_date"], r["payment_id"])):
+        pid = p["payment_id"]
+        if pid in missing_ids:
+            g.plant(4, "GL_NOT_POSTED", "payments", pid, "payment never posted to the GL")
+            continue
+        posting_date, amount = p["payment_date"], p["amount"]
+        if pid in late_ids:
+            d = date.fromisoformat(p["payment_date"])
+            first_next = (d.replace(day=28) + timedelta(days=4)).replace(day=1)
+            posted = first_next + timedelta(days=int(rng.integers(0, 3)))
+            while posted.weekday() >= 5:          # GL postings happen on working days
+                posted += timedelta(days=1)
+            posting_date = posted.isoformat()
+            g.plant(4, "GL_WRONG_PERIOD", "payments", pid, f"paid {p['payment_date']}, posted {posting_date}")
+        if pid in swap_ids:
+            whole, cents = amount.split(".")
+            amount = f"{whole[:-2]}{whole[-1]}{whole[-2]}.{cents}"
+            g.plant(4, "GL_AMOUNT_DIFFERENCE", "payments", pid, f"paid {p['amount']}, posted {amount}")
+        lines.append({"gl_line_id": f"GL{len(lines) + 1:05d}", "posting_date": posting_date,
+                      "account": "Accounts payable", "source_module": "AP",
+                      "source_doc": pid, "amount": amount})
+    return lines
 
 
 def plant_exceptions(g, vendors, users, employees, pos, invoices, payments, journals, new_payment):

@@ -15,6 +15,7 @@ DROP VIEW IF EXISTS v_purchase_orders;
 DROP VIEW IF EXISTS v_journal_entries;
 
 DROP TABLE IF EXISTS extract_control_totals;
+DROP TABLE IF EXISTS gl_postings;
 DROP TABLE IF EXISTS journal_entries;
 DROP TABLE IF EXISTS payments;
 DROP TABLE IF EXISTS invoices;
@@ -106,6 +107,17 @@ CREATE TABLE journal_entries (
 
 -- Record counts and amount totals reported by the source system when the
 -- extract was taken. Used to confirm the extract is complete before testing.
+-- General-ledger lines posted from the payables (AP) subledger:
+-- one line per payment, carrying the payment ID as its source document.
+CREATE TABLE gl_postings (
+    gl_line_id     VARCHAR(12)    PRIMARY KEY,
+    posting_date   DATE           NOT NULL,
+    account        VARCHAR(40)    NOT NULL,
+    source_module  VARCHAR(10)    NOT NULL,   -- AP = accounts payable subledger
+    source_doc     VARCHAR(12)    NOT NULL,   -- payments.payment_id
+    amount         NUMERIC(14, 2) NOT NULL
+);
+
 CREATE TABLE extract_control_totals (
     table_name    VARCHAR(30)    PRIMARY KEY,
     record_count  INTEGER        NOT NULL,

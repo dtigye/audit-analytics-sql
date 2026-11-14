@@ -100,6 +100,18 @@ Policy: purchase orders above **10,000** require a Finance Manager or Director.
 | record_count | INTEGER | Records reported by the source system |
 | amount_total | NUMERIC(16,2) | Sum of `amount`; blank where the table has none |
 
+## gl_postings
+General-ledger lines posted from the accounts payable (AP) subledger: normally one line per payment, on the payment date, for the payment amount.
+
+| Column | Type | Description |
+|---|---|---|
+| gl_line_id | text | Unique GL line ID |
+| posting_date | date | Date the line was posted to the general ledger |
+| account | text | GL account (Accounts payable) |
+| source_module | text | Subledger the line came from (`AP`) |
+| source_doc | text | The payment it posts (`payments.payment_id`) |
+| amount | decimal | Amount posted |
+
 ## Helper views (`sql/views/`)
 Created automatically after the data loads. Each view exists in a SQLite and a PostgreSQL version with identical columns and values; they are the only engine-specific SQL in the project.
 

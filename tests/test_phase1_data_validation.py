@@ -36,7 +36,7 @@ class Phase1Mixin:
 
     def test_control_totals_reconcile(self):
         rows = self.run_q("01_reconcile_control_totals.sql")
-        self.assertEqual(len(rows), 8)
+        self.assertEqual(len(rows), 9)
         self.assertEqual({r["status"] for r in rows}, {"MATCH"})
 
     def test_integrity_finds_exactly_the_planted_orphans(self):

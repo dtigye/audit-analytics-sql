@@ -23,7 +23,7 @@ VIEWS = SQL / "views"  # one file per engine; the only engine-specific SQL
 SQLITE_PATH = ROOT / "audit.db"
 
 TABLES = ["employees", "users", "approval_limits", "vendors", "purchase_orders",
-          "invoices", "payments", "journal_entries", "extract_control_totals"]
+          "invoices", "payments", "journal_entries", "gl_postings", "extract_control_totals"]
 
 
 def _rows(table: str) -> tuple[list[str], list[list]]:

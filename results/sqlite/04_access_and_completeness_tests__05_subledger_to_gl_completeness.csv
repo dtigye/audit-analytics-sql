@@ -1,0 +1,8 @@
+payment_id,payment_date,payment_amount,gl_posting_date,gl_amount,difference,break_type
+PAY01029,2026-05-11,856.62,,,856.62,Not posted to the GL
+PAY00185,2026-07-29,573.07,,,573.07,Not posted to the GL
+PAY00505,2026-09-14,1325.98,,,1325.98,Not posted to the GL
+PAY00422,2025-11-03,6205.64,2025-11-03,6250.64,-45.00,Posted to the GL at a different amount
+PAY00713,2026-03-09,1197.06,2026-03-09,1179.06,18.00,Posted to the GL at a different amount
+PAY01074,2026-04-27,779.49,2026-05-04,779.49,0.00,Posted to the GL in a different month
+PAY00260,2026-07-30,1649.09,2026-08-03,1649.09,0.00,Posted to the GL in a different month

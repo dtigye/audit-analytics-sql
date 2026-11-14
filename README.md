@@ -21,7 +21,7 @@ The project is being built in phases. Each phase is complete and tested on its o
 | 1 | Dataset, schema, and data validation before testing | ✅ Complete |
 | 2 | Payment tests: duplicates, split purchases, unapproved/inactive vendors, round sums | ✅ Complete |
 | 3 | Vendor and timing tests: vendor–employee matches, Benford's law, out-of-hours postings | ✅ Complete |
-| 4 | Access tests: segregation of duties, leavers' activity, privileged accounts | ✅ Complete |
+| 4 | Access and completeness tests: segregation of duties, leavers' activity, privileged accounts, subledger-to-GL completeness | ✅ Complete |
 | 5 | Reporting: exceptions summary and findings written as audit working papers | Planned |
 
 ## Phase 1: Validate the data before testing it
@@ -32,7 +32,7 @@ consistent** and **covers the right period**. Phase 1 does exactly that.
 
 | Query | What it checks | Result on the sample |
 |---|---|---|
-| [`01_reconcile_control_totals`](sql/01_data_validation/01_reconcile_control_totals.sql) | Record counts and amount totals equal the source system's control totals | ✅ All 8 tables match |
+| [`01_reconcile_control_totals`](sql/01_data_validation/01_reconcile_control_totals.sql) | Record counts and amount totals equal the source system's control totals | ✅ All 9 tables match |
 | [`02_referential_integrity`](sql/01_data_validation/02_referential_integrity.sql) | Every payment, invoice, PO and user reference points to a real record | ⚠️ 4 broken references |
 | [`03_completeness`](sql/01_data_validation/03_completeness.sql) | Fields later tests depend on (bank accounts, addresses, approvers) are populated | ✅ No blanks |
 | [`04_period_coverage`](sql/01_data_validation/04_period_coverage.sql) | Activity in all 12 months of FY 2025/26, nothing outside the year | ✅ 12 months, all in period |
@@ -108,17 +108,19 @@ table (Benford's percentages), `LEFT JOIN` so every digit appears even with no i
 groups compared with an expected count, and a weekday/hour helper view so the same query works on both
 engines.
 
-## Phase 4: Access tests
+## Phase 4: Access and completeness tests
 
-Who did what, and should they have been able to? Four tests over the 41 user
-accounts and every transaction that records a user.
+Who did what, and should they have been able to? Four access tests over the 41
+user accounts and every transaction that records a user, plus a completeness
+test: did every payment in the subledger reach the general ledger?
 
 | Test | Risk it addresses | Exceptions | Value |
 |---|---|---|---|
-| [`01_vendor_creator_approves_payment`](sql/04_access_tests/01_vendor_creator_approves_payment.sql) | One person sets up a vendor and approves its payments | 9 payments, 2 vendors | 33,520.07 |
-| [`02_same_person_both_steps`](sql/04_access_tests/02_same_person_both_steps.sql) | The same user at both steps of a PO, payment or journal | 3 journals | 17,522.08 |
-| [`03_activity_after_leaving`](sql/04_access_tests/03_activity_after_leaving.sql) | A leaver's account still in use | 3 actions, 2 accounts | 9,369.78 |
-| [`04_privileged_account_activity`](sql/04_access_tests/04_privileged_account_activity.sql) | Administrator accounts used to post transactions | 2 journals | 38,482.05 |
+| [`01_vendor_creator_approves_payment`](sql/04_access_and_completeness_tests/01_vendor_creator_approves_payment.sql) | One person sets up a vendor and approves its payments | 9 payments, 2 vendors | 33,520.07 |
+| [`02_same_person_both_steps`](sql/04_access_and_completeness_tests/02_same_person_both_steps.sql) | The same user at both steps of a PO, payment or journal | 3 journals | 17,522.08 |
+| [`03_activity_after_leaving`](sql/04_access_and_completeness_tests/03_activity_after_leaving.sql) | A leaver's account still in use | 3 actions, 2 accounts | 9,369.78 |
+| [`04_privileged_account_activity`](sql/04_access_and_completeness_tests/04_privileged_account_activity.sql) | Administrator accounts used to post transactions | 2 journals | 38,482.05 |
+| [`05_subledger_to_gl_completeness`](sql/04_access_and_completeness_tests/05_subledger_to_gl_completeness.sql) | A payment in the subledger that never reached the GL, or reached it in the wrong month or for the wrong amount | 7 payments | 2,755.67 not posted; amounts off by 45.00 and 18.00 |
 
 **What the results say (sample data):**
 
@@ -135,8 +137,15 @@ accounts and every transaction that records a user.
 - **Both administrator accounts posted journals**, one of them `fin_batch`, a generic account with no
   named person behind it. *Next step:* stop business postings from privileged accounts and link every
   account to a person.
+- **Seven payments do not agree with the general ledger.** Three were never posted (2,755.67), two
+  paid at the end of a month were posted in the next one, and two were posted with two digits swapped
+  (6,205.64 posted as 6,250.64). A difference divisible by 9 is the usual sign of a transposition.
+  *Next step:* post the missing payments and correct the others before the accounts are closed.
+  (This test was suggested by a reader of the Phase 1 write-up: extract checks first, then
+  subledger-to-GL completeness.)
 
-**SQL techniques used:** `UNION ALL` to turn eight user columns in five tables into one "who did what,
+**SQL techniques used:** a `LEFT JOIN` from the subledger to GL lines grouped by source document, so a
+payment with no GL lines still shows up (as NULLs); `UNION ALL` to turn eight user columns in five tables into one "who did what,
 when" activity list (an unpivot), the same list reused by two tests, and a `posted_date` helper column so a timestamp
 can be compared with a date on both engines.
 
@@ -168,7 +177,8 @@ erDiagram
 | `invoices` | ~1,230 | PO and non-PO invoices |
 | `payments` | ~1,200 | Payments with approver, releaser and posting time |
 | `journal_entries` | ~1,200 | Manual journals with creator, approver and posting time |
-| `extract_control_totals` | 8 | Counts and totals reported by the source system |
+| `gl_postings` | ~1,200 | General-ledger lines posted from the payables subledger, one per payment |
+| `extract_control_totals` | 9 | Counts and totals reported by the source system |
 
 Column definitions: [`docs/data_dictionary.md`](docs/data_dictionary.md).
 
@@ -221,7 +231,7 @@ sql/views/               helper views, one file per engine (the only engine-spec
 sql/01_data_validation/  Phase 1 queries (one test per file, documented in its header)
 sql/02_payment_tests/    Phase 2 queries
 sql/03_vendor_and_timing_tests/  Phase 3 queries
-sql/04_access_tests/     Phase 4 queries
+sql/04_access_and_completeness_tests/     Phase 4 queries
 src/                     data generator, loader/runner for both engines
 tests/                   answer key and tests for each phase
 results/sqlite/          query outputs from the last run
