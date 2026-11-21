@@ -1,0 +1,15 @@
+ref,finding,rating,exceptions,value
+WP-1.2,Broken references in the extract,Medium,4,11213.06
+WP-2.1,Invoices paid more than once,High,4,7314.07
+WP-2.2,Same bill paid twice under a re-keyed invoice number,High,3,12885.52
+WP-2.3,Purchases split to stay within an approval limit,High,8,77905.70
+WP-2.4,Payments to inactive or unapproved vendors,High,4,26808.31
+WP-2.5,Large round-sum payments,Medium,5,138000.00
+WP-3.1,Vendors sharing a bank account or address with staff,High,4,199521.89
+WP-3.3,One vendor's invoices cluster just under the approval limit,High,18,171074.84
+WP-3.4,Manual journals posted at weekends or at night,Medium,6,180484.48
+WP-4.1,Vendor creator approves payments to the same vendor,High,9,33520.07
+WP-4.2,Journals approved by the person who created them,High,3,17522.08
+WP-4.3,Accounts used after they were disabled,High,3,9369.78
+WP-4.4,Administrator accounts used to post transactions,Medium,2,38482.05
+WP-4.5,Payments that do not agree with the general ledger,High,7,12586.95
